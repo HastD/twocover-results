@@ -1,0 +1,62 @@
+2021-12-28 14:51:02,293 INFO: Initialized curve data.
+2021-12-28 14:51:02,298 INFO: Setting up initial twist data...
+2021-12-28 14:51:03,701 INFO: Twist setup complete.
+2021-12-28 14:51:03,701 INFO: Searching for rational points on each twist...
+2021-12-28 14:51:05,949 INFO: Finished searching for rational points on each twist.
+2021-12-28 14:51:05,950 INFO: Testing local solvability of twists...
+2021-12-28 14:51:28,338 INFO: Finished local solvability testing.
+2021-12-28 14:51:28,340 INFO: Computing elliptic curve a-invariants...
+2021-12-28 14:51:33,565 INFO: Finished computation of a-invariants.
+2021-12-28 14:51:33,567 INFO: Computing MW group (delta = ['0', '6', '7', '-11', '1', '1'], g = [-1, -1, 1])...
+2021-12-28 14:51:35,482 INFO: Finished MW computation (delta = ['0', '6', '7', '-11', '1', '1'], g = [-1, -1, 1])
+2021-12-28 14:51:35,486 INFO: Computing MW group (delta = ['0', '6', '7', '-11', '1', '1'], g = [1, -8, 2, 1])...
+2021-12-28 14:51:40,156 INFO: Finished MW computation (delta = ['0', '6', '7', '-11', '1', '1'], g = [1, -8, 2, 1])
+2021-12-28 14:51:40,159 INFO: Skipped MW computation because no base point (delta = ['4', '-29', '-26', '43', '-4', '-4'])
+2021-12-28 14:51:40,160 INFO: Computing MW group (delta = ['1', '-8', '-6', '11', '-1', '-1'], g = [-1, -1, 1])...
+2021-12-28 14:51:42,006 INFO: Finished MW computation (delta = ['1', '-8', '-6', '11', '-1', '-1'], g = [-1, -1, 1])
+2021-12-28 14:51:42,009 INFO: Computing MW group (delta = ['1', '-8', '-6', '11', '-1', '-1'], g = [1, -8, 2, 1])...
+2021-12-28 14:51:46,586 INFO: Finished MW computation (delta = ['1', '-8', '-6', '11', '-1', '-1'], g = [1, -8, 2, 1])
+2021-12-28 14:51:46,590 INFO: Skipped MW computation because no base point (delta = ['0', '-10', '11', '-1', '-1'])
+2021-12-28 14:51:46,590 INFO: Computing MW group (delta = ['1'], g = [-1, -1, 1])...
+2021-12-28 14:51:49,864 INFO: Finished MW computation (delta = ['1'], g = [-1, -1, 1])
+2021-12-28 14:51:49,868 INFO: Computing MW group (delta = ['1'], g = [1, -8, 2, 1])...
+2021-12-28 14:51:59,428 INFO: Finished MW computation (delta = ['1'], g = [1, -8, 2, 1])
+2021-12-28 14:51:59,432 INFO: Skipped MW computation because no base point (delta = ['1', '-17', '14', '-1', '-1'])
+2021-12-28 14:51:59,432 INFO: Computing MW group (delta = ['-3', '19', '46', '-57', '7', '4'], g = [-1, -1, 1])...
+2021-12-28 14:52:01,292 INFO: Finished MW computation (delta = ['-3', '19', '46', '-57', '7', '4'], g = [-1, -1, 1])
+2021-12-28 14:52:01,295 INFO: Computing MW group (delta = ['-3', '19', '46', '-57', '7', '4'], g = [1, -8, 2, 1])...
+2021-12-28 14:52:06,324 INFO: Finished MW computation (delta = ['-3', '19', '46', '-57', '7', '4'], g = [1, -8, 2, 1])
+2021-12-28 14:52:06,328 INFO: Computing MW group (delta = ['0', '-1', '17', '-14', '1', '1'], g = [-1, -1, 1])...
+2021-12-28 14:52:09,392 INFO: Finished MW computation (delta = ['0', '-1', '17', '-14', '1', '1'], g = [-1, -1, 1])
+2021-12-28 14:52:09,396 INFO: Computing MW group (delta = ['0', '-1', '17', '-14', '1', '1'], g = [1, -8, 2, 1])...
+2021-12-28 14:52:18,178 INFO: Finished MW computation (delta = ['0', '-1', '17', '-14', '1', '1'], g = [1, -8, 2, 1])
+2021-12-28 14:52:18,184 INFO: Reducing MW generators...
+2021-12-28 14:52:18,504 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 537, in <module>
+    reduced_gens = reduce_MW_gens(gens_mag)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 316, in reduce_MW_gens
+    P += T[i][j] * indep_gens[j]
+  File "sage/matrix/matrix0.pyx", line 1035, in sage.matrix.matrix0.Matrix.__getitem__ (build/cythonized/sage/matrix/matrix0.c:8317)
+    r = self.row(row)
+  File "sage/matrix/matrix1.pyx", line 1255, in sage.matrix.matrix1.Matrix.row (build/cythonized/sage/matrix/matrix1.c:14161)
+    V = sage.modules.free_module.FreeModule(self._base_ring,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/free_module.py", line 474, in FreeModule
+    return FreeModuleFactory_with_standard_basis(base_ring, rank, sparse,
+  File "sage/structure/factory.pyx", line 369, in sage.structure.factory.UniqueFactory.__call__ (build/cythonized/sage/structure/factory.c:2258)
+    return self.get_object(version, key, kwds)
+  File "sage/structure/factory.pyx", line 412, in sage.structure.factory.UniqueFactory.get_object (build/cythonized/sage/structure/factory.c:2652)
+    obj = self.create_object(version, key, **extra_args)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/free_module.py", line 254, in create_object
+    return FreeModule_ambient_pid(base_ring, rank, sparse=sparse)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/free_module.py", line 5522, in __init__
+    FreeModule_ambient_domain.__init__(self, base_ring=base_ring,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/free_module.py", line 5331, in __init__
+    FreeModule_ambient.__init__(self, base_ring,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/free_module.py", line 4694, in __init__
+    FreeModule_generic.__init__(self, base_ring, rank=rank,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/free_module.py", line 828, in __init__
+    self.Element = element_class(coordinate_ring, sparse)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/free_module.py", line 7349, in element_class
+    import sage.modules.vector_real_double_dense
+ImportError: /share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/modules/vector_real_double_dense.cpython-39-x86_64-linux-gnu.so: failed to map segment from shared object: Cannot allocate memory
