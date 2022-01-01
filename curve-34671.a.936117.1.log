@@ -1,0 +1,27 @@
+2022-01-01 12:50:48,660 INFO: Initialized curve data.
+2022-01-01 12:50:48,665 INFO: Setting up initial twist data...
+2022-01-01 12:50:49,670 INFO: Twist setup complete.
+2022-01-01 12:50:49,670 INFO: Searching for rational points on each twist...
+2022-01-01 12:50:50,557 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:50:50,557 INFO: Testing local solvability of twists...
+2022-01-01 12:50:54,367 INFO: Finished local solvability testing.
+2022-01-01 12:50:54,369 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:50:59,195 INFO: Finished computation of a-invariants.
+2022-01-01 12:50:59,198 INFO: Skipped MW computation because no base point (delta = ['1/2', '-3/2', '1'])
+2022-01-01 12:50:59,198 INFO: Computing MW group (delta = ['2', '-9/2', '12', '-29/2', '5', '1/2'], g = [4, -8, 20, -24, 8, 1])...
+2022-01-01 13:37:26,918 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 327, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1221, in _do_call
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 8180.7MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached

@@ -1,0 +1,57 @@
+2022-01-01 12:51:08,571 INFO: Initialized curve data.
+2022-01-01 12:51:08,574 INFO: Setting up initial twist data...
+2022-01-01 12:51:10,851 INFO: Twist setup complete.
+2022-01-01 12:51:10,851 INFO: Searching for rational points on each twist...
+2022-01-01 12:51:12,260 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:51:12,260 INFO: Testing local solvability of twists...
+2022-01-01 12:51:39,263 INFO: Finished local solvability testing.
+2022-01-01 12:51:39,266 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:51:42,067 INFO: Finished computation of a-invariants.
+2022-01-01 12:51:42,069 INFO: Skipped MW computation because no base point (delta = ['-1', '9/2', '1'])
+2022-01-01 12:51:42,069 INFO: Skipped MW computation because no base point (delta = ['1', '-17/2', '16', '17/2', '1'])
+2022-01-01 12:51:42,069 INFO: Skipped MW computation because no base point (delta = ['-1', '4', '1'])
+2022-01-01 12:51:42,070 INFO: Skipped MW computation because no base point (delta = ['2', '-12', '-1', '60', '32', '4'])
+2022-01-01 12:51:42,070 INFO: Computing MW group (delta = ['1'], g = [-2, 8, 1])...
+2022-01-01 12:51:44,470 INFO: Finished MW computation (delta = ['1'], g = [-2, 8, 1])
+2022-01-01 12:51:44,474 INFO: Computing MW group (delta = ['1'], g = [-4, 14, 8, 1])...
+2022-01-01 12:51:57,407 INFO: Finished MW computation (delta = ['1'], g = [-4, 14, 8, 1])
+2022-01-01 12:51:57,413 INFO: Computing MW group (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-2, 8, 1])...
+2022-01-01 12:51:58,200 INFO: Finished MW computation (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-2, 8, 1])
+2022-01-01 12:51:58,204 INFO: Computing MW group (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-4, 14, 8, 1])...
+2022-01-01 12:52:04,158 INFO: Finished MW computation (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-4, 14, 8, 1])
+2022-01-01 12:52:04,163 INFO: Computing MW group (delta = ['-2', '12', '-13', '-8', '-1'], g = [-2, 8, 1])...
+2022-01-01 12:52:05,359 INFO: Finished MW computation (delta = ['-2', '12', '-13', '-8', '-1'], g = [-2, 8, 1])
+2022-01-01 12:52:05,363 INFO: Computing MW group (delta = ['-2', '12', '-13', '-8', '-1'], g = [-4, 14, 8, 1])...
+2022-01-01 12:52:09,667 INFO: Finished MW computation (delta = ['-2', '12', '-13', '-8', '-1'], g = [-4, 14, 8, 1])
+2022-01-01 12:52:09,674 INFO: Skipped MW computation because no base point (delta = ['2', '-13', '5', '107/2', '28', '7/2'])
+2022-01-01 12:52:09,678 INFO: Reducing MW generators...
+2022-01-01 12:52:13,606 INFO: Finished reducing MW generators.
+2022-01-01 12:52:13,610 INFO: Skipped Chabauty because no base point (delta = ['-1', '9/2', '1'])
+2022-01-01 12:52:13,610 INFO: Skipped Chabauty because no base point (delta = ['1', '-17/2', '16', '17/2', '1'])
+2022-01-01 12:52:13,611 INFO: Skipped Chabauty because no base point (delta = ['-1', '4', '1'])
+2022-01-01 12:52:13,611 INFO: Skipped Chabauty because no base point (delta = ['2', '-12', '-1', '60', '32', '4'])
+2022-01-01 12:52:13,611 INFO: Running elliptic Chabauty (delta = ['1'], g = [-2, 8, 1])...
+2022-01-01 13:56:35,758 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 562, in <module>
+    pts = twist_chabauty(curve, twist_index=i, g_index=j)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 344, in twist_chabauty
+    pts = magma.function_call("twist_chabauty",
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1212, in _do_call
+    return self(code)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 791, in __call__
+    A = Expect.__call__(self, x)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 295, in __call__
+    return cls(self, x, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1468, in __init__
+    self._name = parent._create(value, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 500, in _create
+    self.set(name, value)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 628, in set
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 6328.1MB, failed memory request: 1946.1MB
+System Error: User memory limit has been reached

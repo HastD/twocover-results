@@ -1,0 +1,30 @@
+2022-01-01 12:50:59,620 INFO: Initialized curve data.
+2022-01-01 12:50:59,623 INFO: Setting up initial twist data...
+2022-01-01 12:51:00,660 INFO: Twist setup complete.
+2022-01-01 12:51:00,661 INFO: Searching for rational points on each twist...
+2022-01-01 12:51:02,564 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:51:02,564 INFO: Testing local solvability of twists...
+2022-01-01 12:59:44,376 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 458, in <module>
+    loc_solv = twists_locally_solvable(curve, twist_index=i)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 243, in twists_locally_solvable
+    ls2 = magma.function_call("is_genus5_locally_solvable_at_2", Z)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1212, in _do_call
+    return self(code)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 791, in __call__
+    A = Expect.__call__(self, x)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 295, in __call__
+    return cls(self, x, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1468, in __init__
+    self._name = parent._create(value, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 500, in _create
+    self.set(name, value)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 628, in set
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 7723.8MB, failed memory request: 1496.9MB
+System Error: User memory limit has been reached

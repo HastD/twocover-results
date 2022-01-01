@@ -1,0 +1,103 @@
+2022-01-01 12:51:01,153 INFO: Initialized curve data.
+2022-01-01 12:51:01,156 INFO: Setting up initial twist data...
+2022-01-01 12:51:02,084 INFO: Twist setup complete.
+2022-01-01 12:51:02,084 INFO: Searching for rational points on each twist...
+2022-01-01 12:51:02,872 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:51:02,872 INFO: Testing local solvability of twists...
+2022-01-01 12:51:09,730 INFO: Finished local solvability testing.
+2022-01-01 12:51:09,731 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:51:14,475 INFO: Finished computation of a-invariants.
+2022-01-01 12:51:14,477 INFO: Computing MW group (delta = ['1'], g = [9, 7, -11, -3, 3, 1])...
+2022-01-01 12:53:54,580 INFO: Finished MW computation (delta = ['1'], g = [9, 7, -11, -3, 3, 1])
+2022-01-01 12:53:54,587 INFO: Computing MW group (delta = ['8', '6', '-11', '-3', '3', '1'], g = [9, 7, -11, -3, 3, 1])...
+2022-01-01 12:55:18,746 INFO: Finished MW computation (delta = ['8', '6', '-11', '-3', '3', '1'], g = [9, 7, -11, -3, 3, 1])
+2022-01-01 12:55:18,750 INFO: Computing MW group (delta = ['-7', '-4', '12', '3', '-3', '-1'], g = [9, 7, -11, -3, 3, 1])...
+2022-01-01 12:56:47,680 INFO: Finished MW computation (delta = ['-7', '-4', '12', '3', '-3', '-1'], g = [9, 7, -11, -3, 3, 1])
+2022-01-01 12:56:47,684 INFO: Skipped MW computation because no base point (delta = ['-2', '-1'])
+2022-01-01 12:56:47,688 INFO: Reducing MW generators...
+2022-01-01 12:56:49,891 INFO: Finished reducing MW generators.
+2022-01-01 12:56:49,894 INFO: Running elliptic Chabauty (delta = ['1'], g = [9, 7, -11, -3, 3, 1])...
+2022-01-01 13:06:55,976 INFO: Chabauty completed successfully (delta = ['1'], g = [9, 7, -11, -3, 3, 1]).
+2022-01-01 13:06:55,981 INFO: Running elliptic Chabauty (delta = ['8', '6', '-11', '-3', '3', '1'], g = [9, 7, -11, -3, 3, 1])...
+2022-01-01 13:07:04,991 INFO: Chabauty completed successfully (delta = ['8', '6', '-11', '-3', '3', '1'], g = [9, 7, -11, -3, 3, 1]).
+2022-01-01 13:07:04,995 INFO: Running elliptic Chabauty (delta = ['-7', '-4', '12', '3', '-3', '-1'], g = [9, 7, -11, -3, 3, 1])...
+2022-01-01 13:07:12,595 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1468, in __init__
+    self._name = parent._create(value, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 500, in _create
+    self.set(name, value)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 626, in set
+    out = self.eval("%s:=%s" % (var, value))
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[47]:=twist_chabauty(_sage_[53],_sage_[49],_sage_[48],_sage_[63],_sage_[42],_sage_[40],_sage_[98]);
+OUT:
+twist_chabauty(
+f: t^6 + 4*t^5 - 14*t^3 - 4*t^2 + 16*t + 9,
+root: -1,
+g: t^5 + 3*t^4 - 3*t^3 - 11*t^2 + 7*t + 9,
+delta: -t^5 - 3*t^4 + 3*t^3 + 12*t^2 - 4*t - 7,
+base_pt: [ 1, -1, 1, -1, 1 ],
+MW_orders: [ 0 ],
+MW_gens: [ [ [ -5582/9, 3415/9, 2765/12, -2033/18, -1789/36 ], [ 3472...
+)
+MyChabauty(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/81*(-863*w^4 - 166*w...
+)
+NewRelevantCosets(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/81*(-863*w^4 - 166*w...,
+p: 3
+)
+In file "/project/arithgeo/drhast/twocover-descent/ellchab-patch/ellchab-MWS-patched.m", line 34, column 31:
+>>   idx:=[i: i in [1..#Ep] | Max(PrimeBasis(nEp[i])) le SmoothBound];
+                                 ^
+Runtime error in 'Max': Argument 1 is not non-empty
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 562, in <module>
+    pts = twist_chabauty(curve, twist_index=i, g_index=j)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 344, in twist_chabauty
+    pts = magma.function_call("twist_chabauty",
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1212, in _do_call
+    return self(code)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 791, in __call__
+    A = Expect.__call__(self, x)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 295, in __call__
+    return cls(self, x, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1473, in __init__
+    raise TypeError(*x.args)
+TypeError: Error evaluating Magma code.
+IN:_sage_[47]:=twist_chabauty(_sage_[53],_sage_[49],_sage_[48],_sage_[63],_sage_[42],_sage_[40],_sage_[98]);
+OUT:
+twist_chabauty(
+f: t^6 + 4*t^5 - 14*t^3 - 4*t^2 + 16*t + 9,
+root: -1,
+g: t^5 + 3*t^4 - 3*t^3 - 11*t^2 + 7*t + 9,
+delta: -t^5 - 3*t^4 + 3*t^3 + 12*t^2 - 4*t - 7,
+base_pt: [ 1, -1, 1, -1, 1 ],
+MW_orders: [ 0 ],
+MW_gens: [ [ [ -5582/9, 3415/9, 2765/12, -2033/18, -1789/36 ], [ 3472...
+)
+MyChabauty(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/81*(-863*w^4 - 166*w...
+)
+NewRelevantCosets(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/81*(-863*w^4 - 166*w...,
+p: 3
+)
+In file "/project/arithgeo/drhast/twocover-descent/ellchab-patch/ellchab-MWS-patched.m", line 34, column 31:
+>>   idx:=[i: i in [1..#Ep] | Max(PrimeBasis(nEp[i])) le SmoothBound];
+                                 ^
+Runtime error in 'Max': Argument 1 is not non-empty
+

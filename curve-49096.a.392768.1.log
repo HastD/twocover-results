@@ -1,0 +1,30 @@
+2022-01-01 12:50:59,994 INFO: Initialized curve data.
+2022-01-01 12:50:59,998 INFO: Setting up initial twist data...
+2022-01-01 12:51:01,131 INFO: Twist setup complete.
+2022-01-01 12:51:01,131 INFO: Searching for rational points on each twist...
+2022-01-01 12:51:02,031 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:51:02,031 INFO: Testing local solvability of twists...
+2022-01-01 12:51:02,036 INFO: Finished local solvability testing.
+2022-01-01 12:51:02,037 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:51:10,035 INFO: Finished computation of a-invariants.
+2022-01-01 12:51:10,037 INFO: Computing MW group (delta = ['1'], g = [1, 1, 8, -8, -4, 4])...
+2022-01-01 12:52:56,173 INFO: Finished MW computation (delta = ['1'], g = [1, 1, 8, -8, -4, 4])
+2022-01-01 12:52:56,180 INFO: Computing MW group (delta = ['0', '-1'], g = [1, 1, 8, -8, -4, 4])...
+2022-01-01 12:53:39,782 INFO: Finished MW computation (delta = ['0', '-1'], g = [1, 1, 8, -8, -4, 4])
+2022-01-01 12:53:39,786 INFO: Computing MW group (delta = ['1', '2', '9', '-8', '-4', '4'], g = [1, 1, 8, -8, -4, 4])...
+2022-01-01 13:34:05,435 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 327, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1221, in _do_call
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 7426.4MB, failed memory request: 1151.3MB
+System Error: User memory limit has been reached

@@ -1,0 +1,82 @@
+2022-01-01 12:50:55,913 INFO: Initialized curve data.
+2022-01-01 12:50:55,917 INFO: Setting up initial twist data...
+2022-01-01 12:50:56,992 INFO: Twist setup complete.
+2022-01-01 12:50:56,992 INFO: Searching for rational points on each twist...
+2022-01-01 12:50:57,920 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:50:57,920 INFO: Testing local solvability of twists...
+2022-01-01 12:50:57,930 INFO: Finished local solvability testing.
+2022-01-01 12:50:57,931 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:51:14,869 INFO: Finished computation of a-invariants.
+2022-01-01 12:51:14,871 INFO: Computing MW group (delta = ['1', '-1'], g = [8, -32, 28, 12, -8, 1])...
+2022-01-01 12:51:56,065 INFO: Finished MW computation (delta = ['1', '-1'], g = [8, -32, 28, 12, -8, 1])
+2022-01-01 12:51:56,071 INFO: Computing MW group (delta = ['1'], g = [8, -32, 28, 12, -8, 1])...
+2022-01-01 12:52:40,771 INFO: Finished MW computation (delta = ['1'], g = [8, -32, 28, 12, -8, 1])
+2022-01-01 12:52:40,776 INFO: Computing MW group (delta = ['8', '-33', '30', '11', '-8', '1'], g = [8, -32, 28, 12, -8, 1])...
+2022-01-01 12:54:02,935 INFO: Finished MW computation (delta = ['8', '-33', '30', '11', '-8', '1'], g = [8, -32, 28, 12, -8, 1])
+2022-01-01 12:54:02,939 INFO: Computing MW group (delta = ['8', '-33', '29', '12', '-8', '1'], g = [8, -32, 28, 12, -8, 1])...
+2022-01-01 12:54:25,149 INFO: Finished MW computation (delta = ['8', '-33', '29', '12', '-8', '1'], g = [8, -32, 28, 12, -8, 1])
+2022-01-01 12:54:25,158 INFO: Reducing MW generators...
+2022-01-01 12:54:29,774 INFO: Finished reducing MW generators.
+2022-01-01 12:54:29,777 INFO: Running elliptic Chabauty (delta = ['1', '-1'], g = [8, -32, 28, 12, -8, 1])...
+2022-01-01 12:54:42,767 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1468, in __init__
+    self._name = parent._create(value, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 500, in _create
+    self.set(name, value)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 626, in set
+    out = self.eval("%s:=%s" % (var, value))
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[83]:=twist_chabauty(_sage_[25],_sage_[10],_sage_[12],_sage_[20],_sage_[22],_sage_[15],_sage_[82]);
+OUT:
+twist_chabauty(
+f: t^6 - 8*t^5 + 12*t^4 + 28*t^3 - 32*t^2 + 8*t,
+root: 0,
+g: t^5 - 8*t^4 + 12*t^3 + 28*t^2 - 32*t + 8,
+delta: -t + 1,
+base_pt: [ 23, 11, 5, 2, 2 ],
+MW_orders: [ 0, 0, 0 ],
+MW_gens: [ [ [ -696/49, 109/7, 85/14, -197/49, 47/98 ], [ -198746/102...
+)
+In file "twocovers.m", line 506, column 15:
+>>     gens := [E![K!c : c in coords] : coords in MW_gens];
+                 ^
+Runtime error in '!': Point does not lie in scheme
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 562, in <module>
+    pts = twist_chabauty(curve, twist_index=i, g_index=j)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 344, in twist_chabauty
+    pts = magma.function_call("twist_chabauty",
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1212, in _do_call
+    return self(code)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 791, in __call__
+    A = Expect.__call__(self, x)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 295, in __call__
+    return cls(self, x, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1473, in __init__
+    raise TypeError(*x.args)
+TypeError: Error evaluating Magma code.
+IN:_sage_[83]:=twist_chabauty(_sage_[25],_sage_[10],_sage_[12],_sage_[20],_sage_[22],_sage_[15],_sage_[82]);
+OUT:
+twist_chabauty(
+f: t^6 - 8*t^5 + 12*t^4 + 28*t^3 - 32*t^2 + 8*t,
+root: 0,
+g: t^5 - 8*t^4 + 12*t^3 + 28*t^2 - 32*t + 8,
+delta: -t + 1,
+base_pt: [ 23, 11, 5, 2, 2 ],
+MW_orders: [ 0, 0, 0 ],
+MW_gens: [ [ [ -696/49, 109/7, 85/14, -197/49, 47/98 ], [ -198746/102...
+)
+In file "twocovers.m", line 506, column 15:
+>>     gens := [E![K!c : c in coords] : coords in MW_gens];
+                 ^
+Runtime error in '!': Point does not lie in scheme
+

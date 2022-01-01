@@ -1,0 +1,84 @@
+2022-01-01 12:51:10,456 INFO: Initialized curve data.
+2022-01-01 12:51:10,459 INFO: Setting up initial twist data...
+2022-01-01 12:51:11,522 INFO: Twist setup complete.
+2022-01-01 12:51:11,522 INFO: Searching for rational points on each twist...
+2022-01-01 12:51:12,326 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:51:12,326 INFO: Testing local solvability of twists...
+2022-01-01 12:51:12,331 INFO: Finished local solvability testing.
+2022-01-01 12:51:12,332 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:51:19,407 INFO: Finished computation of a-invariants.
+2022-01-01 12:51:19,409 INFO: Computing MW group (delta = ['4', '-1', '5', '-7', '2', '1'], g = [4, 0, 4, -7, 2, 1])...
+2022-01-01 12:51:47,454 INFO: Finished MW computation (delta = ['4', '-1', '5', '-7', '2', '1'], g = [4, 0, 4, -7, 2, 1])
+2022-01-01 12:51:47,458 INFO: Computing MW group (delta = ['16', '0', '17', '-29', '8', '4'], g = [4, 0, 4, -7, 2, 1])...
+2022-01-01 12:52:40,441 INFO: Finished MW computation (delta = ['16', '0', '17', '-29', '8', '4'], g = [4, 0, 4, -7, 2, 1])
+2022-01-01 12:52:40,446 INFO: Computing MW group (delta = ['1'], g = [4, 0, 4, -7, 2, 1])...
+2022-01-01 12:53:04,166 INFO: Finished MW computation (delta = ['1'], g = [4, 0, 4, -7, 2, 1])
+2022-01-01 12:53:04,170 INFO: Computing MW group (delta = ['4', '-1', '4', '-7', '2', '1'], g = [4, 0, 4, -7, 2, 1])...
+2022-01-01 12:53:47,996 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 327, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1217, in _do_call
+    out = self.eval(cmd)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[13], _sage_[10], _sage_[11], _sage_[7] := MordellWeilGroup(_sage_[3]);
+OUT:
+MordellWeilGroup(
+E: Elliptic Curve defined by y^2 = x^3 + ($.1^2 + 5*$.1 + 5)*x^...
+)
+MordellWeilShaInformation(
+E: Elliptic Curve defined by y^2 = x^3 + ($.1^2 + 5*$.1 + 5)*x^...
+)
+TwoDescent(
+E: Elliptic Curve defined by y^2 = x^3 + ($.1^2 + 5*$.1 + 5)*x^...
+)
+minimise_and_reduce(
+quartic: $.1^4 + 1/4*(15*$.1^3 + 12*$.1^2 - 37*$.1 + 14)*$.1^3 + 1/64...
+)
+Reduce(
+model: Genus one model of degree 2 defined over Number Field with d...
+)
+ReduceSL2(
+model: Genus one model of degree 2 defined over Number Field with d...
+)
+ReductionCovariants(
+model: Genus one model of degree 2 defined over Number Field with d...,
+prec: 500
+)
+Embs(
+M: [1/6*(399673528402476556715895634950764958052381998328354778...,
+K: Number Field with defining polynomial t^5 + 2*t^4 - 7*t^3 + ...,
+u: 1,
+prec: 500
+)
+Emb(
+M: [1/6*(399673528402476556715895634950764958052381998328354778...,
+indx: [ 1, 1 ],
+prec: 500
+)
+Conjugate(
+a: 1/6*(3996735284024765567158956349507649580523819983283547783...,
+s: [ 1, 1 ]
+)
+InternalComplexRoots(
+f: $.1^3 - 1.34282720742691119624026205133232426852900392725022...,
+p: 500
+)
+ncomplex_roots_epsilon_reduce(
+S: [ <-1.240349796897687309880338819832133624874754825937227495...,
+bp: 1728
+)
+In file "/share/pkg.7/magma_usyd/2.26-9/install//package/Ring/FldCom/roots.m", line 77, column 60:
+>>   if Abs(Real(r)) le eps then S[i]:=<Imaginary(r)*Parent(r).1,S[i][2]>; end
+                                                              ^
+Runtime error in '.': Bad argument types
+Argument types given: FldRe, RngIntElt
+

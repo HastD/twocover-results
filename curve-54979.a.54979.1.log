@@ -1,0 +1,84 @@
+2022-01-01 12:51:04,535 INFO: Initialized curve data.
+2022-01-01 12:51:04,538 INFO: Setting up initial twist data...
+2022-01-01 12:51:05,438 INFO: Twist setup complete.
+2022-01-01 12:51:05,438 INFO: Searching for rational points on each twist...
+2022-01-01 12:51:06,247 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:51:06,247 INFO: Testing local solvability of twists...
+2022-01-01 12:51:06,253 INFO: Finished local solvability testing.
+2022-01-01 12:51:06,254 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:51:22,870 INFO: Finished computation of a-invariants.
+2022-01-01 12:51:22,872 INFO: Computing MW group (delta = ['4', '7', '-20', '12', '-4', '1'], g = [4, 8, -20, 12, -4, 1])...
+2022-01-01 12:52:22,279 INFO: Finished MW computation (delta = ['4', '7', '-20', '12', '-4', '1'], g = [4, 8, -20, 12, -4, 1])
+2022-01-01 12:52:22,284 INFO: Computing MW group (delta = ['1'], g = [4, 8, -20, 12, -4, 1])...
+2022-01-01 12:52:54,944 INFO: Finished MW computation (delta = ['1'], g = [4, 8, -20, 12, -4, 1])
+2022-01-01 12:52:54,948 INFO: Computing MW group (delta = ['16', '32', '-79', '47', '-16', '4'], g = [4, 8, -20, 12, -4, 1])...
+2022-01-01 12:53:25,724 INFO: Finished MW computation (delta = ['16', '32', '-79', '47', '-16', '4'], g = [4, 8, -20, 12, -4, 1])
+2022-01-01 12:53:25,728 INFO: Computing MW group (delta = ['4', '7', '-19', '12', '-4', '1'], g = [4, 8, -20, 12, -4, 1])...
+2022-01-01 12:54:21,467 INFO: Finished MW computation (delta = ['4', '7', '-19', '12', '-4', '1'], g = [4, 8, -20, 12, -4, 1])
+2022-01-01 12:54:21,474 INFO: Reducing MW generators...
+2022-01-01 12:54:24,358 INFO: Finished reducing MW generators.
+2022-01-01 12:54:24,361 INFO: Running elliptic Chabauty (delta = ['4', '7', '-20', '12', '-4', '1'], g = [4, 8, -20, 12, -4, 1])...
+2022-01-01 12:54:44,842 INFO: Chabauty completed successfully (delta = ['4', '7', '-20', '12', '-4', '1'], g = [4, 8, -20, 12, -4, 1]).
+2022-01-01 12:54:44,845 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 8, -20, 12, -4, 1])...
+2022-01-01 12:54:57,696 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1468, in __init__
+    self._name = parent._create(value, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 500, in _create
+    self.set(name, value)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 626, in set
+    out = self.eval("%s:=%s" % (var, value))
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[68]:=twist_chabauty(_sage_[33],_sage_[32],_sage_[31],_sage_[30],_sage_[12],_sage_[9],_sage_[69]);
+OUT:
+twist_chabauty(
+f: t^6 - 4*t^5 + 12*t^4 - 20*t^3 + 8*t^2 + 4*t,
+root: 0,
+g: t^5 - 4*t^4 + 12*t^3 - 20*t^2 + 8*t + 4,
+delta: 1,
+base_pt: [ 0, 0, 0, 0, 1 ],
+MW_orders: [ 0 ],
+MW_gens: [ [ [ 9/4, 2, -6, 15/4, -3/4 ], [ -15/8, -13/2, 12, -101/8, ...
+)
+In file "twocovers.m", line 506, column 15:
+>>     gens := [E![K!c : c in coords] : coords in MW_gens];
+                 ^
+Runtime error in '!': Point does not lie in scheme
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 562, in <module>
+    pts = twist_chabauty(curve, twist_index=i, g_index=j)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 344, in twist_chabauty
+    pts = magma.function_call("twist_chabauty",
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1212, in _do_call
+    return self(code)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 791, in __call__
+    A = Expect.__call__(self, x)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 295, in __call__
+    return cls(self, x, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1473, in __init__
+    raise TypeError(*x.args)
+TypeError: Error evaluating Magma code.
+IN:_sage_[68]:=twist_chabauty(_sage_[33],_sage_[32],_sage_[31],_sage_[30],_sage_[12],_sage_[9],_sage_[69]);
+OUT:
+twist_chabauty(
+f: t^6 - 4*t^5 + 12*t^4 - 20*t^3 + 8*t^2 + 4*t,
+root: 0,
+g: t^5 - 4*t^4 + 12*t^3 - 20*t^2 + 8*t + 4,
+delta: 1,
+base_pt: [ 0, 0, 0, 0, 1 ],
+MW_orders: [ 0 ],
+MW_gens: [ [ [ 9/4, 2, -6, 15/4, -3/4 ], [ -15/8, -13/2, 12, -101/8, ...
+)
+In file "twocovers.m", line 506, column 15:
+>>     gens := [E![K!c : c in coords] : coords in MW_gens];
+                 ^
+Runtime error in '!': Point does not lie in scheme
+

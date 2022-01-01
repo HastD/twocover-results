@@ -1,0 +1,121 @@
+2022-01-01 12:50:52,746 INFO: Initialized curve data.
+2022-01-01 12:50:52,749 INFO: Setting up initial twist data...
+2022-01-01 12:50:53,801 INFO: Twist setup complete.
+2022-01-01 12:50:53,801 INFO: Searching for rational points on each twist...
+2022-01-01 12:50:55,499 INFO: Finished searching for rational points on each twist.
+2022-01-01 12:50:55,499 INFO: Testing local solvability of twists...
+2022-01-01 12:51:06,256 INFO: Finished local solvability testing.
+2022-01-01 12:51:06,258 INFO: Computing elliptic curve a-invariants...
+2022-01-01 12:51:18,167 INFO: Finished computation of a-invariants.
+2022-01-01 12:51:18,170 INFO: Skipped MW computation because no base point (delta = ['64', '-96', '97', '-65', '0', '8'])
+2022-01-01 12:51:18,170 INFO: Computing MW group (delta = ['128', '-208', '210', '-145', '8', '20'], g = [-2, 1])...
+2022-01-01 12:51:18,454 INFO: Finished MW computation (delta = ['128', '-208', '210', '-145', '8', '20'], g = [-2, 1])
+2022-01-01 12:51:18,457 INFO: Computing MW group (delta = ['128', '-208', '210', '-145', '8', '20'], g = [-4, 4, -4, 2, 1])...
+2022-01-01 12:51:50,435 INFO: Finished MW computation (delta = ['128', '-208', '210', '-145', '8', '20'], g = [-4, 4, -4, 2, 1])
+2022-01-01 12:51:50,441 INFO: Computing MW group (delta = ['8', '-13', '12', '-8', '0', '1'], g = [-2, 1])...
+2022-01-01 12:51:50,686 INFO: Finished MW computation (delta = ['8', '-13', '12', '-8', '0', '1'], g = [-2, 1])
+2022-01-01 12:51:50,688 INFO: Computing MW group (delta = ['8', '-13', '12', '-8', '0', '1'], g = [-4, 4, -4, 2, 1])...
+2022-01-01 12:51:59,788 INFO: Finished MW computation (delta = ['8', '-13', '12', '-8', '0', '1'], g = [-4, 4, -4, 2, 1])
+2022-01-01 12:51:59,794 INFO: Computing MW group (delta = ['16', '-18', '17', '-8', '-4'], g = [-2, 1])...
+2022-01-01 12:52:00,139 INFO: Finished MW computation (delta = ['16', '-18', '17', '-8', '-4'], g = [-2, 1])
+2022-01-01 12:52:00,143 INFO: Computing MW group (delta = ['16', '-18', '17', '-8', '-4'], g = [-4, 4, -4, 2, 1])...
+2022-01-01 12:52:09,645 INFO: Finished MW computation (delta = ['16', '-18', '17', '-8', '-4'], g = [-4, 4, -4, 2, 1])
+2022-01-01 12:52:09,651 INFO: Computing MW group (delta = ['1'], g = [-2, 1])...
+2022-01-01 12:52:09,991 INFO: Finished MW computation (delta = ['1'], g = [-2, 1])
+2022-01-01 12:52:09,996 INFO: Computing MW group (delta = ['1'], g = [-4, 4, -4, 2, 1])...
+2022-01-01 12:52:27,714 INFO: Finished MW computation (delta = ['1'], g = [-4, 4, -4, 2, 1])
+2022-01-01 12:52:27,721 INFO: Computing MW group (delta = ['128', '-176', '178', '-115', '-7', '12'], g = [-2, 1])...
+2022-01-01 12:52:28,066 INFO: Finished MW computation (delta = ['128', '-176', '178', '-115', '-7', '12'], g = [-2, 1])
+2022-01-01 12:52:28,070 INFO: Computing MW group (delta = ['128', '-176', '178', '-115', '-7', '12'], g = [-4, 4, -4, 2, 1])...
+2022-01-01 12:52:38,265 INFO: Finished MW computation (delta = ['128', '-176', '178', '-115', '-7', '12'], g = [-4, 4, -4, 2, 1])
+2022-01-01 12:52:38,271 INFO: Skipped MW computation because no base point (delta = ['1024', '-1568', '1568', '-1058', '19', '135'])
+2022-01-01 12:52:38,271 INFO: Computing MW group (delta = ['8', '-13', '13', '-8', '0', '1'], g = [-2, 1])...
+2022-01-01 12:52:38,602 INFO: Finished MW computation (delta = ['8', '-13', '13', '-8', '0', '1'], g = [-2, 1])
+2022-01-01 12:52:38,606 INFO: Computing MW group (delta = ['8', '-13', '13', '-8', '0', '1'], g = [-4, 4, -4, 2, 1])...
+2022-01-01 12:52:46,531 INFO: Finished MW computation (delta = ['8', '-13', '13', '-8', '0', '1'], g = [-4, 4, -4, 2, 1])
+2022-01-01 12:52:46,542 INFO: Reducing MW generators...
+2022-01-01 12:52:53,651 INFO: Finished reducing MW generators.
+2022-01-01 12:52:53,656 INFO: Skipped Chabauty because no base point (delta = ['64', '-96', '97', '-65', '0', '8'])
+2022-01-01 12:52:53,657 INFO: Running elliptic Chabauty (delta = ['128', '-208', '210', '-145', '8', '20'], g = [-2, 1])...
+2022-01-01 12:52:57,682 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1468, in __init__
+    self._name = parent._create(value, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 500, in _create
+    self.set(name, value)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 626, in set
+    out = self.eval("%s:=%s" % (var, value))
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[39]:=twist_chabauty(_sage_[30],_sage_[23],_sage_[7],_sage_[28],_sage_[8],_sage_[18],_sage_[38]);
+OUT:
+twist_chabauty(
+f: t^6 - 8*t^4 + 12*t^3 - 12*t^2 + 8*t,
+root: 0,
+g: t - 2,
+delta: 20*t^5 + 8*t^4 - 145*t^3 + 210*t^2 - 208*t + 128,
+base_pt: [ 27, 14, 28, 56, 32 ],
+MW_orders: [ 0 ],
+MW_gens: [ [ [ -451/49 ], [ 19977/343 ], [ 1 ] ] ]
+)
+MyChabauty(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (-173/300125*$.1*$.3 + ...
+)
+NewRelevantCosets(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (-173/300125*$.1*$.3 + ...,
+p: 3
+)
+In file "/project/arithgeo/drhast/twocover-descent/ellchab-patch/ellchab-MWS-patched.m", line 22, column 37:
+>>   Prs:=[LookupPrime(P): P in Support(p*IntegerRing(BaseRing(E)))| 
+                                       ^
+Runtime error in 'Support': Bad argument types
+Argument types given: RngInt
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 562, in <module>
+    pts = twist_chabauty(curve, twist_index=i, g_index=j)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 344, in twist_chabauty
+    pts = magma.function_call("twist_chabauty",
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1212, in _do_call
+    return self(code)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 791, in __call__
+    A = Expect.__call__(self, x)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/interface.py", line 295, in __call__
+    return cls(self, x, name=name)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1473, in __init__
+    raise TypeError(*x.args)
+TypeError: Error evaluating Magma code.
+IN:_sage_[39]:=twist_chabauty(_sage_[30],_sage_[23],_sage_[7],_sage_[28],_sage_[8],_sage_[18],_sage_[38]);
+OUT:
+twist_chabauty(
+f: t^6 - 8*t^4 + 12*t^3 - 12*t^2 + 8*t,
+root: 0,
+g: t - 2,
+delta: 20*t^5 + 8*t^4 - 145*t^3 + 210*t^2 - 208*t + 128,
+base_pt: [ 27, 14, 28, 56, 32 ],
+MW_orders: [ 0 ],
+MW_gens: [ [ [ -451/49 ], [ 19977/343 ], [ 1 ] ] ]
+)
+MyChabauty(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (-173/300125*$.1*$.3 + ...
+)
+NewRelevantCosets(
+MWmap: Mapping from: GrpAb: MWgrp to CrvEll: E given by a rule [no ...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (-173/300125*$.1*$.3 + ...,
+p: 3
+)
+In file "/project/arithgeo/drhast/twocover-descent/ellchab-patch/ellchab-MWS-patched.m", line 22, column 37:
+>>   Prs:=[LookupPrime(P): P in Support(p*IntegerRing(BaseRing(E)))| 
+                                       ^
+Runtime error in 'Support': Bad argument types
+Argument types given: RngInt
+
