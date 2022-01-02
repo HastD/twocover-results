@@ -80,3 +80,18 @@ In file "twocovers.m", line 506, column 15:
                  ^
 Runtime error in '!': Point does not lie in scheme
 
+2022-01-01 17:04:41,891 INFO: Loaded curve data from file.
+2022-01-01 17:04:41,892 INFO: MW generators already computed (delta = ['0', '0', '-2', '-6', '3', '1'], g = [-1, 1, -2, -6, 3, 1])
+2022-01-01 17:04:41,893 INFO: MW generators already computed (delta = ['1', '-2', '3', '6', '-3', '-1'], g = [-1, 1, -2, -6, 3, 1])
+2022-01-01 17:04:41,893 INFO: MW generators already computed (delta = ['1'], g = [-1, 1, -2, -6, 3, 1])
+2022-01-01 17:04:41,893 INFO: MW generators already computed (delta = ['-4', '3', '-6', '-25', '12', '4'], g = [-1, 1, -2, -6, 3, 1])
+2022-01-01 17:04:41,893 INFO: Running elliptic Chabauty (delta = ['0', '0', '-2', '-6', '3', '1'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-01 17:04:53,942 INFO: Chabauty completed successfully (delta = ['0', '0', '-2', '-6', '3', '1'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-01 17:04:53,943 INFO: Running elliptic Chabauty (delta = ['1', '-2', '3', '6', '-3', '-1'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-01 17:05:33,412 INFO: Chabauty completed successfully (delta = ['1', '-2', '3', '6', '-3', '-1'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-01 17:05:33,413 INFO: Running elliptic Chabauty (delta = ['1'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-01 17:05:44,818 INFO: Chabauty completed successfully (delta = ['1'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-01 17:05:44,819 INFO: Running elliptic Chabauty (delta = ['-4', '3', '-6', '-25', '12', '4'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-01 17:05:56,364 INFO: Chabauty completed successfully (delta = ['-4', '3', '-6', '-25', '12', '4'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-01 17:05:56,509 INFO: Rational points successfully computed.
+2022-01-01 17:05:56,510 INFO: Tasks complete. Recording data and exiting.

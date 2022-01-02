@@ -80,3 +80,17 @@ In file "twocovers.m", line 506, column 15:
                  ^
 Runtime error in '!': Point does not lie in scheme
 
+2022-01-01 17:06:23,257 INFO: Loaded curve data from file.
+2022-01-01 17:06:23,258 INFO: Skipped MW computation because no base point (delta = ['1/2', '-3/2', '1'])
+2022-01-01 17:06:23,258 INFO: MW generators already computed (delta = ['1'], g = [4, 12, -20, 0, 4, 1])
+2022-01-01 17:06:23,258 INFO: MW generators already computed (delta = ['1/2', '-1'], g = [4, 12, -20, 0, 4, 1])
+2022-01-01 17:06:23,258 INFO: MW generators already computed (delta = ['1/4', '-5/4', '2', '-1'], g = [4, 12, -20, 0, 4, 1])
+2022-01-01 17:06:23,259 INFO: Skipped Chabauty because no base point (delta = ['1/2', '-3/2', '1'])
+2022-01-01 17:06:23,259 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 12, -20, 0, 4, 1])...
+2022-01-01 17:06:43,569 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 12, -20, 0, 4, 1]).
+2022-01-01 17:06:43,570 INFO: Running elliptic Chabauty (delta = ['1/2', '-1'], g = [4, 12, -20, 0, 4, 1])...
+2022-01-01 17:06:52,061 INFO: Chabauty completed successfully (delta = ['1/2', '-1'], g = [4, 12, -20, 0, 4, 1]).
+2022-01-01 17:06:52,061 INFO: Running elliptic Chabauty (delta = ['1/4', '-5/4', '2', '-1'], g = [4, 12, -20, 0, 4, 1])...
+2022-01-01 17:07:05,941 INFO: Chabauty completed successfully (delta = ['1/4', '-5/4', '2', '-1'], g = [4, 12, -20, 0, 4, 1]).
+2022-01-01 17:07:06,059 INFO: Rational points successfully computed.
+2022-01-01 17:07:06,060 INFO: Tasks complete. Recording data and exiting.
