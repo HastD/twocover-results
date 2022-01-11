@@ -148,3 +148,4 @@ Argument types given: RngInt
 2022-01-10 22:39:24,073 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['2016', '-2079', '2522', '-2600', '-506', '519'], g = [1, 1])
 2022-01-10 22:39:24,073 INFO: Running elliptic Chabauty (delta = ['2016', '-2079', '2522', '-2600', '-506', '519'], g = [-4, 0, -5, 0, 1])...
 2022-01-10 22:39:29,449 INFO: Chabauty completed successfully (delta = ['2016', '-2079', '2522', '-2600', '-506', '519'], g = [-4, 0, -5, 0, 1]).
+2022-01-11 10:36:13,000 INFO: Manually removed duplicate points.
