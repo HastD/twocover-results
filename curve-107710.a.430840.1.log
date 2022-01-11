@@ -1,0 +1,30 @@
+2022-01-11 12:31:52,644 INFO: Initialized curve data.
+2022-01-11 12:31:52,652 INFO: Setting up initial twist data...
+2022-01-11 12:31:53,756 INFO: Twist setup complete.
+2022-01-11 12:31:53,756 INFO: Searching for rational points on each twist...
+2022-01-11 12:31:55,282 INFO: Finished searching for rational points on each twist.
+2022-01-11 12:31:55,282 INFO: Testing local solvability of twists...
+2022-01-11 12:31:55,287 INFO: Finished local solvability testing.
+2022-01-11 12:31:55,288 INFO: Computing elliptic curve a-invariants...
+2022-01-11 12:32:08,138 INFO: Finished computation of a-invariants.
+2022-01-11 12:32:08,139 INFO: Computing MW group (delta = ['-4', '-16', '7', '37', '-24', '4'], g = [-4, -15, 6, 37, -24, 4])...
+2022-01-11 12:44:05,946 INFO: Finished MW computation (delta = ['-4', '-16', '7', '37', '-24', '4'], g = [-4, -15, 6, 37, -24, 4])
+2022-01-11 12:44:05,952 INFO: Computing MW group (delta = ['1'], g = [-4, -15, 6, 37, -24, 4])...
+2022-01-11 12:47:42,716 INFO: Finished MW computation (delta = ['1'], g = [-4, -15, 6, 37, -24, 4])
+2022-01-11 12:47:42,719 INFO: Computing MW group (delta = ['-4', '-16', '6', '37', '-24', '4'], g = [-4, -15, 6, 37, -24, 4])...
+2022-01-11 14:23:05,636 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1221, in _do_call
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 16359.4MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached

@@ -1,0 +1,19 @@
+2022-01-11 12:36:47,424 INFO: Initialized curve data.
+2022-01-11 12:36:47,428 INFO: Setting up initial twist data...
+2022-01-11 12:36:48,881 INFO: Twist setup complete.
+2022-01-11 12:36:48,881 INFO: Searching for rational points on each twist...
+2022-01-11 12:36:51,642 INFO: Finished searching for rational points on each twist.
+2022-01-11 12:36:51,642 INFO: Testing local solvability of twists...
+2022-01-11 12:37:23,378 INFO: Finished local solvability testing.
+2022-01-11 12:37:23,380 INFO: Computing elliptic curve a-invariants...
+2022-01-11 12:37:25,252 INFO: Finished computation of a-invariants.
+2022-01-11 12:37:25,254 INFO: Skipped MW computation because no base point (delta = ['1', '4', '1'])
+2022-01-11 12:37:25,254 INFO: Skipped MW computation because no base point (delta = ['1', '5', '18', '38', '-2', '-3'])
+2022-01-11 12:37:25,254 INFO: Skipped MW computation because no base point (delta = ['-4', '-16', '-18', '-10', '2', '1'])
+2022-01-11 12:37:25,254 INFO: Skipped MW computation because no base point (delta = ['-4', '-16', '-19', '-21', '3', '2'])
+2022-01-11 12:37:25,254 INFO: Computing MW group (delta = ['1'], g = [1, 1, 1])...
+2022-01-11 12:37:29,399 INFO: Finished MW computation (delta = ['1'], g = [1, 1, 1])
+2022-01-11 12:37:29,402 INFO: Computing MW group (delta = ['1'], g = [-4, -11, 1, 1])...
+2022-01-11 12:37:39,156 INFO: Finished MW computation (delta = ['1'], g = [-4, -11, 1, 1])
+2022-01-11 12:37:39,161 INFO: Unable to use elliptic Chabauty on twist (delta = ['1'])
+2022-01-11 12:37:39,164 INFO: Obstruction found to provably computing rational points. Exiting.
