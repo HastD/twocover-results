@@ -29,3 +29,7 @@
 2022-01-01 05:04:07,055 INFO: Tasks complete. Recording data and exiting.
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
 2022-01-03 13:14:57,000 INFO: Deleted results of Chabauty computation.
+2022-01-10 21:33:43,444 INFO: Loaded curve data from file.
+2022-01-10 21:33:43,445 INFO: Running elliptic Chabauty (delta = ['-1', '-1'], g = [-4, 1, 2, -1, 2, 1])...
+2022-01-10 21:39:31,615 INFO: Chabauty completed successfully (delta = ['-1', '-1'], g = [-4, 1, 2, -1, 2, 1]).
+2022-01-10 21:39:31,619 INFO: Running elliptic Chabauty (delta = ['1'], g = [-4, 1, 2, -1, 2, 1])...
