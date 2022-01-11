@@ -1,0 +1,81 @@
+2022-01-11 15:10:20,617 INFO: Initialized curve data.
+2022-01-11 15:10:20,621 INFO: Setting up initial twist data...
+2022-01-11 15:10:21,661 INFO: Twist setup complete.
+2022-01-11 15:10:21,661 INFO: Searching for rational points on each twist...
+2022-01-11 15:10:23,185 INFO: Finished searching for rational points on each twist.
+2022-01-11 15:10:23,186 INFO: Testing local solvability of twists...
+2022-01-11 15:10:31,659 INFO: Finished local solvability testing.
+2022-01-11 15:10:31,660 INFO: Computing elliptic curve a-invariants...
+2022-01-11 15:10:36,983 INFO: Finished computation of a-invariants.
+2022-01-11 15:10:36,985 INFO: Skipped MW computation because no base point (delta = ['-1', '3', '1'])
+2022-01-11 15:10:36,985 INFO: Computing MW group (delta = ['4', '15', '4', '9', '6', '1'], g = [4, 16, 4, 9, 6, 1])...
+2022-01-11 15:24:51,176 INFO: Finished MW computation (delta = ['4', '15', '4', '9', '6', '1'], g = [4, 16, 4, 9, 6, 1])
+2022-01-11 15:24:51,183 INFO: Computing MW group (delta = ['1'], g = [4, 16, 4, 9, 6, 1])...
+2022-01-11 15:32:05,277 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1217, in _do_call
+    out = self.eval(cmd)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[8], _sage_[10], _sage_[22], _sage_[20] := MordellWeilGroup(_sage_[16]);
+OUT:
+MordellWeilGroup(
+E: Elliptic Curve defined by y^2 = x^3 + (76954*$.1^4 + 441824*...
+)
+MordellWeilShaInformation(
+E: Elliptic Curve defined by y^2 = x^3 + (76954*$.1^4 + 441824*...
+)
+TwoDescent(
+E: Elliptic Curve defined by y^2 = x^3 + (76954*$.1^4 + 441824*...
+)
+minimise_and_reduce(
+quartic: 1/64*(223509*$.1^4 + 352315*$.1^3 - 732632*$.1^2 + 794348*$....
+)
+Reduce(
+model: Genus one model of degree 2 defined over Number Field with d...
+)
+ReduceSL2(
+model: Genus one model of degree 2 defined over Number Field with d...
+)
+ReductionCovariants(
+model: Genus one model of degree 2 defined over Number Field with d...,
+prec: 500
+)
+Embs(
+M: [1/12*(-3201717726846746880108378619399828357108623558753624...,
+K: Number Field with defining polynomial t^5 + 6*t^4 + 9*t^3 + ...,
+u: 1,
+prec: 500
+)
+Emb(
+M: [1/12*(-3201717726846746880108378619399828357108623558753624...,
+indx: [ 1, 1 ],
+prec: 500
+)
+Conjugate(
+a: 1/12*(-32017177268467468801083786193998283571086235587536245...,
+s: [ 1, 1 ]
+)
+InternalComplexRoots(
+f: $.1^3 - 1.24854059050179879546091214368136356059260614381858...,
+p: 500
+)
+ncomplex_roots_epsilon_reduce(
+S: [ <-1.280965716832328920256178396474136573381322343900649309...,
+bp: 1728
+)
+In file "/share/pkg.7/magma_usyd/2.26-9/install//package/Ring/FldCom/roots.m", line 77, column 60:
+>>   if Abs(Real(r)) le eps then S[i]:=<Imaginary(r)*Parent(r).1,S[i][2]>; end
+                                                              ^
+Runtime error in '.': Bad argument types
+Argument types given: FldRe, RngIntElt
+
