@@ -48,3 +48,6 @@
 2022-01-10 22:39:17,742 INFO: Chabauty completed successfully (delta = ['1'], g = [-3, 1, 1]).
 2022-01-10 22:39:17,744 INFO: Skipped Chabauty because twist points already verified. (delta = ['1'])
 2022-01-10 22:39:17,744 INFO: Running elliptic Chabauty (delta = ['9', '36', '-14', '-21', '3', '3'], g = [-3, 1, 1])...
+2022-01-11 11:39:29,717 INFO: Loaded curve data from file.
+2022-01-11 11:39:29,718 INFO: Unable to use elliptic Chabauty on twist (delta = ['0', '10', '-5', '-7', '1', '1'])
+2022-01-11 11:39:29,718 INFO: Obstruction found to provably computing rational points. Exiting.

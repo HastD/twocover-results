@@ -17,3 +17,89 @@
 2022-01-10 22:39:01,604 INFO: Reducing MW generators...
 2022-01-10 22:39:02,983 INFO: Finished reducing MW generators.
 2022-01-10 22:39:02,985 INFO: Running elliptic Chabauty (delta = ['18', '-15', '-15', '7', '2', '-1'], g = [-12, 16, 12, -8, -2, 1])...
+2022-01-11 12:06:36,828 INFO: Loaded curve data from file.
+2022-01-11 12:06:36,829 INFO: Running elliptic Chabauty (delta = ['18', '-15', '-15', '7', '2', '-1'], g = [-12, 16, 12, -8, -2, 1])...
+2022-01-11 12:06:54,972 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1469, in __init__
+    self._name = parent._create(value, name=name)
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/interface.py", line 513, in _create
+    self.set(name, value)
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/magma.py", line 626, in set
+    out = self.eval("%s:=%s" % (var, value))
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[126]:=twist_chabauty(_sage_[3],_sage_[4],_sage_[5],_sage_[6],_sage_[12],_sage_[43],_sage_[48],_sage_[125]);
+OUT:
+twist_chabauty(
+f: x^6 - 12*x^4 - 4*x^3 + 40*x^2 + 20*x - 24,
+root: -2,
+g: x^5 - 2*x^4 - 8*x^3 + 12*x^2 + 16*x - 12,
+delta: -x^5 + 2*x^4 + 7*x^3 - 15*x^2 - 15*x + 18,
+base_pt: [ 11, -21, 45, -90, 198 ],
+E_aInv: [ [ 0, 0, 0, 0, 0 ], [ 14, 15, -17, -4, 3 ], [ 0, 0, 0, 0, 0...,
+MW_orders: [ 0, 0, 0, 0 ],
+MW_gens: [ [ [ 39, -91, 24, 20, -7 ], [ 132, -264, 47, 57, -33/2 ], [...
+)
+Chabauty(
+MWmap: Mapping from: Abelian Group isomorphic to Z + Z + Z + Z Defi...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/4*(10421*w^4 - 14638...
+)
+ChabautyEquations(
+P0: (1/4*(-20*w^4 + 113*w^3 + 29*w^2 - 526*w + 273) : 1/16*(-421...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/4*(10421*w^4 - 14638...,
+MWmap: Mapping from: Abelian Group isomorphic to Z + Z + Z + Z Defi...,
+Prs: [ Prime Ideal Two element generators: [3, 0, 0, 0, 0] [1, 0,...
+)
+In file "/Users/daniel/Sync/Mathematics/Research/Mordell-Weil sieve/twocover-descent/patch/ellchab.m", line 292, column 33:
+>>     lBp:=[Evaluate(Elogp,b)+O(pi^(Valuation(b)*AbsolutePrecision(Elogp))):b
+                                   ^
+Runtime error in '^': Bad argument types
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/daniel/Sync/Mathematics/Research/Mordell-Weil sieve/twocover-descent/./twocover-processor.sage.py", line 572, in <module>
+    pts = twist_chabauty(curve, twist_index=i, g_index=j)
+  File "/Users/daniel/Sync/Mathematics/Research/Mordell-Weil sieve/twocover-descent/./twocover-processor.sage.py", line 346, in twist_chabauty
+    pts = magma.function_call("twist_chabauty",
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1212, in _do_call
+    return self(code)
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/magma.py", line 791, in __call__
+    A = Expect.__call__(self, x)
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/interface.py", line 295, in __call__
+    return cls(self, x, name=name)
+  File "/var/tmp/sage-9.4-current/local/lib/python3.9/site-packages/sage/interfaces/expect.py", line 1474, in __init__
+    raise TypeError(*x.args)
+TypeError: Error evaluating Magma code.
+IN:_sage_[126]:=twist_chabauty(_sage_[3],_sage_[4],_sage_[5],_sage_[6],_sage_[12],_sage_[43],_sage_[48],_sage_[125]);
+OUT:
+twist_chabauty(
+f: x^6 - 12*x^4 - 4*x^3 + 40*x^2 + 20*x - 24,
+root: -2,
+g: x^5 - 2*x^4 - 8*x^3 + 12*x^2 + 16*x - 12,
+delta: -x^5 + 2*x^4 + 7*x^3 - 15*x^2 - 15*x + 18,
+base_pt: [ 11, -21, 45, -90, 198 ],
+E_aInv: [ [ 0, 0, 0, 0, 0 ], [ 14, 15, -17, -4, 3 ], [ 0, 0, 0, 0, 0...,
+MW_orders: [ 0, 0, 0, 0 ],
+MW_gens: [ [ [ 39, -91, 24, 20, -7 ], [ 132, -264, 47, 57, -33/2 ], [...
+)
+Chabauty(
+MWmap: Mapping from: Abelian Group isomorphic to Z + Z + Z + Z Defi...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/4*(10421*w^4 - 14638...
+)
+ChabautyEquations(
+P0: (1/4*(-20*w^4 + 113*w^3 + 29*w^2 - 526*w + 273) : 1/16*(-421...,
+Ecov:  Composition of ($.1 : $.2 : $.3) -> (1/4*(10421*w^4 - 14638...,
+MWmap: Mapping from: Abelian Group isomorphic to Z + Z + Z + Z Defi...,
+Prs: [ Prime Ideal Two element generators: [3, 0, 0, 0, 0] [1, 0,...
+)
+In file "/Users/daniel/Sync/Mathematics/Research/Mordell-Weil sieve/twocover-descent/patch/ellchab.m", line 292, column 33:
+>>     lBp:=[Evaluate(Elogp,b)+O(pi^(Valuation(b)*AbsolutePrecision(Elogp))):b
+                                   ^
+Runtime error in '^': Bad argument types
+

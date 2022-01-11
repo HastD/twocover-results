@@ -100,3 +100,19 @@ Argument types given: FldRe, RngIntElt
 2022-01-10 22:42:16,778 INFO: Chabauty completed successfully (delta = ['20', '-5', '-100', '65', '-14', '1'], g = [-4, 0, 20, -9, 1]).
 2022-01-10 22:42:16,781 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1000', '0', '-9995/2', '2222', '-479/2', '-1'], g = [-5, 1])
 2022-01-10 22:42:16,781 INFO: Running elliptic Chabauty (delta = ['1000', '0', '-9995/2', '2222', '-479/2', '-1'], g = [-4, 0, 20, -9, 1])...
+2022-01-11 12:08:22,871 INFO: Loaded curve data from file.
+2022-01-11 12:08:22,872 INFO: Skipped Chabauty because twist points already verified. (delta = ['20', '-5', '-100', '65', '-14', '1'])
+2022-01-11 12:08:22,872 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1000', '0', '-9995/2', '2222', '-479/2', '-1'], g = [-5, 1])
+2022-01-11 12:08:22,872 INFO: Running elliptic Chabauty (delta = ['1000', '0', '-9995/2', '2222', '-479/2', '-1'], g = [-4, 0, 20, -9, 1])...
+2022-01-11 12:08:44,412 INFO: Chabauty completed successfully (delta = ['1000', '0', '-9995/2', '2222', '-479/2', '-1'], g = [-4, 0, 20, -9, 1]).
+2022-01-11 12:08:44,415 INFO: Skipped Chabauty because no base point (delta = ['1/2', '-11/2', '1'])
+2022-01-11 12:08:44,415 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [-5, 1])
+2022-01-11 12:08:44,415 INFO: Running elliptic Chabauty (delta = ['1'], g = [-4, 0, 20, -9, 1])...
+2022-01-11 12:08:54,852 INFO: Chabauty completed successfully (delta = ['1'], g = [-4, 0, 20, -9, 1]).
+2022-01-11 12:08:54,853 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['100', '-5', '-499', '225', '-25'], g = [-5, 1])
+2022-01-11 12:08:54,853 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['100', '-5', '-499', '225', '-25'], g = [-4, 0, 20, -9, 1])
+2022-01-11 12:08:54,853 INFO: Skipped Chabauty because no base point (delta = ['2000', '-500', '-9995', '6999', '-1625', '125'])
+2022-01-11 12:08:54,853 INFO: Skipped Chabauty because no base point (delta = ['50', '-105/2', '-222', '352', '-124', '25/2'])
+2022-01-11 12:08:54,853 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['10', '-5/2', '-89/2', '63/2', '-7', '1/2'], g = [-5, 1])
+2022-01-11 12:08:54,854 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['10', '-5/2', '-89/2', '63/2', '-7', '1/2'], g = [-4, 0, 20, -9, 1])
+2022-01-11 12:08:55,094 INFO: Tasks complete. Recording data and exiting.

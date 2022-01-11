@@ -135,3 +135,6 @@ Argument types given: RngInt
 2022-01-10 22:39:44,676 INFO: Skipped Chabauty because no base point (delta = ['27648', '-60000', '41632', '-4674', '-4621', '1159'])
 2022-01-10 22:39:44,676 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['24', '-53', '36', '-4', '-4', '1'], g = [-2, 1])
 2022-01-10 22:39:44,676 INFO: Running elliptic Chabauty (delta = ['24', '-53', '36', '-4', '-4', '1'], g = [-12, 20, -8, -2, 1])...
+2022-01-11 11:39:42,666 INFO: Loaded curve data from file.
+2022-01-11 11:39:42,667 INFO: Unable to use elliptic Chabauty on twist (delta = ['24', '-53', '37', '-4', '-4', '1'])
+2022-01-11 11:39:42,667 INFO: Obstruction found to provably computing rational points. Exiting.
