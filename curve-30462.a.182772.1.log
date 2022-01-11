@@ -119,3 +119,9 @@ Runtime error in 'Support': Bad argument types
 Argument types given: RngInt
 
 2022-01-03 13:14:58,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:39:05,246 INFO: Loaded curve data from file.
+2022-01-10 22:39:05,246 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-12', '5', '9', '-1', '-1'], g = [1, 1])
+2022-01-10 22:39:05,246 INFO: Running elliptic Chabauty (delta = ['-12', '5', '9', '-1', '-1'], g = [12, -4, -8, 1, 1])...
+2022-01-10 22:39:15,999 INFO: Chabauty completed successfully (delta = ['-12', '5', '9', '-1', '-1'], g = [12, -4, -8, 1, 1]).
+2022-01-10 22:39:16,003 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['12', '-89', '18', '56', '-6', '-7'], g = [1, 1])
+2022-01-10 22:39:16,003 INFO: Running elliptic Chabauty (delta = ['12', '-89', '18', '56', '-6', '-7'], g = [12, -4, -8, 1, 1])...

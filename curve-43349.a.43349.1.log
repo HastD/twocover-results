@@ -78,3 +78,11 @@ Runtime error in '.': Bad argument types
 Argument types given: FldRe, RngIntElt
 
 2022-01-03 13:14:58,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:39:11,380 INFO: Loaded curve data from file.
+2022-01-10 22:39:11,380 INFO: Reducing MW generators...
+2022-01-10 22:39:11,380 INFO: Finished reducing MW generators.
+2022-01-10 22:39:11,382 INFO: Skipped Chabauty because no base point (delta = ['1', '-1', '1'])
+2022-01-10 22:39:11,382 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '-1', '2', '-3/2', '1'], g = [4, -8, 16, -12, 8, 1])
+2022-01-10 22:39:11,382 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '-1/2', '1'], g = [4, -8, 16, -12, 8, 1])
+2022-01-10 22:39:11,382 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, -8, 16, -12, 8, 1])
+2022-01-10 22:39:11,420 INFO: Tasks complete. Recording data and exiting.

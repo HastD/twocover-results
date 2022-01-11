@@ -29,3 +29,14 @@
 2022-01-01 10:47:12,385 INFO: Tasks complete. Recording data and exiting.
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
 2022-01-03 13:14:57,000 INFO: Deleted results of Chabauty computation.
+2022-01-10 22:39:09,396 INFO: Loaded curve data from file.
+2022-01-10 22:39:09,396 INFO: Running elliptic Chabauty (delta = ['3', '7', '5', '3', '-1', '1'], g = [4, 8, 5, 3, -1, 1])...
+2022-01-10 22:39:43,508 INFO: Chabauty completed successfully (delta = ['3', '7', '5', '3', '-1', '1'], g = [4, 8, 5, 3, -1, 1]).
+2022-01-10 22:39:43,597 INFO: Running elliptic Chabauty (delta = ['-16', '-33', '-22', '-13', '4', '-4'], g = [4, 8, 5, 3, -1, 1])...
+2022-01-10 22:39:52,079 INFO: Chabauty completed successfully (delta = ['-16', '-33', '-22', '-13', '4', '-4'], g = [4, 8, 5, 3, -1, 1]).
+2022-01-10 22:39:52,082 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 8, 5, 3, -1, 1])...
+2022-01-10 22:40:35,986 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 8, 5, 3, -1, 1]).
+2022-01-10 22:40:35,988 INFO: Running elliptic Chabauty (delta = ['4', '9', '6', '3', '-1', '1'], g = [4, 8, 5, 3, -1, 1])...
+2022-01-10 22:41:07,947 INFO: Chabauty completed successfully (delta = ['4', '9', '6', '3', '-1', '1'], g = [4, 8, 5, 3, -1, 1]).
+2022-01-10 22:41:08,273 INFO: Rational points successfully computed.
+2022-01-10 22:41:08,300 INFO: Tasks complete. Recording data and exiting.

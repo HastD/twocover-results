@@ -83,3 +83,14 @@ Runtime error in '.': Bad argument types
 Argument types given: FldRe, RngIntElt
 
 2022-01-03 13:14:58,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:42:06,254 INFO: Loaded curve data from file.
+2022-01-10 22:42:06,254 INFO: Reducing MW generators...
+2022-01-10 22:42:07,262 INFO: Finished reducing MW generators.
+2022-01-10 22:42:07,264 INFO: Running elliptic Chabauty (delta = ['4', '-1', '5', '-7', '2', '1'], g = [4, 0, 4, -7, 2, 1])...
+2022-01-10 22:42:20,663 INFO: Chabauty completed successfully (delta = ['4', '-1', '5', '-7', '2', '1'], g = [4, 0, 4, -7, 2, 1]).
+2022-01-10 22:42:20,665 INFO: Running elliptic Chabauty (delta = ['16', '0', '17', '-29', '8', '4'], g = [4, 0, 4, -7, 2, 1])...
+2022-01-10 22:42:34,050 INFO: Chabauty completed successfully (delta = ['16', '0', '17', '-29', '8', '4'], g = [4, 0, 4, -7, 2, 1]).
+2022-01-10 22:42:34,051 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 0, 4, -7, 2, 1])...
+2022-01-10 22:42:50,056 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 0, 4, -7, 2, 1]).
+2022-01-10 22:42:50,058 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-1', '4', '-7', '2', '1'], g = [4, 0, 4, -7, 2, 1])
+2022-01-10 22:42:50,163 INFO: Tasks complete. Recording data and exiting.

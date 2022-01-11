@@ -13,3 +13,13 @@
 2022-01-01 12:52:04,346 INFO: Finished MW computation (delta = ['1'], g = [4, 8, -4, -4, 4, 1])
 2022-01-01 12:52:04,348 INFO: Computing MW group (delta = ['1/2', '1', '-1/2', '-1'], g = [4, 8, -4, -4, 4, 1])...
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:39:04,198 INFO: Loaded curve data from file.
+2022-01-10 22:39:04,198 INFO: Reducing MW generators...
+2022-01-10 22:39:04,750 INFO: Finished reducing MW generators.
+2022-01-10 22:39:04,753 INFO: Running elliptic Chabauty (delta = ['-1', '0', '1'], g = [4, 8, -4, -4, 4, 1])...
+2022-01-10 22:39:18,264 INFO: Chabauty completed successfully (delta = ['-1', '0', '1'], g = [4, 8, -4, -4, 4, 1]).
+2022-01-10 22:39:18,265 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 8, -4, -4, 4, 1])...
+2022-01-10 22:39:31,253 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 8, -4, -4, 4, 1]).
+2022-01-10 22:39:31,255 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '1', '-1/2', '-1'], g = [4, 8, -4, -4, 4, 1])
+2022-01-10 22:39:31,255 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/2', '-1'], g = [4, 8, -4, -4, 4, 1])
+2022-01-10 22:39:31,325 INFO: Tasks complete. Recording data and exiting.

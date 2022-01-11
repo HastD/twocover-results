@@ -116,3 +116,22 @@ Runtime error in 'Support': Bad argument types
 Argument types given: RngInt
 
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:39:09,065 INFO: Loaded curve data from file.
+2022-01-10 22:39:09,065 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['4', '8', '-12', '-2', '0', '1'], g = [-1, 1])
+2022-01-10 22:39:09,066 INFO: Running elliptic Chabauty (delta = ['4', '8', '-12', '-2', '0', '1'], g = [-4, -13, -1, 1, 1])...
+2022-01-10 22:39:30,004 INFO: Chabauty completed successfully (delta = ['4', '8', '-12', '-2', '0', '1'], g = [-4, -13, -1, 1, 1]).
+2022-01-10 22:39:30,008 INFO: Skipped Chabauty because no base point (delta = ['-16', '-28', '73', '10', '-1', '-6'])
+2022-01-10 22:39:30,008 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [-1, 1])
+2022-01-10 22:39:30,008 INFO: Running elliptic Chabauty (delta = ['1'], g = [-4, -13, -1, 1, 1])...
+2022-01-10 22:39:41,116 INFO: Chabauty completed successfully (delta = ['1'], g = [-4, -13, -1, 1, 1]).
+2022-01-10 22:39:41,119 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['16', '32', '-60', '-10', '1', '5'], g = [-1, 1])
+2022-01-10 22:39:41,119 INFO: Running elliptic Chabauty (delta = ['16', '32', '-60', '-10', '1', '5'], g = [-4, -13, -1, 1, 1])...
+2022-01-10 22:39:50,555 INFO: Chabauty completed successfully (delta = ['16', '32', '-60', '-10', '1', '5'], g = [-4, -13, -1, 1, 1]).
+2022-01-10 22:39:50,557 INFO: Skipped Chabauty because no base point (delta = ['-16', '-36', '47', '7', '0', '-4'])
+2022-01-10 22:39:50,557 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-4', '-8', '13', '2', '0', '-1'], g = [-1, 1])
+2022-01-10 22:39:50,557 INFO: Running elliptic Chabauty (delta = ['-4', '-8', '13', '2', '0', '-1'], g = [-4, -13, -1, 1, 1])...
+2022-01-10 22:39:59,133 INFO: Chabauty completed successfully (delta = ['-4', '-8', '13', '2', '0', '-1'], g = [-4, -13, -1, 1, 1]).
+2022-01-10 22:39:59,136 INFO: Skipped Chabauty because no base point (delta = ['-64', '-152', '166', '31', '2', '-15'])
+2022-01-10 22:39:59,136 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['4', '12', '2', '-1', '-1'], g = [-1, 1])
+2022-01-10 22:39:59,136 INFO: Running elliptic Chabauty (delta = ['4', '12', '2', '-1', '-1'], g = [-4, -13, -1, 1, 1])...
+2022-01-10 22:40:06,500 INFO: Chabauty completed successfully (delta = ['4', '12', '2', '-1', '-1'], g = [-4, -13, -1, 1, 1]).

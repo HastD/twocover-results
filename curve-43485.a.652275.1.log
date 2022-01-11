@@ -11,3 +11,20 @@
 2022-01-01 12:51:24,700 INFO: Finished MW computation (delta = ['64/3', '-448/27', '644/3', '-6883/27', '154/27', '439/9'], g = [-4, 3])
 2022-01-01 12:51:24,703 INFO: Computing MW group (delta = ['64/3', '-448/27', '644/3', '-6883/27', '154/27', '439/9'], g = [-1, 0, -10, 4, 3])...
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:39:11,807 INFO: Loaded curve data from file.
+2022-01-10 22:39:11,807 INFO: Reducing MW generators...
+2022-01-10 22:39:11,895 INFO: Finished reducing MW generators.
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['64/3', '-448/27', '644/3', '-6883/27', '154/27', '439/9'], g = [-4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['64/3', '-448/27', '644/3', '-6883/27', '154/27', '439/9'], g = [-1, 0, -10, 4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-4', '42', '-47', '0', '9'], g = [-4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-4', '42', '-47', '0', '9'], g = [-1, 0, -10, 4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16/3', '-4/3', '163/3', '-64/3', '-16'], g = [-4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16/3', '-4/3', '163/3', '-64/3', '-16'], g = [-1, 0, -10, 4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-4', '41', '-46', '0', '9'], g = [-4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-4', '41', '-46', '0', '9'], g = [-1, 0, -10, 4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-1, 0, -10, 4, 3])
+2022-01-10 22:39:11,899 INFO: Skipped Chabauty because no base point (delta = ['64/3', '-128/9', '644/3', '-2069/9', '-55/9', '128/3'])
+2022-01-10 22:39:11,900 INFO: Skipped Chabauty because no base point (delta = ['1', '-1'])
+2022-01-10 22:39:11,900 INFO: Skipped Chabauty because no base point (delta = ['16/3', '-20/3', '167/3', '-227/3', '16/3', '16'])
+2022-01-10 22:39:12,013 INFO: Tasks complete. Recording data and exiting.

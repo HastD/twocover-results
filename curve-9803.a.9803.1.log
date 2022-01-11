@@ -97,3 +97,14 @@ Runtime error in '!': Point does not lie in scheme
 2022-01-01 17:05:56,510 INFO: Tasks complete. Recording data and exiting.
 2022-01-03 13:14:58,000 INFO: Obsolete "loc_solv_error" keys removed.
 2022-01-03 13:14:58,000 INFO: Deleted results of Chabauty computation.
+2022-01-10 22:39:02,821 INFO: Loaded curve data from file.
+2022-01-10 22:39:02,821 INFO: Running elliptic Chabauty (delta = ['0', '0', '-2', '-6', '3', '1'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-10 22:39:19,848 INFO: Chabauty completed successfully (delta = ['0', '0', '-2', '-6', '3', '1'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-10 22:39:19,851 INFO: Running elliptic Chabauty (delta = ['1', '-2', '3', '6', '-3', '-1'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-10 22:40:17,009 INFO: Chabauty completed successfully (delta = ['1', '-2', '3', '6', '-3', '-1'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-10 22:40:17,011 INFO: Running elliptic Chabauty (delta = ['1'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-10 22:40:34,001 INFO: Chabauty completed successfully (delta = ['1'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-10 22:40:34,003 INFO: Running elliptic Chabauty (delta = ['-4', '3', '-6', '-25', '12', '4'], g = [-1, 1, -2, -6, 3, 1])...
+2022-01-10 22:40:51,551 INFO: Chabauty completed successfully (delta = ['-4', '3', '-6', '-25', '12', '4'], g = [-1, 1, -2, -6, 3, 1]).
+2022-01-10 22:40:51,785 INFO: Rational points successfully computed.
+2022-01-10 22:40:51,787 INFO: Tasks complete. Recording data and exiting.

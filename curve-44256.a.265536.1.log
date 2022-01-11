@@ -81,3 +81,9 @@ In file "twocovers.m", line 506, column 15:
 Runtime error in '!': Point does not lie in scheme
 
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:39:13,501 INFO: Loaded curve data from file.
+2022-01-10 22:39:13,502 INFO: Running elliptic Chabauty (delta = ['1', '-1'], g = [8, -32, 28, 12, -8, 1])...
+2022-01-10 22:40:07,051 INFO: Chabauty completed successfully (delta = ['1', '-1'], g = [8, -32, 28, 12, -8, 1]).
+2022-01-10 22:40:07,055 INFO: Running elliptic Chabauty (delta = ['1'], g = [8, -32, 28, 12, -8, 1])...
+2022-01-10 22:40:54,331 INFO: Chabauty completed successfully (delta = ['1'], g = [8, -32, 28, 12, -8, 1]).
+2022-01-10 22:40:54,406 INFO: Running elliptic Chabauty (delta = ['8', '-33', '30', '11', '-8', '1'], g = [8, -32, 28, 12, -8, 1])...

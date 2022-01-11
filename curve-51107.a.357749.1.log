@@ -27,3 +27,13 @@
 2022-01-01 12:54:36,888 INFO: Tasks complete. Recording data and exiting.
 2022-01-03 13:14:58,000 INFO: Obsolete "loc_solv_error" keys removed.
 2022-01-03 13:14:58,000 INFO: Deleted results of Chabauty computation.
+2022-01-10 22:41:59,780 INFO: Loaded curve data from file.
+2022-01-10 22:41:59,780 INFO: Skipped Chabauty because no base point (delta = ['1', '-1', '1'])
+2022-01-10 22:41:59,781 INFO: Running elliptic Chabauty (delta = ['-1/2', '-1/2', '1/2', '-1'], g = [4, 1, -12, 14, -4, 1])...
+2022-01-10 22:42:15,599 INFO: Chabauty completed successfully (delta = ['-1/2', '-1/2', '1/2', '-1'], g = [4, 1, -12, 14, -4, 1]).
+2022-01-10 22:42:15,603 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 1, -12, 14, -4, 1])...
+2022-01-10 22:42:49,015 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 1, -12, 14, -4, 1]).
+2022-01-10 22:42:49,017 INFO: Running elliptic Chabauty (delta = ['-1/2', '-1'], g = [4, 1, -12, 14, -4, 1])...
+2022-01-10 22:43:06,036 INFO: Chabauty completed successfully (delta = ['-1/2', '-1'], g = [4, 1, -12, 14, -4, 1]).
+2022-01-10 22:43:06,289 INFO: Rational points successfully computed.
+2022-01-10 22:43:06,291 INFO: Tasks complete. Recording data and exiting.

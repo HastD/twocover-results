@@ -114,3 +114,20 @@ Runtime error in 'Support': Bad argument types
 Argument types given: RngInt
 
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:42:01,571 INFO: Loaded curve data from file.
+2022-01-10 22:42:01,571 INFO: Skipped Chabauty because no base point (delta = ['2/3', '2', '1'])
+2022-01-10 22:42:01,572 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [1, 1])
+2022-01-10 22:42:01,572 INFO: Running elliptic Chabauty (delta = ['1'], g = [8, 60, 132, 101, 25])...
+2022-01-10 22:42:15,015 INFO: Chabauty completed successfully (delta = ['1'], g = [8, 60, 132, 101, 25]).
+2022-01-10 22:42:15,019 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-8/3', '-25', '-82', '-119', '-224/3', '-50/3'], g = [1, 1])
+2022-01-10 22:42:15,020 INFO: Running elliptic Chabauty (delta = ['-8/3', '-25', '-82', '-119', '-224/3', '-50/3'], g = [8, 60, 132, 101, 25])...
+2022-01-10 22:42:27,034 INFO: Chabauty completed successfully (delta = ['-8/3', '-25', '-82', '-119', '-224/3', '-50/3'], g = [8, 60, 132, 101, 25]).
+2022-01-10 22:42:27,038 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-8', '-59', '-131', '-101', '-25'], g = [1, 1])
+2022-01-10 22:42:27,038 INFO: Running elliptic Chabauty (delta = ['-8', '-59', '-131', '-101', '-25'], g = [8, 60, 132, 101, 25])...
+2022-01-10 22:42:38,601 INFO: Chabauty completed successfully (delta = ['-8', '-59', '-131', '-101', '-25'], g = [8, 60, 132, 101, 25]).
+2022-01-10 22:42:38,604 INFO: Skipped Chabauty because no base point (delta = ['1/3', '5/3', '1'])
+2022-01-10 22:42:38,604 INFO: Skipped Chabauty because no base point (delta = ['-16/3', '-142/3', '-436/3', '-589/3', '-350/3', '-25'])
+2022-01-10 22:42:38,604 INFO: Skipped Chabauty because no base point (delta = ['-16/9', '-358/25', '-918/25', '-967/25', '-4072/225', '-709/225'])
+2022-01-10 22:42:38,604 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['2/9', '16/9', '13/3', '11/3', '1'], g = [1, 1])
+2022-01-10 22:42:38,604 INFO: Running elliptic Chabauty (delta = ['2/9', '16/9', '13/3', '11/3', '1'], g = [8, 60, 132, 101, 25])...
+2022-01-10 22:42:50,699 INFO: Chabauty completed successfully (delta = ['2/9', '16/9', '13/3', '11/3', '1'], g = [8, 60, 132, 101, 25]).

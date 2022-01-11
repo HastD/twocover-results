@@ -54,3 +54,22 @@
 2022-01-01 12:53:32,032 INFO: Tasks complete. Recording data and exiting.
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
 2022-01-03 13:14:57,000 INFO: Deleted results of Chabauty computation.
+2022-01-10 22:39:04,972 INFO: Loaded curve data from file.
+2022-01-10 22:39:04,973 INFO: Skipped Chabauty because no base point (delta = ['48', '-32', '36', '6', '1', '5'])
+2022-01-10 22:39:04,973 INFO: Skipped Chabauty because no base point (delta = ['4', '-4', '2', '-1', '-1'])
+2022-01-10 22:39:04,973 INFO: Running elliptic Chabauty (delta = ['36', '-24', '25', '5', '0', '3'], g = [4, -1, 1])...
+2022-01-10 22:39:11,187 INFO: Chabauty completed successfully (delta = ['36', '-24', '25', '5', '0', '3'], g = [4, -1, 1]).
+2022-01-10 22:39:11,190 INFO: Skipped Chabauty because twist points already verified. (delta = ['36', '-24', '25', '5', '0', '3'])
+2022-01-10 22:39:11,190 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, -1, 1])...
+2022-01-10 22:39:17,408 INFO: Chabauty completed successfully (delta = ['1'], g = [4, -1, 1]).
+2022-01-10 22:39:17,411 INFO: Skipped Chabauty because twist points already verified. (delta = ['1'])
+2022-01-10 22:39:17,411 INFO: Running elliptic Chabauty (delta = ['12', '-8', '8', '2', '0', '1'], g = [4, -1, 1])...
+2022-01-10 22:39:23,540 INFO: Chabauty completed successfully (delta = ['12', '-8', '8', '2', '0', '1'], g = [4, -1, 1]).
+2022-01-10 22:39:23,543 INFO: Skipped Chabauty because twist points already verified. (delta = ['12', '-8', '8', '2', '0', '1'])
+2022-01-10 22:39:23,543 INFO: Running elliptic Chabauty (delta = ['3', '-1', '1'], g = [4, -1, 1])...
+2022-01-10 22:39:29,483 INFO: Chabauty completed successfully (delta = ['3', '-1', '1'], g = [4, -1, 1]).
+2022-01-10 22:39:29,486 INFO: Skipped Chabauty because twist points already verified. (delta = ['3', '-1', '1'])
+2022-01-10 22:39:29,486 INFO: Skipped Chabauty because no base point (delta = ['12', '-4', '7', '-1', '2'])
+2022-01-10 22:39:29,486 INFO: Running elliptic Chabauty (delta = ['144', '-96', '100', '17', '1', '10'], g = [4, -1, 1])...
+2022-01-10 22:39:35,367 INFO: Chabauty completed successfully (delta = ['144', '-96', '100', '17', '1', '10'], g = [4, -1, 1]).
+2022-01-10 22:39:35,369 INFO: Skipped Chabauty because twist points already verified. (delta = ['144', '-96', '100', '17', '1', '10'])

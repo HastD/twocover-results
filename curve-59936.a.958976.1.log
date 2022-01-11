@@ -27,3 +27,19 @@ TypeError: Error executing Magma code:
 Current total memory usage: 7893.0MB, failed memory request: 1151.3MB
 System Error: User memory limit has been reached
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:42:04,808 INFO: Loaded curve data from file.
+2022-01-10 22:42:04,809 INFO: Reducing MW generators...
+2022-01-10 22:42:05,066 INFO: Finished reducing MW generators.
+2022-01-10 22:42:05,069 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['16', '-5', '-22', '-32', '38', '9'], g = [-4, 4, 1])
+2022-01-10 22:42:05,069 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16', '-5', '-22', '-32', '38', '9'], g = [-4, -3, 2, 9])
+2022-01-10 22:42:05,069 INFO: Skipped Chabauty because no base point (delta = ['-64', '36', '80', '104', '-177', '9'])
+2022-01-10 22:42:05,069 INFO: Skipped Chabauty because no base point (delta = ['-64', '116', '40', '0', '-312', '224'])
+2022-01-10 22:42:05,069 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16', '-5', '-23', '-31', '38', '9'], g = [-4, 4, 1])
+2022-01-10 22:42:05,070 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16', '-5', '-23', '-31', '38', '9'], g = [-4, -3, 2, 9])
+2022-01-10 22:42:05,070 INFO: Skipped Chabauty because no base point (delta = ['1', '-1'])
+2022-01-10 22:42:05,070 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, 4, 1])
+2022-01-10 22:42:05,070 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, -3, 2, 9])
+2022-01-10 22:42:05,070 INFO: Skipped Chabauty because no base point (delta = ['-4', '12', '-4', '-6', '-7', '9'])
+2022-01-10 22:42:05,070 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '8', '4', '-2', '-9'], g = [-4, 4, 1])
+2022-01-10 22:42:05,070 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '8', '4', '-2', '-9'], g = [-4, -3, 2, 9])
+2022-01-10 22:42:05,198 INFO: Tasks complete. Recording data and exiting.

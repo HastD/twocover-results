@@ -92,3 +92,11 @@ Runtime error in '.': Bad argument types
 Argument types given: FldRe, RngIntElt
 
 2022-01-03 13:14:58,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:42:04,538 INFO: Loaded curve data from file.
+2022-01-10 22:42:04,538 INFO: Reducing MW generators...
+2022-01-10 22:42:05,488 INFO: Finished reducing MW generators.
+2022-01-10 22:42:05,491 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['20', '-5', '-100', '65', '-14', '1'], g = [-5, 1])
+2022-01-10 22:42:05,491 INFO: Running elliptic Chabauty (delta = ['20', '-5', '-100', '65', '-14', '1'], g = [-4, 0, 20, -9, 1])...
+2022-01-10 22:42:16,778 INFO: Chabauty completed successfully (delta = ['20', '-5', '-100', '65', '-14', '1'], g = [-4, 0, 20, -9, 1]).
+2022-01-10 22:42:16,781 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1000', '0', '-9995/2', '2222', '-479/2', '-1'], g = [-5, 1])
+2022-01-10 22:42:16,781 INFO: Running elliptic Chabauty (delta = ['1000', '0', '-9995/2', '2222', '-479/2', '-1'], g = [-4, 0, 20, -9, 1])...

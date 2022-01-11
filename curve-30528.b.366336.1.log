@@ -37,3 +37,24 @@
 2022-01-01 13:44:36,622 INFO: Finished reducing MW generators.
 2022-01-01 13:44:36,626 INFO: Running elliptic Chabauty (delta = ['1', '2', '1', '8', '-12', '4'], g = [-1, -2, 2])...
 2022-01-03 13:14:58,000 INFO: Obsolete "loc_solv_error" keys removed.
+2022-01-10 22:39:04,615 INFO: Loaded curve data from file.
+2022-01-10 22:39:04,616 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1', '2', '1', '8', '-12', '4'], g = [-1, -2, 2])
+2022-01-10 22:39:04,616 INFO: Running elliptic Chabauty (delta = ['1', '2', '1', '8', '-12', '4'], g = [-1, 1, -4, 2])...
+2022-01-10 22:39:18,050 INFO: Chabauty completed successfully (delta = ['1', '2', '1', '8', '-12', '4'], g = [-1, 1, -4, 2]).
+2022-01-10 22:39:18,054 INFO: Skipped Chabauty because no base point (delta = ['-24', '-25', '-2', '-193', '288', '-96'])
+2022-01-10 22:39:18,054 INFO: Skipped Chabauty because no base point (delta = ['3/2', '-1', '7', '4', '-4'])
+2022-01-10 22:39:18,054 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [-1, -2, 2])
+2022-01-10 22:39:18,054 INFO: Running elliptic Chabauty (delta = ['1'], g = [-1, 1, -4, 2])...
+2022-01-10 22:39:30,867 INFO: Chabauty completed successfully (delta = ['1'], g = [-1, 1, -4, 2]).
+2022-01-10 22:39:30,871 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-39', '-89/2', '-7', '-639/2', '419', '-127'], g = [-1, -2, 2])
+2022-01-10 22:39:30,871 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-39', '-89/2', '-7', '-639/2', '419', '-127'], g = [-1, 1, -4, 2])
+2022-01-10 22:39:30,871 INFO: Running elliptic Chabauty (delta = ['5/2', '5', '3/2', '26', '-11', '-2'], g = [-1, -2, 2])...
+2022-01-10 22:39:43,161 INFO: Chabauty completed successfully (delta = ['5/2', '5', '3/2', '26', '-11', '-2'], g = [-1, -2, 2]).
+2022-01-10 22:39:43,164 INFO: Skipped Chabauty because twist points already verified. (delta = ['5/2', '5', '3/2', '26', '-11', '-2'])
+2022-01-10 22:39:43,164 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['0', '1', '-6', '1', '-18', '10'], g = [-1, -2, 2])
+2022-01-10 22:39:43,164 INFO: Running elliptic Chabauty (delta = ['0', '1', '-6', '1', '-18', '10'], g = [-1, 1, -4, 2])...
+2022-01-10 22:39:56,341 INFO: Chabauty completed successfully (delta = ['0', '1', '-6', '1', '-18', '10'], g = [-1, 1, -4, 2]).
+2022-01-10 22:39:56,343 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['0', '0', '0', '8', '-12', '4'], g = [-1, -2, 2])
+2022-01-10 22:39:56,343 INFO: Running elliptic Chabauty (delta = ['0', '0', '0', '8', '-12', '4'], g = [-1, 1, -4, 2])...
+2022-01-10 22:40:09,045 INFO: Chabauty completed successfully (delta = ['0', '0', '0', '8', '-12', '4'], g = [-1, 1, -4, 2]).
+2022-01-10 22:40:09,362 INFO: Tasks complete. Recording data and exiting.
