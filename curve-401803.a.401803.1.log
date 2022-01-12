@@ -1,0 +1,63 @@
+2022-01-12 12:27:19,187 INFO: Initialized curve data.
+2022-01-12 12:27:19,189 INFO: Setting up initial twist data...
+2022-01-12 12:27:20,588 INFO: Twist setup complete.
+2022-01-12 12:27:20,588 INFO: Searching for rational points on each twist...
+2022-01-12 12:27:23,878 INFO: Finished searching for rational points on each twist.
+2022-01-12 12:27:23,879 INFO: Testing local solvability of twists...
+2022-01-12 12:27:32,862 INFO: Finished local solvability testing.
+2022-01-12 12:27:32,863 INFO: Computing elliptic curve a-invariants...
+2022-01-12 12:27:56,398 INFO: Finished computation of a-invariants.
+2022-01-12 12:27:56,400 INFO: Skipped MW computation because no base point (delta = ['-1/3', '5/3', '-5/3', '-1'])
+2022-01-12 12:27:56,401 INFO: Computing MW group (delta = ['4', '-25', '32', '12', '0', '1'], g = [4, -24, 32, 12, 0, 1])...
+2022-01-12 12:32:41,277 INFO: Finished MW computation (delta = ['4', '-25', '32', '12', '0', '1'], g = [4, -24, 32, 12, 0, 1])
+2022-01-12 12:32:41,281 INFO: Computing MW group (delta = ['-4/3', '25/3', '-37/3', '-7/3', '1', '-1/3'], g = [4, -24, 32, 12, 0, 1])...
+2022-01-12 12:37:18,940 INFO: Finished MW computation (delta = ['-4/3', '25/3', '-37/3', '-7/3', '1', '-1/3'], g = [4, -24, 32, 12, 0, 1])
+2022-01-12 12:37:18,942 INFO: Computing MW group (delta = ['4/3', '-25/3', '35/3', '4', '0', '1/3'], g = [4, -24, 32, 12, 0, 1])...
+2022-01-12 12:45:25,331 INFO: Finished MW computation (delta = ['4/3', '-25/3', '35/3', '4', '0', '1/3'], g = [4, -24, 32, 12, 0, 1])
+2022-01-12 12:45:25,335 INFO: Computing MW group (delta = ['1'], g = [4, -24, 32, 12, 0, 1])...
+2022-01-12 13:18:46,609 INFO: Finished MW computation (delta = ['1'], g = [4, -24, 32, 12, 0, 1])
+2022-01-12 13:18:46,614 INFO: Skipped MW computation because no base point (delta = ['-4', '25', '-34', '-13', '0', '-1'])
+2022-01-12 13:18:46,614 INFO: Computing MW group (delta = ['-1', '2', '1'], g = [4, -24, 32, 12, 0, 1])...
+2022-01-12 13:22:57,918 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1217, in _do_call
+    out = self.eval(cmd)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[12], _sage_[7], _sage_[16], _sage_[15] := MordellWeilGroup(_sage_[10]);
+OUT:
+MordellWeilGroup(
+E: Elliptic Curve defined by y^2 = x^3 + (-774*$.1^4 - 236*$.1^...
+)
+MordellWeilShaInformation(
+E: Elliptic Curve defined by y^2 = x^3 + (-774*$.1^4 - 236*$.1^...
+)
+CasselsTatePairing(
+C: Hyperelliptic Curve defined by y^2 = 1/2*(4*$.1^4 - $.1^3 + ...,
+D: Hyperelliptic Curve defined by y^2 = (-$.1^2 - 3*$.1 + 1)*x^...
+)
+cassels_tate_pairing_FldNum(
+C0: Hyperelliptic Curve defined by y^2 = 1/2*(4*$.1^4 - $.1^3 + ...,
+D0: Hyperelliptic Curve defined by y^2 = (-$.1^2 - 3*$.1 + 1)*x^...
+)
+local_point_FldNum(
+quartic: 1/2*(4*$.1^4 - $.1^3 + 54*$.1^2 + 112*$.1 - 40)*$.1^4 + 1/2*...,
+p: Principal Prime Ideal Generator: [88, -566, 944, -257, 106]
+)
+naive_search(
+tries: 10000
+)
+In file "/share/pkg.7/magma_usyd/2.26-9/install//package/Geometry/CrvEll/cassels-tate_help.m", line 312, column 28:
+>>       issqr, yy := IsSquare(yy2);
+                              ^
+Runtime error in 'IsSquare': Insufficient precision to calculate a correct answer
+

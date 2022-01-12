@@ -1,0 +1,37 @@
+2022-01-12 12:23:47,007 INFO: Initialized curve data.
+2022-01-12 12:23:47,009 INFO: Setting up initial twist data...
+2022-01-12 12:23:48,651 INFO: Twist setup complete.
+2022-01-12 12:23:48,651 INFO: Searching for rational points on each twist...
+2022-01-12 12:23:53,544 INFO: Finished searching for rational points on each twist.
+2022-01-12 12:23:53,544 INFO: Testing local solvability of twists...
+2022-01-12 12:24:08,439 INFO: Finished local solvability testing.
+2022-01-12 12:24:08,441 INFO: Computing elliptic curve a-invariants...
+2022-01-12 12:24:15,241 INFO: Finished computation of a-invariants.
+2022-01-12 12:24:15,244 INFO: Computing MW group (delta = ['-4', '-7', '9', '7', '-9'], g = [1, 1])...
+2022-01-12 12:24:15,680 INFO: Finished MW computation (delta = ['-4', '-7', '9', '7', '-9'], g = [1, 1])
+2022-01-12 12:24:15,682 INFO: Computing MW group (delta = ['-4', '-7', '9', '7', '-9'], g = [4, 8, -8, -7, 9])...
+2022-01-12 12:34:09,904 INFO: Finished MW computation (delta = ['-4', '-7', '9', '7', '-9'], g = [4, 8, -8, -7, 9])
+2022-01-12 12:34:09,908 INFO: Computing MW group (delta = ['-1', '3', '8', '-8', '-7', '9'], g = [1, 1])...
+2022-01-12 12:34:10,323 INFO: Finished MW computation (delta = ['-1', '3', '8', '-8', '-7', '9'], g = [1, 1])
+2022-01-12 12:34:10,326 INFO: Computing MW group (delta = ['-1', '3', '8', '-8', '-7', '9'], g = [4, 8, -8, -7, 9])...
+2022-01-12 12:49:29,394 INFO: Finished MW computation (delta = ['-1', '3', '8', '-8', '-7', '9'], g = [4, 8, -8, -7, 9])
+2022-01-12 12:49:29,406 INFO: Skipped MW computation because no base point (delta = ['1/2', '7/2', '5', '-4', '-7/2', '9/2'])
+2022-01-12 12:49:29,406 INFO: Computing MW group (delta = ['1'], g = [1, 1])...
+2022-01-12 12:49:29,822 INFO: Finished MW computation (delta = ['1'], g = [1, 1])
+2022-01-12 12:49:29,825 INFO: Computing MW group (delta = ['1'], g = [4, 8, -8, -7, 9])...
+2022-01-12 14:43:26,444 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1221, in _do_call
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 16355.6MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
