@@ -1,0 +1,46 @@
+2022-01-12 09:25:54,552 INFO: Initialized curve data.
+2022-01-12 09:25:54,556 INFO: Setting up initial twist data...
+2022-01-12 09:25:55,911 INFO: Twist setup complete.
+2022-01-12 09:25:55,911 INFO: Searching for rational points on each twist...
+2022-01-12 09:26:04,137 INFO: Finished searching for rational points on each twist.
+2022-01-12 09:26:04,138 INFO: Testing local solvability of twists...
+2022-01-12 09:26:54,185 INFO: Finished local solvability testing.
+2022-01-12 09:26:54,188 INFO: Computing elliptic curve a-invariants...
+2022-01-12 09:27:01,119 INFO: Finished computation of a-invariants.
+2022-01-12 09:27:01,121 INFO: Computing MW group (delta = ['-4', '-19', '-35', '-37', '-25'], g = [1, 1])...
+2022-01-12 09:27:01,522 INFO: Finished MW computation (delta = ['-4', '-19', '-35', '-37', '-25'], g = [1, 1])
+2022-01-12 09:27:01,525 INFO: Computing MW group (delta = ['-4', '-19', '-35', '-37', '-25'], g = [4, 20, 36, 37, 25])...
+2022-01-12 09:28:32,166 INFO: Finished MW computation (delta = ['-4', '-19', '-35', '-37', '-25'], g = [4, 20, 36, 37, 25])
+2022-01-12 09:28:32,170 INFO: Skipped MW computation because no base point (delta = ['2', '27/2', '73/2', '107/2', '99/2', '25'])
+2022-01-12 09:28:32,170 INFO: Computing MW group (delta = ['1/2', '7/2', '11', '18', '37/2', '25/2'], g = [1, 1])...
+2022-01-12 09:28:32,547 INFO: Finished MW computation (delta = ['1/2', '7/2', '11', '18', '37/2', '25/2'], g = [1, 1])
+2022-01-12 09:28:32,549 INFO: Computing MW group (delta = ['1/2', '7/2', '11', '18', '37/2', '25/2'], g = [4, 20, 36, 37, 25])...
+2022-01-12 09:30:51,129 INFO: Finished MW computation (delta = ['1/2', '7/2', '11', '18', '37/2', '25/2'], g = [4, 20, 36, 37, 25])
+2022-01-12 09:30:51,133 INFO: Computing MW group (delta = ['-2', '-55/2', '-106', '-178', '-178', '-225/2'], g = [1, 1])...
+2022-01-12 09:30:51,502 INFO: Finished MW computation (delta = ['-2', '-55/2', '-106', '-178', '-178', '-225/2'], g = [1, 1])
+2022-01-12 09:30:51,505 INFO: Computing MW group (delta = ['-2', '-55/2', '-106', '-178', '-178', '-225/2'], g = [4, 20, 36, 37, 25])...
+2022-01-12 09:32:31,005 INFO: Finished MW computation (delta = ['-2', '-55/2', '-106', '-178', '-178', '-225/2'], g = [4, 20, 36, 37, 25])
+2022-01-12 09:32:31,009 INFO: Skipped MW computation because no base point (delta = ['-1/2', '-1'])
+2022-01-12 09:32:31,009 INFO: Computing MW group (delta = ['1', '-9/4', '-55/2', '-57', '-123/2', '-179/4'], g = [1, 1])...
+2022-01-12 09:32:31,381 INFO: Finished MW computation (delta = ['1', '-9/4', '-55/2', '-57', '-123/2', '-179/4'], g = [1, 1])
+2022-01-12 09:32:31,385 INFO: Computing MW group (delta = ['1', '-9/4', '-55/2', '-57', '-123/2', '-179/4'], g = [4, 20, 36, 37, 25])...
+2022-01-12 09:34:49,340 INFO: Finished MW computation (delta = ['1', '-9/4', '-55/2', '-57', '-123/2', '-179/4'], g = [4, 20, 36, 37, 25])
+2022-01-12 09:34:49,344 INFO: Computing MW group (delta = ['1'], g = [1, 1])...
+2022-01-12 09:34:49,720 INFO: Finished MW computation (delta = ['1'], g = [1, 1])
+2022-01-12 09:34:49,724 INFO: Computing MW group (delta = ['1'], g = [4, 20, 36, 37, 25])...
+2022-01-12 11:14:54,129 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1221, in _do_call
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 16359.8MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
