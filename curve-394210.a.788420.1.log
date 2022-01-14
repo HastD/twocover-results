@@ -30,3 +30,19 @@
 2022-01-12 12:27:05,563 INFO: Reducing MW generators...
 2022-01-12 12:27:12,312 INFO: Finished reducing MW generators.
 2022-01-12 12:27:12,319 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 11:32:36,980 INFO: Loaded curve data from file.
+2022-01-14 11:32:36,981 INFO: Running elliptic Chabauty (delta = ['-8', '20', '2', '-21', '-6', '1'], g = [-1, 1, 1])...
+2022-01-14 11:32:47,054 INFO: Chabauty completed successfully (delta = ['-8', '20', '2', '-21', '-6', '1'], g = [-1, 1, 1]).
+2022-01-14 11:32:47,064 INFO: Skipped Chabauty because twist points already verified. (delta = ['-8', '20', '2', '-21', '-6', '1'])
+2022-01-14 11:32:47,064 INFO: Skipped Chabauty because no base point (delta = ['-128', '336', '30', '-337', '-96', '16'])
+2022-01-14 11:32:47,064 INFO: Skipped Chabauty because no base point (delta = ['-1', '-7', '14', '7', '-1'])
+2022-01-14 11:32:47,064 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['16', '-40', '-3', '42', '12', '-2'], g = [-1, 1, 1])
+2022-01-14 11:32:47,064 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['16', '-40', '-3', '42', '12', '-2'], g = [8, -13, -7, 1])
+2022-01-14 11:32:47,064 INFO: Running elliptic Chabauty (delta = ['1'], g = [-1, 1, 1])...
+2022-01-14 11:32:55,686 INFO: Chabauty completed successfully (delta = ['1'], g = [-1, 1, 1]).
+2022-01-14 11:32:55,693 INFO: Skipped Chabauty because twist points already verified. (delta = ['1'])
+2022-01-14 11:32:55,693 INFO: Skipped Chabauty because no base point (delta = ['-16', '32', '10', '-19', '-5', '1'])
+2022-01-14 11:32:55,693 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['128', '-328', '-43', '328', '94', '-17'], g = [-1, 1, 1])
+2022-01-14 11:32:55,693 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['128', '-328', '-43', '328', '94', '-17'], g = [8, -13, -7, 1])
+2022-01-14 11:32:55,693 INFO: Skipped Chabauty because no base point (delta = ['8', '-20', '5', '7', '-1'])
+2022-01-14 11:32:55,937 INFO: Tasks complete. Recording data and exiting.

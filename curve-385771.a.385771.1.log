@@ -9,3 +9,11 @@
 2022-01-12 12:26:25,662 INFO: Finished computation of a-invariants.
 2022-01-12 12:26:25,663 INFO: Skipped MW computation because no base point (delta = ['1/8', '15/8', '1'])
 2022-01-12 12:26:25,664 INFO: Computing MW group (delta = ['1'], g = [-4, -192, 336, 908, 568, 111])...
+2022-01-14 11:32:33,903 INFO: Loaded curve data from file.
+2022-01-14 11:32:33,903 INFO: Reducing MW generators...
+2022-01-14 11:32:33,903 INFO: Finished reducing MW generators.
+2022-01-14 11:32:33,906 INFO: Skipped Chabauty because no base point (delta = ['1/8', '15/8', '1'])
+2022-01-14 11:32:33,906 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, -192, 336, 908, 568, 111])
+2022-01-14 11:32:33,906 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/2', '3/2', '1'], g = [-4, -192, 336, 908, 568, 111])
+2022-01-14 11:32:33,906 INFO: Skipped Chabauty because no base point (delta = ['-1/16', '-3/4', '39/16', '27/8', '1'])
+2022-01-14 11:32:34,107 INFO: Tasks complete. Recording data and exiting.

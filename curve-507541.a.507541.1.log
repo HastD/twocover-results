@@ -55,3 +55,13 @@ In file "/share/pkg.7/magma_usyd/2.26-10/install/avx2/package/Geometry/CrvEll/ca
                               ^
 Runtime error in 'IsSquare': Insufficient precision to calculate a correct answer
 
+2022-01-14 11:35:31,130 INFO: Loaded curve data from file.
+2022-01-14 11:35:31,130 INFO: Reducing MW generators...
+2022-01-14 11:35:31,756 INFO: Finished reducing MW generators.
+2022-01-14 11:35:31,758 INFO: Running elliptic Chabauty (delta = ['4', '7', '-30', '15', '4', '1'], g = [4, 8, -32, 16, 4, 1])...
+2022-01-14 11:35:46,982 INFO: Chabauty completed successfully (delta = ['4', '7', '-30', '15', '4', '1'], g = [4, 8, -32, 16, 4, 1]).
+2022-01-14 11:35:46,988 INFO: Running elliptic Chabauty (delta = ['1', '-1'], g = [4, 8, -32, 16, 4, 1])...
+2022-01-14 11:36:01,795 INFO: Chabauty completed successfully (delta = ['1', '-1'], g = [4, 8, -32, 16, 4, 1]).
+2022-01-14 11:36:01,799 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '7', '-31', '16', '4', '1'], g = [4, 8, -32, 16, 4, 1])
+2022-01-14 11:36:01,799 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, 8, -32, 16, 4, 1])
+2022-01-14 11:36:01,877 INFO: Tasks complete. Recording data and exiting.

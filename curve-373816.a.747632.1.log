@@ -12,3 +12,19 @@
 2022-01-12 12:23:36,828 INFO: Computing MW group (delta = ['1'], g = [1, 1])...
 2022-01-12 12:23:37,328 INFO: Finished MW computation (delta = ['1'], g = [1, 1])
 2022-01-12 12:23:37,330 INFO: Computing MW group (delta = ['1'], g = [-4, -5, -7, 5, 3])...
+2022-01-14 11:32:51,287 INFO: Loaded curve data from file.
+2022-01-14 11:32:51,287 INFO: Reducing MW generators...
+2022-01-14 11:32:51,387 INFO: Finished reducing MW generators.
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because no base point (delta = ['-1', '8', '11', '14', '-10', '-6'])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because no base point (delta = ['-1', '2', '1'])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [1, 1])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, -5, -7, 5, 3])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because no base point (delta = ['-4', '364/3', '150', '222', '-454/3', '-278/3'])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '0', '3', '-9', '3', '3'], g = [1, 1])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '0', '3', '-9', '3', '3'], g = [-4, -5, -7, 5, 3])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because no base point (delta = ['1', '-18', '-22', '-26', '21', '12'])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '-4', '-6', '5', '3'], g = [1, 1])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '-4', '-6', '5', '3'], g = [-4, -5, -7, 5, 3])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-56', '-69', '-109', '73', '45'], g = [1, 1])
+2022-01-14 11:32:51,392 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-56', '-69', '-109', '73', '45'], g = [-4, -5, -7, 5, 3])
+2022-01-14 11:32:51,500 INFO: Tasks complete. Recording data and exiting.

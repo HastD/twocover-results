@@ -10,3 +10,18 @@
 2022-01-13 21:55:23,865 INFO: Computing MW group (delta = ['4', '0', '-19', '4', '24', '-4'], g = [-1, 0, 2])...
 2022-01-13 21:55:26,230 INFO: Finished MW computation (delta = ['4', '0', '-19', '4', '24', '-4'], g = [-1, 0, 2])
 2022-01-13 21:55:26,233 INFO: Computing MW group (delta = ['4', '0', '-19', '4', '24', '-4'], g = [4, -1, -12, 2])...
+2022-01-14 11:35:13,527 INFO: Loaded curve data from file.
+2022-01-14 11:35:13,527 INFO: Reducing MW generators...
+2022-01-14 11:35:13,823 INFO: Finished reducing MW generators.
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['4', '0', '-19', '4', '24', '-4'], g = [-1, 0, 2])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '0', '-19', '4', '24', '-4'], g = [4, -1, -12, 2])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because no base point (delta = ['-1/2', '-8', '3', '24', '-4'])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '0', '20', '-4', '-24', '4'], g = [-1, 0, 2])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '0', '20', '-4', '-24', '4'], g = [4, -1, -12, 2])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because no base point (delta = ['-16', '4', '79', '-17', '-96', '16'])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because no base point (delta = ['8', '2', '-73/2', '-9/2', '37', '-7'])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-1, 0, 2])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, -1, -12, 2])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because no base point (delta = ['-2', '-4', '5/2', '13', '11', '-2'])
+2022-01-14 11:35:13,827 INFO: Skipped Chabauty because no base point (delta = ['2', '0', '-2', '-1', '-12', '2'])
+2022-01-14 11:35:13,979 INFO: Tasks complete. Recording data and exiting.

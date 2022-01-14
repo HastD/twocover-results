@@ -16,3 +16,12 @@
 2022-01-13 21:57:37,043 INFO: Reducing MW generators...
 2022-01-13 21:57:39,435 INFO: Finished reducing MW generators.
 2022-01-13 21:57:39,437 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 11:35:17,553 INFO: Loaded curve data from file.
+2022-01-14 11:35:17,554 INFO: Skipped Chabauty because no base point (delta = ['1', '0', '1'])
+2022-01-14 11:35:17,554 INFO: Running elliptic Chabauty (delta = ['1'], g = [1, 1, 2, 1, 1, 1])...
+2022-01-14 11:36:33,741 INFO: Chabauty completed successfully (delta = ['1'], g = [1, 1, 2, 1, 1, 1]).
+2022-01-14 11:36:33,828 INFO: Running elliptic Chabauty (delta = ['1', '0', '2', '1', '1', '1'], g = [1, 1, 2, 1, 1, 1])...
+2022-01-14 11:36:48,781 INFO: Chabauty completed successfully (delta = ['1', '0', '2', '1', '1', '1'], g = [1, 1, 2, 1, 1, 1]).
+2022-01-14 11:36:48,783 INFO: Skipped Chabauty because no base point (delta = ['1', '0', '2', '0', '1', '1'])
+2022-01-14 11:36:48,939 INFO: Rational points successfully computed.
+2022-01-14 11:36:48,941 INFO: Tasks complete. Recording data and exiting.

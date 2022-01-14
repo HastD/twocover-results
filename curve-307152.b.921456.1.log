@@ -15,3 +15,14 @@
 2022-01-12 12:15:01,919 INFO: Computing MW group (delta = ['4/3', '76/3', '-103/3', '61/3', '-53/3', '8'], g = [-4, 3])...
 2022-01-12 12:15:02,307 INFO: Finished MW computation (delta = ['4/3', '76/3', '-103/3', '61/3', '-53/3', '8'], g = [-4, 3])
 2022-01-12 12:15:02,309 INFO: Computing MW group (delta = ['4/3', '76/3', '-103/3', '61/3', '-53/3', '8'], g = [-1, -20, 12, -8, 8])...
+2022-01-14 11:32:11,396 INFO: Loaded curve data from file.
+2022-01-14 11:32:11,396 INFO: Reducing MW generators...
+2022-01-14 11:32:11,508 INFO: Finished reducing MW generators.
+2022-01-14 11:32:11,511 INFO: Skipped Chabauty because no base point (delta = ['64/3', '3712/9', '-4852/9', '339', '-2551/9', '1024/9'])
+2022-01-14 11:32:11,511 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['16/3', '316/3', '-63', '128/3', '-128/3'], g = [-4, 3])
+2022-01-14 11:32:11,511 INFO: Running elliptic Chabauty (delta = ['16/3', '316/3', '-63', '128/3', '-128/3'], g = [-1, -20, 12, -8, 8])...
+2022-01-14 11:32:20,737 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 575, in <module>
+    raise PointCountError("Twist point count less than known point count! (delta = {})".format(twist["coeffs"]))
+PointCountError: Twist point count less than known point count! (delta = ['16/3', '316/3', '-63', '128/3', '-128/3'])

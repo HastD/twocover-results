@@ -1,0 +1,28 @@
+2022-01-14 12:17:15,899 INFO: Initialized curve data.
+2022-01-14 12:17:15,915 INFO: Setting up initial twist data...
+2022-01-14 12:17:17,104 INFO: Twist setup complete.
+2022-01-14 12:17:17,105 INFO: Searching for rational points on each twist...
+2022-01-14 12:17:19,046 INFO: Finished searching for rational points on each twist.
+2022-01-14 12:17:19,047 INFO: Testing local solvability of twists...
+2022-01-14 12:17:19,053 INFO: Finished local solvability testing.
+2022-01-14 12:17:19,054 INFO: Computing elliptic curve a-invariants...
+2022-01-14 12:17:27,956 INFO: Finished computation of a-invariants.
+2022-01-14 12:17:27,957 INFO: Computing MW group (delta = ['4', '-12', '-1', '19', '1', '-12'], g = [-4, 13, 0, -20, 0, 12])...
+2022-01-14 12:18:10,514 INFO: Finished MW computation (delta = ['4', '-12', '-1', '19', '1', '-12'], g = [-4, 13, 0, -20, 0, 12])
+2022-01-14 12:18:10,517 INFO: Computing MW group (delta = ['-1', '0', '1'], g = [-4, 13, 0, -20, 0, 12])...
+2022-01-14 14:23:02,076 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 506, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1221, in _do_call
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 16228.4MB, failed memory request: 2530.1MB
+System Error: User memory limit has been reached

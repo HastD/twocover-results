@@ -13,3 +13,13 @@
 2022-01-12 12:29:46,430 INFO: Finished MW computation (delta = ['1'], g = [4, 60, -112, 65, -14, 1])
 2022-01-12 12:29:46,435 INFO: Skipped MW computation because no base point (delta = ['-9/2', '-4', '1'])
 2022-01-12 12:29:46,435 INFO: Computing MW group (delta = ['-18', '-531/2', '508', '-587/2', '63', '-9/2'], g = [4, 60, -112, 65, -14, 1])...
+2022-01-14 11:32:15,533 INFO: Loaded curve data from file.
+2022-01-14 11:32:15,533 INFO: Reducing MW generators...
+2022-01-14 11:32:16,752 INFO: Finished reducing MW generators.
+2022-01-14 11:32:16,754 INFO: Running elliptic Chabauty (delta = ['4', '59', '-112', '65', '-14', '1'], g = [4, 60, -112, 65, -14, 1])...
+2022-01-14 11:32:39,782 INFO: Chabauty completed successfully (delta = ['4', '59', '-112', '65', '-14', '1'], g = [4, 60, -112, 65, -14, 1]).
+2022-01-14 11:32:39,880 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 60, -112, 65, -14, 1])...
+2022-01-14 11:33:02,853 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 60, -112, 65, -14, 1]).
+2022-01-14 11:33:02,854 INFO: Skipped Chabauty because no base point (delta = ['-9/2', '-4', '1'])
+2022-01-14 11:33:02,854 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-18', '-531/2', '508', '-587/2', '63', '-9/2'], g = [4, 60, -112, 65, -14, 1])
+2022-01-14 11:33:02,969 INFO: Tasks complete. Recording data and exiting.

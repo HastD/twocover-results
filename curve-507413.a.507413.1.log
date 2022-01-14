@@ -80,3 +80,11 @@ In file "/share/pkg.7/magma_usyd/2.26-10/install/avx2/package/Ring/FldCom/roots.
 Runtime error in '.': Bad argument types
 Argument types given: FldRe, RngIntElt
 
+2022-01-14 11:35:30,198 INFO: Loaded curve data from file.
+2022-01-14 11:35:30,199 INFO: Reducing MW generators...
+2022-01-14 11:35:31,176 INFO: Finished reducing MW generators.
+2022-01-14 11:35:31,179 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['4', '7', '1', '-8', '4', '1'], g = [4, 8, 0, -8, 4, 1])
+2022-01-14 11:35:31,179 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['1'], g = [4, 8, 0, -8, 4, 1])
+2022-01-14 11:35:31,179 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '7', '0', '-8', '4', '1'], g = [4, 8, 0, -8, 4, 1])
+2022-01-14 11:35:31,179 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16', '32', '1', '-33', '16', '4'], g = [4, 8, 0, -8, 4, 1])
+2022-01-14 11:35:31,180 INFO: Tasks complete. Recording data and exiting.

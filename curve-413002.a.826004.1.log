@@ -76,3 +76,11 @@ In file "/share/pkg.7/magma_usyd/2.26-9/install//package/Ring/FldCom/roots.m", l
 Runtime error in '.': Bad argument types
 Argument types given: FldRe, RngIntElt
 
+2022-01-14 11:32:40,986 INFO: Loaded curve data from file.
+2022-01-14 11:32:40,987 INFO: Reducing MW generators...
+2022-01-14 11:32:40,987 INFO: Finished reducing MW generators.
+2022-01-14 11:32:40,994 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['8', '0', '0', '2', '4', '1'], g = [8, 1, 0, 2, 4, 1])
+2022-01-14 11:32:40,994 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1', '-1'], g = [8, 1, 0, 2, 4, 1])
+2022-01-14 11:32:40,994 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [8, 1, 0, 2, 4, 1])
+2022-01-14 11:32:40,994 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['8', '0', '1', '2', '4', '1'], g = [8, 1, 0, 2, 4, 1])
+2022-01-14 11:32:40,996 INFO: Tasks complete. Recording data and exiting.
