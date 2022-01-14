@@ -17,3 +17,20 @@
 2022-01-11 15:25:11,533 INFO: Computing MW group (delta = ['4', '4', '-40', '-10', '4', '1'], g = [1, 4, 1])...
 2022-01-11 15:25:14,466 INFO: Finished MW computation (delta = ['4', '4', '-40', '-10', '4', '1'], g = [1, 4, 1])
 2022-01-11 15:25:14,469 INFO: Computing MW group (delta = ['4', '4', '-40', '-10', '4', '1'], g = [4, -11, 0, 1])...
+2022-01-14 09:07:49,025 INFO: Loaded curve data from file.
+2022-01-14 09:07:49,026 INFO: Reducing MW generators...
+2022-01-14 09:07:49,748 INFO: Finished reducing MW generators.
+2022-01-14 09:07:49,753 INFO: Skipped Chabauty because no base point (delta = ['-2', '-2', '12', '5', '-10', '-3'])
+2022-01-14 09:07:49,753 INFO: Skipped Chabauty because no base point (delta = ['-2', '-2', '16', '4', '-2', '-1/2'])
+2022-01-14 09:07:49,753 INFO: Skipped Chabauty because no base point (delta = ['1', '0', '12', '0', '-1'])
+2022-01-14 09:07:49,753 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [1, 4, 1])
+2022-01-14 09:07:49,754 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, -11, 0, 1])...
+2022-01-14 09:08:00,085 INFO: Chabauty completed successfully (delta = ['1'], g = [4, -11, 0, 1]).
+2022-01-14 09:08:00,096 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['4', '4', '-40', '-10', '4', '1'], g = [1, 4, 1])
+2022-01-14 09:08:00,097 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '4', '-40', '-10', '4', '1'], g = [4, -11, 0, 1])
+2022-01-14 09:08:00,097 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/2', '4', '1'], g = [1, 4, 1])
+2022-01-14 09:08:00,097 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/2', '4', '1'], g = [4, -11, 0, 1])
+2022-01-14 09:08:00,097 INFO: Skipped Chabauty because no base point (delta = ['-1/2', '8', '0', '8', '5/2'])
+2022-01-14 09:08:00,097 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '4', '-40', '-22', '4', '2'], g = [1, 4, 1])
+2022-01-14 09:08:00,097 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '4', '-40', '-22', '4', '2'], g = [4, -11, 0, 1])
+2022-01-14 09:08:00,326 INFO: Tasks complete. Recording data and exiting.

@@ -30,3 +30,19 @@
 2022-01-12 09:40:17,162 INFO: Reducing MW generators...
 2022-01-12 09:40:19,523 INFO: Finished reducing MW generators.
 2022-01-12 09:40:19,525 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 09:10:22,476 INFO: Loaded curve data from file.
+2022-01-14 09:10:22,477 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['4', '13', '-2', '1'], g = [1, 1])
+2022-01-14 09:10:22,477 INFO: Running elliptic Chabauty (delta = ['4', '13', '-2', '1'], g = [-4, -12, 4, 1, 1])...
+2022-01-14 09:10:35,837 INFO: Chabauty completed successfully (delta = ['4', '13', '-2', '1'], g = [-4, -12, 4, 1, 1]).
+2022-01-14 09:10:35,841 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['4', '13', '-3', '-1', '-1'], g = [1, 1])
+2022-01-14 09:10:35,841 INFO: Running elliptic Chabauty (delta = ['4', '13', '-3', '-1', '-1'], g = [-4, -12, 4, 1, 1])...
+2022-01-14 09:10:46,938 INFO: Chabauty completed successfully (delta = ['4', '13', '-3', '-1', '-1'], g = [-4, -12, 4, 1, 1]).
+2022-01-14 09:10:46,940 INFO: Skipped Chabauty because no base point (delta = ['-1', '-6', '-14', '3', '1', '1'])
+2022-01-14 09:10:46,941 INFO: Skipped Chabauty because no base point (delta = ['-1', '-5', '-12', '4', '1', '1'])
+2022-01-14 09:10:46,941 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-4', '31', '134', '-44', '-10', '-11'], g = [1, 1])
+2022-01-14 09:10:46,941 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-4', '31', '134', '-44', '-10', '-11'], g = [-4, -12, 4, 1, 1])
+2022-01-14 09:10:46,941 INFO: Skipped Chabauty because no base point (delta = ['1', '1', '1'])
+2022-01-14 09:10:46,941 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [1, 1])
+2022-01-14 09:10:46,941 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['1'], g = [-4, -12, 4, 1, 1])
+2022-01-14 09:10:46,941 INFO: Skipped Chabauty because no base point (delta = ['-4', '31', '133', '-47', '-13', '-12'])
+2022-01-14 09:10:47,185 INFO: Tasks complete. Recording data and exiting.

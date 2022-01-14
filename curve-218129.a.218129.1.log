@@ -18,3 +18,11 @@
 2022-01-12 09:34:48,902 INFO: Reducing MW generators...
 2022-01-12 09:34:51,167 INFO: Finished reducing MW generators.
 2022-01-12 09:34:51,169 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 09:10:26,904 INFO: Loaded curve data from file.
+2022-01-14 09:10:26,905 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['16', '-64', '65', '3', '-32', '16'], g = [4, -16, 16, 1, -8, 4])
+2022-01-14 09:10:26,905 INFO: Running elliptic Chabauty (delta = ['4', '-17', '16', '1', '-8', '4'], g = [4, -16, 16, 1, -8, 4])...
+2022-01-14 09:10:39,706 INFO: Chabauty completed successfully (delta = ['4', '-17', '16', '1', '-8', '4'], g = [4, -16, 16, 1, -8, 4]).
+2022-01-14 09:10:39,709 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['1'], g = [4, -16, 16, 1, -8, 4])
+2022-01-14 09:10:39,709 INFO: Running elliptic Chabauty (delta = ['4', '-17', '17', '1', '-8', '4'], g = [4, -16, 16, 1, -8, 4])...
+2022-01-14 09:10:52,235 INFO: Chabauty completed successfully (delta = ['4', '-17', '17', '1', '-8', '4'], g = [4, -16, 16, 1, -8, 4]).
+2022-01-14 09:10:52,311 INFO: Tasks complete. Recording data and exiting.

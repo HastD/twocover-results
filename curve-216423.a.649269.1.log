@@ -23,3 +23,19 @@
 2022-01-12 09:38:52,628 INFO: Reducing MW generators...
 2022-01-12 09:38:58,468 INFO: Finished reducing MW generators.
 2022-01-12 09:38:58,471 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 09:10:26,025 INFO: Loaded curve data from file.
+2022-01-14 09:10:26,026 INFO: Skipped Chabauty because no base point (delta = ['2', '-1/2', '-29/2', '19', '-6', '1/2'])
+2022-01-14 09:10:26,027 INFO: Running elliptic Chabauty (delta = ['1/2', '-1'], g = [4, 0, -32, 40, -12, 1])...
+2022-01-14 09:10:44,724 INFO: Chabauty completed successfully (delta = ['1/2', '-1'], g = [4, 0, -32, 40, -12, 1]).
+2022-01-14 09:10:44,728 INFO: Skipped Chabauty because no base point (delta = ['8', '0', '-127/2', '157/2', '-23', '2'])
+2022-01-14 09:10:44,729 INFO: Skipped Chabauty because no base point (delta = ['16', '0', '-127', '159', '-48', '4'])
+2022-01-14 09:10:44,729 INFO: Running elliptic Chabauty (delta = ['4', '-1', '-32', '40', '-12', '1'], g = [4, 0, -32, 40, -12, 1])...
+2022-01-14 09:12:12,549 INFO: Chabauty completed successfully (delta = ['4', '-1', '-32', '40', '-12', '1'], g = [4, 0, -32, 40, -12, 1]).
+2022-01-14 09:12:12,553 INFO: Running elliptic Chabauty (delta = ['4', '-1', '-31', '40', '-12', '1'], g = [4, 0, -32, 40, -12, 1])...
+2022-01-14 09:13:53,179 INFO: Chabauty completed successfully (delta = ['4', '-1', '-31', '40', '-12', '1'], g = [4, 0, -32, 40, -12, 1]).
+2022-01-14 09:13:53,182 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 0, -32, 40, -12, 1])...
+2022-01-14 09:14:11,571 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 0, -32, 40, -12, 1]).
+2022-01-14 09:14:11,574 INFO: Running elliptic Chabauty (delta = ['2', '-1/2', '-15', '20', '-6', '1/2'], g = [4, 0, -32, 40, -12, 1])...
+2022-01-14 09:14:27,194 INFO: Chabauty completed successfully (delta = ['2', '-1/2', '-15', '20', '-6', '1/2'], g = [4, 0, -32, 40, -12, 1]).
+2022-01-14 09:14:27,564 INFO: Rational points successfully computed.
+2022-01-14 09:14:27,570 INFO: Tasks complete. Recording data and exiting.

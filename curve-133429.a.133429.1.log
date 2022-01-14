@@ -8,3 +8,11 @@
 2022-01-11 15:10:27,744 INFO: Computing elliptic curve a-invariants...
 2022-01-11 15:10:33,388 INFO: Finished computation of a-invariants.
 2022-01-11 15:10:33,390 INFO: Computing MW group (delta = ['1', '-1', '1'], g = [4, -4, -4, 12, -12, 5])...
+2022-01-14 09:07:26,465 INFO: Loaded curve data from file.
+2022-01-14 09:07:26,465 INFO: Reducing MW generators...
+2022-01-14 09:07:26,466 INFO: Finished reducing MW generators.
+2022-01-14 09:07:26,468 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1', '-1', '1'], g = [4, -4, -4, 12, -12, 5])
+2022-01-14 09:07:26,468 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-5', '-3', '12', '-12', '5'], g = [4, -4, -4, 12, -12, 5])
+2022-01-14 09:07:26,468 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, -4, -4, 12, -12, 5])
+2022-01-14 09:07:26,468 INFO: Skipped Chabauty because no base point (delta = ['4', '-5', '-2', '10', '-11', '5'])
+2022-01-14 09:07:26,520 INFO: Tasks complete. Recording data and exiting.

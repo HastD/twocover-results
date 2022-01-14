@@ -28,3 +28,35 @@ TypeError: Error executing Magma code:
 
 Current total memory usage: 16356.7MB, failed memory request: 32.0MB
 System Error: User memory limit has been reached
+2022-01-14 09:07:59,847 INFO: Loaded curve data from file.
+2022-01-14 09:07:59,847 INFO: Reducing MW generators...
+2022-01-14 09:07:59,847 INFO: Finished reducing MW generators.
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because no base point (delta = ['-1/9', '2/3', '1'])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because no base point (delta = ['-1/504', '9690859/1056440', '-7976140/79233', '195234547/2376990', '3455769619/3169320', '8368137433/9507960'])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because no base point (delta = ['1/63', '428/441', '-1660/147', '3232/441', '51769/441', '14080/147'])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because no base point (delta = ['1/126', '102967602868759/1409317371000', '-113388824617081/140931737100', '232273009319383/352329342750', '6147316119147719/704658685500', '9922532538764837/1409317371000'])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because no base point (delta = ['-1/8', '43/8', '-97/2', '81/2', '4293/8', '3465/8'])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because no base point (delta = ['-1/18', '237257/27720', '-121901/1386', '601177/9240', '4354739/4620', '10602283/13860'])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because no base point (delta = ['-1/14', '348594809/1056440', '-191261005/52822', '3117494717/1056440', '20723276419/528220', '4182466049/132055'])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '45', '-35', '-477', '-385'], g = [-1, 7])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '45', '-35', '-477', '-385'], g = [1, 1])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '45', '-35', '-477', '-385'], g = [-4, 16, 76, 55])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '247/8', '-1585/4', '390', '17607/4', '28105/8'], g = [-1, 7])
+2022-01-14 09:07:59,864 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '247/8', '-1585/4', '390', '17607/4', '28105/8'], g = [1, 1])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '247/8', '-1585/4', '390', '17607/4', '28105/8'], g = [-4, 16, 76, 55])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4/9', '-11/3', '-91/9', '200/3', '1825/9', '385/3'], g = [-1, 7])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4/9', '-11/3', '-91/9', '200/3', '1825/9', '385/3'], g = [1, 1])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4/9', '-11/3', '-91/9', '200/3', '1825/9', '385/3'], g = [-4, 16, 76, 55])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because no base point (delta = ['1/56', '16293/392', '-177987/392', '139943/392', '239409/49', '193600/49'])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/7', '262/7', '-1017/7', '-4864/7', '-3520/7'], g = [-1, 7])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/7', '262/7', '-1017/7', '-4864/7', '-3520/7'], g = [1, 1])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/7', '262/7', '-1017/7', '-4864/7', '-3520/7'], g = [-4, 16, 76, 55])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4/7', '1761/49', '-20501/49', '13922/49', '211395/49', '171655/49'], g = [-1, 7])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4/7', '1761/49', '-20501/49', '13922/49', '211395/49', '171655/49'], g = [1, 1])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4/7', '1761/49', '-20501/49', '13922/49', '211395/49', '171655/49'], g = [-4, 16, 76, 55])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because no base point (delta = ['1/72', '59/72', '-767/72', '253/24', '481/4', '385/4'])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because no base point (delta = ['-4/63', '3482719/396165', '-21253055/237699', '76780111/1188495', '126138031/132055', '922355516/1188495'])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-1, 7])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [1, 1])
+2022-01-14 09:07:59,865 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, 16, 76, 55])
+2022-01-14 09:08:00,000 INFO: Tasks complete. Recording data and exiting.

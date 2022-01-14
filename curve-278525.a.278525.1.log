@@ -30,3 +30,18 @@
 2022-01-12 09:28:02,941 INFO: Reducing MW generators...
 2022-01-12 09:28:05,479 INFO: Finished reducing MW generators.
 2022-01-12 09:28:05,482 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 09:10:51,849 INFO: Loaded curve data from file.
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-32/43', '-4668/2365', '22001/4730', '84521/4730', '66919/4730', '1339/946'], g = [1, 1])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-32/43', '-4668/2365', '22001/4730', '84521/4730', '66919/4730', '1339/946'], g = [-4, -12, 16, 75, 55])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because no base point (delta = ['1/2', '7/2', '7', '-8', '-75/2', '-55/2'])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because no base point (delta = ['-64/43', '-224/43', '183/43', '1490/43', '1823/43', '660/43'])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because no base point (delta = ['8/43', '119/86', '144/43', '175/86', '-107/43', '-110/43'])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-2', '1/2', '28', '16', '-84', '-165/2'], g = [1, 1])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-2', '1/2', '28', '16', '-84', '-165/2'], g = [-4, -12, 16, 75, 55])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-4', '-11', '17', '75', '55'], g = [1, 1])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-4', '-11', '17', '75', '55'], g = [-4, -12, 16, 75, 55])
+2022-01-14 09:10:51,850 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [1, 1])
+2022-01-14 09:10:51,850 INFO: Running elliptic Chabauty (delta = ['1'], g = [-4, -12, 16, 75, 55])...
+2022-01-14 09:11:03,695 INFO: Chabauty completed successfully (delta = ['1'], g = [-4, -12, 16, 75, 55]).
+2022-01-14 09:11:03,699 INFO: Skipped Chabauty because no base point (delta = ['16/43', '55/43', '1'])
+2022-01-14 09:11:03,915 INFO: Tasks complete. Recording data and exiting.

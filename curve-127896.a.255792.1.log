@@ -27,3 +27,20 @@
 2022-01-11 15:31:09,092 INFO: Reducing MW generators...
 2022-01-11 15:31:12,050 INFO: Finished reducing MW generators.
 2022-01-11 15:31:12,054 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 09:07:26,383 INFO: Loaded curve data from file.
+2022-01-14 09:07:26,384 INFO: Skipped Chabauty because no base point (delta = ['59', '-36', '-217', '133', '78', '-49'])
+2022-01-14 09:07:26,384 INFO: Skipped Chabauty because no base point (delta = ['1', '-13', '-2', '45', '1', '-16'])
+2022-01-14 09:07:26,384 INFO: Running elliptic Chabauty (delta = ['-35', '61', '131', '-221', '-48', '80'], g = [1, 1])...
+2022-01-14 09:07:28,072 INFO: Chabauty completed successfully (delta = ['-35', '61', '131', '-221', '-48', '80'], g = [1, 1]).
+2022-01-14 09:07:28,088 INFO: Skipped Chabauty because twist points already verified. (delta = ['-35', '61', '131', '-221', '-48', '80'])
+2022-01-14 09:07:28,089 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-13', '0', '45', '0', '-16'], g = [1, 1])
+2022-01-14 09:07:28,089 INFO: Running elliptic Chabauty (delta = ['-13', '0', '45', '0', '-16'], g = [3, 0, -11, 0, 4])...
+2022-01-14 09:07:32,383 INFO: Chabauty completed successfully (delta = ['-13', '0', '45', '0', '-16'], g = [3, 0, -11, 0, 4]).
+2022-01-14 09:07:32,413 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [1, 1])
+2022-01-14 09:07:32,413 INFO: Running elliptic Chabauty (delta = ['1'], g = [3, 0, -11, 0, 4])...
+2022-01-14 09:07:36,925 INFO: Chabauty completed successfully (delta = ['1'], g = [3, 0, -11, 0, 4]).
+2022-01-14 09:07:36,928 INFO: Skipped Chabauty because no base point (delta = ['-1', '1', '1'])
+2022-01-14 09:07:36,928 INFO: Skipped Chabauty because no base point (delta = ['-4', '2', '11', '-11', '-4', '4'])
+2022-01-14 09:07:36,928 INFO: Skipped Chabauty because no base point (delta = ['4', '-3', '-13', '10', '4', '-4'])
+2022-01-14 09:07:37,315 INFO: Rational points successfully computed.
+2022-01-14 09:07:37,317 INFO: Tasks complete. Recording data and exiting.

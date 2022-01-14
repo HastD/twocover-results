@@ -30,3 +30,22 @@
 2022-01-11 15:42:15,494 INFO: Reducing MW generators...
 2022-01-11 15:42:19,039 INFO: Finished reducing MW generators.
 2022-01-11 15:42:19,042 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 09:08:03,073 INFO: Loaded curve data from file.
+2022-01-14 09:08:03,074 INFO: Skipped Chabauty because no base point (delta = ['-4', '10', '9', '-28', '17', '-3'])
+2022-01-14 09:08:03,074 INFO: Skipped Chabauty because no base point (delta = ['-4', '-8', '21', '-10', '-1', '1'])
+2022-01-14 09:08:03,074 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['2', '-3', '1'], g = [-2, 0, 1])
+2022-01-14 09:08:03,074 INFO: Running elliptic Chabauty (delta = ['2', '-3', '1'], g = [1, 3, -4, 1])...
+2022-01-14 09:08:16,184 INFO: Chabauty completed successfully (delta = ['2', '-3', '1'], g = [1, 3, -4, 1]).
+2022-01-14 09:08:16,262 INFO: Running elliptic Chabauty (delta = ['4', '10', '-13', '-6', '9', '-2'], g = [-2, 0, 1])...
+2022-01-14 09:08:26,782 INFO: Chabauty completed successfully (delta = ['4', '10', '-13', '-6', '9', '-2'], g = [-2, 0, 1]).
+2022-01-14 09:08:26,801 INFO: Skipped Chabauty because twist points already verified. (delta = ['4', '10', '-13', '-6', '9', '-2'])
+2022-01-14 09:08:26,801 INFO: Skipped Chabauty because no base point (delta = ['-2', '1', '4', '-4', '1'])
+2022-01-14 09:08:26,801 INFO: Skipped Chabauty because no base point (delta = ['-8', '-4', '64', '-85', '40', '-6'])
+2022-01-14 09:08:26,801 INFO: Running elliptic Chabauty (delta = ['1'], g = [-2, 0, 1])...
+2022-01-14 09:08:35,654 INFO: Chabauty completed successfully (delta = ['1'], g = [-2, 0, 1]).
+2022-01-14 09:08:35,658 INFO: Skipped Chabauty because twist points already verified. (delta = ['1'])
+2022-01-14 09:08:35,658 INFO: Running elliptic Chabauty (delta = ['2', '5', '-8', '-1', '4', '-1'], g = [-2, 0, 1])...
+2022-01-14 09:08:45,790 INFO: Chabauty completed successfully (delta = ['2', '5', '-8', '-1', '4', '-1'], g = [-2, 0, 1]).
+2022-01-14 09:08:45,794 INFO: Skipped Chabauty because twist points already verified. (delta = ['2', '5', '-8', '-1', '4', '-1'])
+2022-01-14 09:08:46,382 INFO: Rational points successfully computed.
+2022-01-14 09:08:46,388 INFO: Tasks complete. Recording data and exiting.

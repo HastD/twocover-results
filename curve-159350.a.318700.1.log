@@ -4,3 +4,20 @@
 2022-01-11 15:15:02,452 INFO: Searching for rational points on each twist...
 2022-01-11 15:15:06,901 INFO: Finished searching for rational points on each twist.
 2022-01-11 15:15:06,901 INFO: Testing local solvability of twists...
+2022-01-14 09:07:41,601 INFO: Loaded curve data from file.
+2022-01-14 09:07:41,602 INFO: Reducing MW generators...
+2022-01-14 09:07:41,602 INFO: Finished reducing MW generators.
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because no base point (delta = ['-4', '4', '16', '-12', '-20', '16'])
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because no base point (delta = ['-1', '17', '5', '-61', '-16', '64'])
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-60', '-31', '222', '77', '-240'], g = [1, 1])
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-60', '-31', '222', '77', '-240'], g = [4, 1, -15, -4, 16])
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1', '8', '3', '-30', '-8', '32'], g = [1, 1])
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1', '8', '3', '-30', '-8', '32'], g = [4, 1, -15, -4, 16])
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because no base point (delta = ['1', '-1'])
+2022-01-14 09:07:41,605 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [1, 1])
+2022-01-14 09:07:41,606 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, 1, -15, -4, 16])
+2022-01-14 09:07:41,606 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-124', '-46', '463', '140', '-497'], g = [1, 1])
+2022-01-14 09:07:41,606 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-124', '-46', '463', '140', '-497'], g = [4, 1, -15, -4, 16])
+2022-01-14 09:07:41,606 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '0', '16', '4', '-16'], g = [1, 1])
+2022-01-14 09:07:41,606 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '0', '16', '4', '-16'], g = [4, 1, -15, -4, 16])
+2022-01-14 09:07:41,608 INFO: Tasks complete. Recording data and exiting.

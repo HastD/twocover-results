@@ -23,3 +23,24 @@
 2022-01-12 09:26:40,254 INFO: Computing MW group (delta = ['1'], g = [-1, -1, 1])...
 2022-01-12 09:26:41,655 INFO: Finished MW computation (delta = ['1'], g = [-1, -1, 1])
 2022-01-12 09:26:41,658 INFO: Computing MW group (delta = ['1'], g = [-4, -25, -29, 1])...
+2022-01-14 09:10:38,226 INFO: Loaded curve data from file.
+2022-01-14 09:10:38,226 INFO: Reducing MW generators...
+2022-01-14 09:10:39,254 INFO: Finished reducing MW generators.
+2022-01-14 09:10:39,258 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-4', '-28', '-49', '-3', '30', '-1'], g = [-1, -1, 1])
+2022-01-14 09:10:39,258 INFO: Running elliptic Chabauty (delta = ['-4', '-28', '-49', '-3', '30', '-1'], g = [-4, -25, -29, 1])...
+2022-01-14 09:10:49,468 INFO: Chabauty completed successfully (delta = ['-4', '-28', '-49', '-3', '30', '-1'], g = [-4, -25, -29, 1]).
+2022-01-14 09:10:49,473 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['4', '28', '48', '2', '-30', '1'], g = [-1, -1, 1])
+2022-01-14 09:10:49,473 INFO: Running elliptic Chabauty (delta = ['4', '28', '48', '2', '-30', '1'], g = [-4, -25, -29, 1])...
+2022-01-14 09:10:59,415 INFO: Chabauty completed successfully (delta = ['4', '28', '48', '2', '-30', '1'], g = [-4, -25, -29, 1]).
+2022-01-14 09:10:59,419 INFO: Skipped Chabauty because no base point (delta = ['-1', '-1'])
+2022-01-14 09:10:59,419 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-1', '3', '26', '29', '-1'], g = [-1, -1, 1])
+2022-01-14 09:10:59,419 INFO: Running elliptic Chabauty (delta = ['-1', '3', '26', '29', '-1'], g = [-4, -25, -29, 1])...
+2022-01-14 09:11:09,420 INFO: Chabauty completed successfully (delta = ['-1', '3', '26', '29', '-1'], g = [-4, -25, -29, 1]).
+2022-01-14 09:11:09,423 INFO: Running elliptic Chabauty (delta = ['1'], g = [-1, -1, 1])...
+2022-01-14 09:11:18,577 INFO: Chabauty completed successfully (delta = ['1'], g = [-1, -1, 1]).
+2022-01-14 09:11:18,581 INFO: Skipped Chabauty because twist points already verified. (delta = ['1'])
+2022-01-14 09:11:18,581 INFO: Skipped Chabauty because no base point (delta = ['4', '32', '81', '82', '28', '-1'])
+2022-01-14 09:11:18,581 INFO: Skipped Chabauty because no base point (delta = ['1', '-2', '-29', '-55', '-28', '1'])
+2022-01-14 09:11:18,581 INFO: Skipped Chabauty because no base point (delta = ['-4', '-40', '-142', '-213', '-113', '3'])
+2022-01-14 09:11:18,990 INFO: Rational points successfully computed.
+2022-01-14 09:11:18,992 INFO: Tasks complete. Recording data and exiting.

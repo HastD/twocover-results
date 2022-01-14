@@ -4,3 +4,19 @@
 2022-01-11 15:10:16,194 INFO: Searching for rational points on each twist...
 2022-01-11 15:10:20,372 INFO: Finished searching for rational points on each twist.
 2022-01-11 15:10:20,372 INFO: Testing local solvability of twists...
+2022-01-14 09:07:28,678 INFO: Loaded curve data from file.
+2022-01-14 09:07:28,679 INFO: Reducing MW generators...
+2022-01-14 09:07:28,679 INFO: Finished reducing MW generators.
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because no base point (delta = ['125/3', '-2225/12', '-535/2', '-16', '281/6', '-25/4'])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['5/12', '-19/4', '1'], g = [-5, 1])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['5/12', '-19/4', '1'], g = [-4, 20, 16, -9, 1])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because no base point (delta = ['2500/3', '-4500', '-19975/12', '19105/6', '-11383/12', '247/3'])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-5, 1])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, 20, 16, -9, 1])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['100', '-505', '-399', '225', '-25'], g = [-5, 1])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['100', '-505', '-399', '225', '-25'], g = [-4, 20, 16, -9, 1])
+2022-01-14 09:07:28,682 INFO: Skipped Chabauty because no base point (delta = ['2000', '-10500', '-5495', '6499', '-1625', '125'])
+2022-01-14 09:07:28,683 INFO: Skipped Chabauty because no base point (delta = ['25/3', '-175/4', '-81/4', '293/12', '-35/6', '5/12'])
+2022-01-14 09:07:28,683 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['20', '-105', '-60', '61', '-14', '1'], g = [-5, 1])
+2022-01-14 09:07:28,683 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['20', '-105', '-60', '61', '-14', '1'], g = [-4, 20, 16, -9, 1])
+2022-01-14 09:07:28,685 INFO: Tasks complete. Recording data and exiting.

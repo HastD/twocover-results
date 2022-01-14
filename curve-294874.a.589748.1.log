@@ -27,3 +27,18 @@
 2022-01-12 09:27:43,360 INFO: Reducing MW generators...
 2022-01-12 09:27:45,969 INFO: Finished reducing MW generators.
 2022-01-12 09:27:45,972 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 09:13:18,920 INFO: Loaded curve data from file.
+2022-01-14 09:13:18,921 INFO: Skipped Chabauty because no base point (delta = ['-1/2', '0', '1'])
+2022-01-14 09:13:18,921 INFO: Skipped Chabauty because no base point (delta = ['1/5', '1', '1'])
+2022-01-14 09:13:18,921 INFO: Skipped Chabauty because no base point (delta = ['-4/5', '-51/5', '-202/5', '-311/5', '-164/5'])
+2022-01-14 09:13:18,921 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [1, 1])
+2022-01-14 09:13:18,921 INFO: Running elliptic Chabauty (delta = ['1'], g = [4, 52, 208, 321, 169])...
+2022-01-14 09:13:36,563 INFO: Chabauty completed successfully (delta = ['1'], g = [4, 52, 208, 321, 169]).
+2022-01-14 09:13:36,567 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['2/5', '9931/1690', '25577/845', '9277/130', '66476/845', '27801/845'], g = [1, 1])
+2022-01-14 09:13:36,567 INFO: Running elliptic Chabauty (delta = ['2/5', '9931/1690', '25577/845', '9277/130', '66476/845', '27801/845'], g = [4, 52, 208, 321, 169])...
+2022-01-14 09:13:54,451 INFO: Chabauty completed successfully (delta = ['2/5', '9931/1690', '25577/845', '9277/130', '66476/845', '27801/845'], g = [4, 52, 208, 321, 169]).
+2022-01-14 09:13:54,454 INFO: Skipped Chabauty because no base point (delta = ['2', '59/2', '311/2', '739/2', '813/2', '169'])
+2022-01-14 09:13:54,454 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-4', '-51', '-207', '-321', '-169'], g = [1, 1])
+2022-01-14 09:13:54,455 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-4', '-51', '-207', '-321', '-169'], g = [4, 52, 208, 321, 169])
+2022-01-14 09:13:54,455 INFO: Skipped Chabauty because no base point (delta = ['-1/10', '-1/2', '-3/10', '1', '1'])
+2022-01-14 09:13:54,783 INFO: Tasks complete. Recording data and exiting.
