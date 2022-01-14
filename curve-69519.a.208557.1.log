@@ -36,3 +36,17 @@
 2022-01-11 12:30:54,175 INFO: Reducing MW generators...
 2022-01-11 12:30:59,000 INFO: Finished reducing MW generators.
 2022-01-11 12:30:59,003 INFO: Tasks complete. Recording data and exiting.
+2022-01-13 17:36:35,369 INFO: Loaded curve data from file.
+2022-01-13 17:36:35,369 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-8', '103/4', '-17/4', '-42', '347/16', '39/8'], g = [-1, 2])
+2022-01-13 17:36:35,369 INFO: Running elliptic Chabauty (delta = ['-8', '103/4', '-17/4', '-42', '347/16', '39/8'], g = [4, -4, -8, 5, 2])...
+2022-01-13 17:36:48,609 INFO: Chabauty completed successfully (delta = ['-8', '103/4', '-17/4', '-42', '347/16', '39/8'], g = [4, -4, -8, 5, 2]).
+2022-01-13 17:36:48,613 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-4', '13', '-1', '-22', '9', '4'], g = [-1, 2])
+2022-01-13 17:36:48,613 INFO: Running elliptic Chabauty (delta = ['-4', '13', '-1', '-22', '9', '4'], g = [4, -4, -8, 5, 2])...
+2022-01-13 17:37:00,425 INFO: Chabauty completed successfully (delta = ['-4', '13', '-1', '-22', '9', '4'], g = [4, -4, -8, 5, 2]).
+2022-01-13 17:37:00,428 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['2', '-5/2', '-3', '5/2', '1'], g = [-1, 2])
+2022-01-13 17:37:00,428 INFO: Running elliptic Chabauty (delta = ['2', '-5/2', '-3', '5/2', '1'], g = [4, -4, -8, 5, 2])...
+2022-01-13 17:37:10,529 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 575, in <module>
+    raise PointCountError("Twist point count less than known point count! (delta = {})".format(twist["coeffs"]))
+PointCountError: Twist point count less than known point count! (delta = ['2', '-5/2', '-3', '5/2', '1'])
