@@ -28,3 +28,19 @@ TypeError: Error executing Magma code:
 
 Current total memory usage: 16373.8MB, failed memory request: 32.0MB
 System Error: User memory limit has been reached
+2022-01-14 15:52:25,059 INFO: Loaded curve data from file.
+2022-01-14 15:52:25,059 INFO: Reducing MW generators...
+2022-01-14 15:52:25,060 INFO: Finished reducing MW generators.
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16', '28/3', '-365/3', '34', '364/3', '-11'], g = [-1, 1, 1])
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16', '28/3', '-365/3', '34', '364/3', '-11'], g = [4, 5, -21, 3])
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '0', '31', '-19', '-18', '3'], g = [-1, 1, 1])
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '0', '31', '-19', '-18', '3'], g = [4, 5, -21, 3])
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-1, 1, 1])
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, 5, -21, 3])
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '0', '-29', '19', '18', '-3'], g = [-1, 1, 1])
+2022-01-14 15:52:25,062 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '0', '-29', '19', '18', '-3'], g = [4, 5, -21, 3])
+2022-01-14 15:52:25,063 INFO: Skipped Chabauty because no base point (delta = ['4', '4', '-25', '0', '22', '-3'])
+2022-01-14 15:52:25,063 INFO: Skipped Chabauty because no base point (delta = ['-4', '4', '25', '-50', '28', '-3'])
+2022-01-14 15:52:25,063 INFO: Skipped Chabauty because no base point (delta = ['-1', '5', '6', '-21', '3'])
+2022-01-14 15:52:25,063 INFO: Skipped Chabauty because no base point (delta = ['-16', '-4', '119', '-76', '-71', '12'])
+2022-01-14 15:52:25,065 INFO: Tasks complete. Recording data and exiting.

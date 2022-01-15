@@ -23,3 +23,19 @@
 2022-01-14 12:29:57,500 INFO: Reducing MW generators...
 2022-01-14 12:30:03,041 INFO: Finished reducing MW generators.
 2022-01-14 12:30:03,158 INFO: Tasks complete. Recording data and exiting.
+2022-01-14 15:52:17,003 INFO: Loaded curve data from file.
+2022-01-14 15:52:17,003 INFO: Running elliptic Chabauty (delta = ['-2', '2', '8', '-17/2', '1', '1/2'], g = [-4, 5, 14, -17, 2, 1])...
+2022-01-14 15:52:39,647 INFO: Chabauty completed successfully (delta = ['-2', '2', '8', '-17/2', '1', '1/2'], g = [-4, 5, 14, -17, 2, 1]).
+2022-01-14 15:52:39,650 INFO: Running elliptic Chabauty (delta = ['8', '-10', '-55/2', '65/2', '-3', '-2'], g = [-4, 5, 14, -17, 2, 1])...
+2022-01-14 15:53:07,248 INFO: Chabauty completed successfully (delta = ['8', '-10', '-55/2', '65/2', '-3', '-2'], g = [-4, 5, 14, -17, 2, 1]).
+2022-01-14 15:53:07,251 INFO: Skipped Chabauty because no base point (delta = ['16', '-20', '-55', '67', '-8', '-4'])
+2022-01-14 15:53:07,251 INFO: Skipped Chabauty because no base point (delta = ['-2', '2', '17/2', '-19/2', '1', '1/2'])
+2022-01-14 15:53:07,251 INFO: Skipped Chabauty because no base point (delta = ['1/2', '-1'])
+2022-01-14 15:53:07,251 INFO: Running elliptic Chabauty (delta = ['1'], g = [-4, 5, 14, -17, 2, 1])...
+2022-01-14 15:53:33,230 INFO: Chabauty completed successfully (delta = ['1'], g = [-4, 5, 14, -17, 2, 1]).
+2022-01-14 15:53:33,233 INFO: Running elliptic Chabauty (delta = ['-4', '4', '15', '-17', '2', '1'], g = [-4, 5, 14, -17, 2, 1])...
+2022-01-14 15:55:14,307 INFO: Chabauty completed successfully (delta = ['-4', '4', '15', '-17', '2', '1'], g = [-4, 5, 14, -17, 2, 1]).
+2022-01-14 15:55:14,310 INFO: Running elliptic Chabauty (delta = ['-4', '4', '14', '-17', '2', '1'], g = [-4, 5, 14, -17, 2, 1])...
+2022-01-14 15:55:38,628 INFO: Chabauty completed successfully (delta = ['-4', '4', '14', '-17', '2', '1'], g = [-4, 5, 14, -17, 2, 1]).
+2022-01-14 15:55:39,017 INFO: Rational points successfully computed.
+2022-01-14 15:55:39,020 INFO: Tasks complete. Recording data and exiting.

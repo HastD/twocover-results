@@ -24,3 +24,15 @@ TypeError: Error executing Magma code:
 
 Current total memory usage: 16329.4MB, failed memory request: 2530.1MB
 System Error: User memory limit has been reached
+2022-01-14 15:52:16,684 INFO: Loaded curve data from file.
+2022-01-14 15:52:16,684 INFO: Reducing MW generators...
+2022-01-14 15:52:16,684 INFO: Finished reducing MW generators.
+2022-01-14 15:52:16,686 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1', '1/68', '11/2', '79/68', '-115/17', '-247/68'], g = [4, 0, -24, -4, 32, 17])
+2022-01-14 15:52:16,686 INFO: Skipped Chabauty because no base point (delta = ['1/4', '-3/4', '-1/2', '3/2', '1'])
+2022-01-14 15:52:16,686 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['2', '-1/2', '-12', '-1/2', '17', '17/2'], g = [4, 0, -24, -4, 32, 17])
+2022-01-14 15:52:16,686 INFO: Skipped Chabauty because no base point (delta = ['-1/2', '1', '1'])
+2022-01-14 15:52:16,686 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, 0, -24, -4, 32, 17])
+2022-01-14 15:52:16,686 INFO: Skipped Chabauty because no base point (delta = ['2', '-1/2', '-23/2', '0', '17', '17/2'])
+2022-01-14 15:52:16,687 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '1', '25', '4', '-32', '-17'], g = [4, 0, -24, -4, 32, 17])
+2022-01-14 15:52:16,687 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/2', '1/2', '1'], g = [4, 0, -24, -4, 32, 17])
+2022-01-14 15:52:16,815 INFO: Tasks complete. Recording data and exiting.
