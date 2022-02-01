@@ -1,0 +1,53 @@
+2022-02-01 12:30:32,948 INFO: Initialized curve data.
+2022-02-01 12:30:32,952 INFO: Setting up initial twist data...
+2022-02-01 12:30:34,305 INFO: Twist setup complete.
+2022-02-01 12:30:34,305 INFO: Searching for rational points on each twist...
+2022-02-01 12:30:37,501 INFO: Finished searching for rational points on each twist.
+2022-02-01 12:30:37,502 INFO: Testing local solvability of twists...
+2022-02-01 12:30:37,509 INFO: Finished local solvability testing.
+2022-02-01 12:30:37,511 INFO: Computing elliptic curve a-invariants...
+2022-02-01 12:30:48,053 INFO: Finished computation of a-invariants.
+2022-02-01 12:30:48,055 INFO: Computing MW group (delta = ['4', '3', '-10', '15', '-20', '9'], g = [4, 4, -12, 16, -20, 9])...
+2022-02-01 12:33:21,221 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 514, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1217, in _do_call
+    out = self.eval(cmd)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 560, in eval
+    raise RuntimeError("Error evaluating Magma code.\nIN:%s\nOUT:%s" % (x, ans))
+RuntimeError: Error evaluating Magma code.
+IN:_sage_[3], _sage_[10], _sage_[6], _sage_[5] := MordellWeilGroup(_sage_[11]);
+OUT:
+MordellWeilGroup(
+E: Elliptic Curve defined by y^2 = x^3 + 1/2*(21015*$.1^4 - 289...
+)
+MordellWeilShaInformation(
+E: Elliptic Curve defined by y^2 = x^3 + 1/2*(21015*$.1^4 - 289...
+)
+CasselsTatePairing(
+C: Hyperelliptic Curve defined by y^2 = (-144*$.1^4 + 707*$.1^3...,
+D: Hyperelliptic Curve defined by y^2 = (201708*$.1^4 - 519736*...
+)
+cassels_tate_pairing_FldNum(
+C0: Hyperelliptic Curve defined by y^2 = (-144*$.1^4 + 707*$.1^3...,
+D0: Hyperelliptic Curve defined by y^2 = (201708*$.1^4 - 519736*...
+)
+local_point_FldNum(
+quartic: (-144*$.1^4 + 707*$.1^3 - 855*$.1^2 + 678*$.1 - 535)*$.1^4 +...,
+p: Prime Ideal Two element generators: [2, 0, 0, 0, 0] [0, 0, 0...
+)
+naive_search(
+tries: 10000
+)
+In file "/share/pkg.7/magma_usyd/2.26-10/install/avx/package/Geometry/CrvEll/cassels-tate_help.m", line 312, column 28:
+>>       issqr, yy := IsSquare(yy2);
+                              ^
+Runtime error in 'IsSquare': Insufficient precision to calculate a correct answer
+

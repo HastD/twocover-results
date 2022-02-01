@@ -1,0 +1,28 @@
+2022-02-01 12:30:09,758 INFO: Initialized curve data.
+2022-02-01 12:30:09,763 INFO: Setting up initial twist data...
+2022-02-01 12:30:11,139 INFO: Twist setup complete.
+2022-02-01 12:30:11,139 INFO: Searching for rational points on each twist...
+2022-02-01 12:30:13,109 INFO: Finished searching for rational points on each twist.
+2022-02-01 12:30:13,110 INFO: Testing local solvability of twists...
+2022-02-01 12:30:13,116 INFO: Finished local solvability testing.
+2022-02-01 12:30:13,117 INFO: Computing elliptic curve a-invariants...
+2022-02-01 12:30:26,773 INFO: Finished computation of a-invariants.
+2022-02-01 12:30:26,777 INFO: Computing MW group (delta = ['-1', '0', '1'], g = [-4, -5, -6, -3, 6, 3])...
+2022-02-01 12:40:57,222 INFO: Finished MW computation (delta = ['-1', '0', '1'], g = [-4, -5, -6, -3, 6, 3])
+2022-02-01 12:40:57,225 INFO: Computing MW group (delta = ['1'], g = [-4, -5, -6, -3, 6, 3])...
+2022-02-01 14:22:37,744 ERROR: An exception occurred. Recording data and exiting.
+Traceback (most recent call last):
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 514, in <module>
+    rank, MW_proven, orders, gens = twist_MW_group(D)
+  File "/project/arithgeo/drhast/twocover-descent/./twocover-processor.sage.py", line 329, in twist_MW_group
+    A, mw, bool_rank, bool_index = magma.MordellWeilGroup(E, nvals=_sage_const_4 )
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1787, in __call__
+    return M.function_call(self._name,
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1162, in function_call
+    return self._do_call(fun, nvals)
+  File "/share/pkg.7/sagemath/9.3/install/lib/python3.9/site-packages/sage/interfaces/magma.py", line 1221, in _do_call
+    raise TypeError("Error executing Magma code:\n%s" % out)
+TypeError: Error executing Magma code:
+
+Current total memory usage: 16361.3MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
