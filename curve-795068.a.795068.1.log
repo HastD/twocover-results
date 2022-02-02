@@ -24,3 +24,11 @@ TypeError: Error executing Magma code:
 
 Current total memory usage: 16354.8MB, failed memory request: 32.0MB
 System Error: User memory limit has been reached
+2022-02-02 04:42:36,373 INFO: Loaded curve data from file.
+2022-02-02 04:42:36,374 INFO: Reducing MW generators...
+2022-02-02 04:42:36,374 INFO: Finished reducing MW generators.
+2022-02-02 04:42:36,377 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '4', '5', '12', '3', '-3'], g = [-4, -5, -6, -11, -2, 3])
+2022-02-02 04:42:36,377 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '-4', '-5', '-11', '-2', '3'], g = [-4, -5, -6, -11, -2, 3])
+2022-02-02 04:42:36,377 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1', '0', '1'], g = [-4, -5, -6, -11, -2, 3])
+2022-02-02 04:42:36,377 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, -5, -6, -11, -2, 3])
+2022-02-02 04:42:36,379 INFO: Tasks complete. Recording data and exiting.

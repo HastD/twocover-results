@@ -6,3 +6,11 @@
 2022-02-01 12:30:09,813 INFO: Testing local solvability of twists...
 2022-02-01 12:30:22,621 INFO: Finished local solvability testing.
 2022-02-01 12:30:22,623 INFO: Computing elliptic curve a-invariants...
+2022-02-02 04:42:33,331 INFO: Loaded curve data from file.
+2022-02-02 04:42:33,332 INFO: Reducing MW generators...
+2022-02-02 04:42:33,332 INFO: Finished reducing MW generators.
+2022-02-02 04:42:33,335 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-2', '-8', '1', '25', '-18', '-129/2'], g = [4, 17, 0, -50, 36, 129])
+2022-02-02 04:42:33,335 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, 17, 0, -50, 36, 129])
+2022-02-02 04:42:33,335 INFO: Skipped Chabauty because no base point (delta = ['2', '8', '-2', '-53/2', '19', '129/2'])
+2022-02-02 04:42:33,335 INFO: Skipped Chabauty because no base point (delta = ['-1', '-2', '1'])
+2022-02-02 04:42:33,420 INFO: Tasks complete. Recording data and exiting.

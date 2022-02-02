@@ -4,3 +4,18 @@
 2022-02-01 12:33:54,032 INFO: Searching for rational points on each twist...
 2022-02-01 12:33:57,743 INFO: Finished searching for rational points on each twist.
 2022-02-01 12:33:57,743 INFO: Testing local solvability of twists...
+2022-02-02 04:48:17,096 INFO: Loaded curve data from file.
+2022-02-02 04:48:17,097 INFO: Reducing MW generators...
+2022-02-02 04:48:17,097 INFO: Finished reducing MW generators.
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-144/35', '0', '1'], g = [2, 1])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-144/35', '0', '1'], g = [313, 0, -162, 0, 21])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because no base point (delta = ['-9484/105', '0', '34273/735', '0', '-211/35'])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-5012', '0', '2593', '0', '-336'], g = [2, 1])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-5012', '0', '2593', '0', '-336'], g = [313, 0, -162, 0, 21])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [2, 1])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [313, 0, -162, 0, 21])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because no base point (delta = ['2944/5', '0', '-10652/35', '0', '197/5'])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because no base point (delta = ['732', '0', '-2649/7', '0', '49'])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because no base point (delta = ['-29/7', '0', '1'])
+2022-02-02 04:48:17,099 INFO: Skipped Chabauty because no base point (delta = ['4176/245', '0', '-289/35', '0', '1'])
+2022-02-02 04:48:17,156 INFO: Tasks complete. Recording data and exiting.

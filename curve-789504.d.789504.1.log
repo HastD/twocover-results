@@ -27,3 +27,18 @@
 2022-02-01 12:31:17,063 INFO: Reducing MW generators...
 2022-02-01 12:31:20,267 INFO: Finished reducing MW generators.
 2022-02-01 12:31:20,270 INFO: Tasks complete. Recording data and exiting.
+2022-02-02 04:42:35,459 INFO: Loaded curve data from file.
+2022-02-02 04:42:35,459 INFO: Skipped Chabauty because no base point (delta = ['-2/3', '23/6', '19/2', '-26/3', '-62/3', '-8'])
+2022-02-02 04:42:35,459 INFO: Skipped Chabauty because no base point (delta = ['-1/2', '3', '3', '-8', '-6'])
+2022-02-02 04:42:35,459 INFO: Skipped Chabauty because no base point (delta = ['2/3', '1/3', '-5/2', '2/3', '9/2', '2'])
+2022-02-02 04:42:35,460 INFO: Skipped Chabauty because no base point (delta = ['1/2', '0', '-5/2', '-1/2', '5', '3'])
+2022-02-02 04:42:35,460 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['1'], g = [-1, -1, 4, 3])
+2022-02-02 04:42:35,460 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['1'], g = [-1, 2, 2])
+2022-02-02 04:42:35,460 INFO: Skipped Chabauty because no base point (delta = ['4/3', '7/3', '1'])
+2022-02-02 04:42:35,460 INFO: Skipped Chabauty because rank >= degree(g). (delta = ['-4/3', '8/3', '43/3', '-2/3', '-53/3', '-8'], g = [-1, 2, 2])
+2022-02-02 04:42:35,460 INFO: Running elliptic Chabauty (delta = ['-4/3', '8/3', '43/3', '-2/3', '-53/3', '-8'], g = [-1, -1, 4, 3])...
+2022-02-02 04:42:50,996 INFO: Chabauty completed successfully (delta = ['-4/3', '8/3', '43/3', '-2/3', '-53/3', '-8'], g = [-1, -1, 4, 3]).
+2022-02-02 04:42:51,000 INFO: Running elliptic Chabauty (delta = ['-1', '2', '9', '-3', '-14', '-6'], g = [-1, 2, 2])...
+2022-02-02 04:43:01,611 INFO: Chabauty completed successfully (delta = ['-1', '2', '9', '-3', '-14', '-6'], g = [-1, 2, 2]).
+2022-02-02 04:43:01,613 INFO: Skipped Chabauty because twist points already verified. (delta = ['-1', '2', '9', '-3', '-14', '-6'])
+2022-02-02 04:43:01,878 INFO: Tasks complete. Recording data and exiting.

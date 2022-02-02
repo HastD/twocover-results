@@ -18,3 +18,9 @@
 2022-02-01 12:41:13,664 INFO: Reducing MW generators...
 2022-02-01 12:41:15,815 INFO: Finished reducing MW generators.
 2022-02-01 12:41:15,816 INFO: Tasks complete. Recording data and exiting.
+2022-02-02 04:42:45,040 INFO: Loaded curve data from file.
+2022-02-02 04:42:45,040 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-4', '-1'], g = [4, -11, -12, -2, 4, 1])
+2022-02-02 04:42:45,040 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['1'], g = [4, -11, -12, -2, 4, 1])
+2022-02-02 04:42:45,040 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['4', '-12', '-12', '-2', '4', '1'], g = [4, -11, -12, -2, 4, 1])
+2022-02-02 04:42:45,040 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-16', '48', '49', '8', '-16', '-4'], g = [4, -11, -12, -2, 4, 1])
+2022-02-02 04:42:45,045 INFO: Tasks complete. Recording data and exiting.
