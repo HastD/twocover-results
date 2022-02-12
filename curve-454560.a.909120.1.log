@@ -22,3 +22,11 @@
 2022-01-14 11:35:16,630 INFO: Running elliptic Chabauty (delta = ['16', '-34', '42', '-17', '0', '2'], g = [8, -16, 20, -8, 0, 1])...
 2022-01-14 11:37:46,033 INFO: Chabauty completed successfully (delta = ['16', '-34', '42', '-17', '0', '2'], g = [8, -16, 20, -8, 0, 1]).
 2022-01-14 11:37:46,038 INFO: Running elliptic Chabauty (delta = ['8', '-17', '20', '-8', '0', '1'], g = [8, -16, 20, -8, 0, 1])...
+2022-02-12 17:05:50,000 INFO: Loaded curve data from file.
+2022-02-12 17:05:50,000 INFO: Computing elliptic Chabauty map... (delta = ['16', '-34', '42', '-17', '0', '2'], g = [8, -16, 20, -8, 0, 1])
+2022-02-12 17:05:58,258 INFO: Elliptic Chabauty map computed. (delta = ['16', '-34', '42', '-17', '0', '2'], g = [8, -16, 20, -8, 0, 1])
+2022-02-12 17:05:58,261 INFO: Computing elliptic Chabauty map... (delta = ['8', '-17', '20', '-8', '0', '1'], g = [8, -16, 20, -8, 0, 1])
+2022-02-12 17:06:06,186 INFO: Elliptic Chabauty map computed. (delta = ['8', '-17', '20', '-8', '0', '1'], g = [8, -16, 20, -8, 0, 1])
+2022-02-12 17:06:06,189 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [8, -16, 20, -8, 0, 1])
+2022-02-12 17:06:14,388 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [8, -16, 20, -8, 0, 1])
+2022-02-12 17:06:14,390 INFO: Tasks complete. Recording data and exiting.

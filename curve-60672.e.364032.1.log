@@ -71,3 +71,17 @@ System Error: User memory limit has been reached
 2022-01-10 22:42:30,450 INFO: Chabauty completed successfully (delta = ['-2', '12', '-13', '-8', '-1'], g = [-4, 14, 8, 1]).
 2022-01-10 22:42:30,453 INFO: Skipped Chabauty because no base point (delta = ['2', '-13', '5', '107/2', '28', '7/2'])
 2022-01-10 22:42:30,702 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:12:04,405 INFO: Loaded curve data from file.
+2022-02-12 17:12:04,405 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-2, 8, 1])
+2022-02-12 17:12:15,909 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-2, 8, 1])
+2022-02-12 17:12:15,913 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-4, 14, 8, 1])
+2022-02-12 17:12:27,673 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-4, 14, 8, 1])
+2022-02-12 17:12:27,676 INFO: Computing elliptic Chabauty map... (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-2, 8, 1])
+2022-02-12 17:12:39,027 INFO: Elliptic Chabauty map computed. (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-2, 8, 1])
+2022-02-12 17:12:39,030 INFO: Computing elliptic Chabauty map... (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-4, 14, 8, 1])
+2022-02-12 17:12:50,909 INFO: Elliptic Chabauty map computed. (delta = ['-2', '133', '-923', '2903/2', '933', '120'], g = [-4, 14, 8, 1])
+2022-02-12 17:12:50,912 INFO: Computing elliptic Chabauty map... (delta = ['-2', '12', '-13', '-8', '-1'], g = [-2, 8, 1])
+2022-02-12 17:13:02,176 INFO: Elliptic Chabauty map computed. (delta = ['-2', '12', '-13', '-8', '-1'], g = [-2, 8, 1])
+2022-02-12 17:13:02,180 INFO: Computing elliptic Chabauty map... (delta = ['-2', '12', '-13', '-8', '-1'], g = [-4, 14, 8, 1])
+2022-02-12 17:13:14,022 INFO: Elliptic Chabauty map computed. (delta = ['-2', '12', '-13', '-8', '-1'], g = [-4, 14, 8, 1])
+2022-02-12 17:13:14,025 INFO: Tasks complete. Recording data and exiting.

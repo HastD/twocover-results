@@ -13,3 +13,11 @@
 2022-01-03 13:14:57,000 INFO: Obsolete "loc_solv_error" keys removed.
 2022-01-10 22:42:00,895 INFO: Loaded curve data from file.
 2022-01-10 22:42:00,895 INFO: Obstruction already found. Exiting.
+2022-02-12 17:51:12,627 INFO: Loaded curve data from file.
+2022-02-12 17:51:12,628 INFO: Computing elliptic Chabauty map... (delta = ['2', '-1'], g = [-9, -9, 11, 9, -7, 1])
+2022-02-12 17:51:27,956 INFO: Elliptic Chabauty map computed. (delta = ['2', '-1'], g = [-9, -9, 11, 9, -7, 1])
+2022-02-12 17:51:27,958 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-9, -9, 11, 9, -7, 1])
+2022-02-12 17:51:43,120 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-9, -9, 11, 9, -7, 1])
+2022-02-12 17:51:43,122 INFO: Computing elliptic Chabauty map... (delta = ['0', '-1'], g = [-9, -9, 11, 9, -7, 1])
+2022-02-12 17:51:58,186 INFO: Elliptic Chabauty map computed. (delta = ['0', '-1'], g = [-9, -9, 11, 9, -7, 1])
+2022-02-12 17:51:58,189 INFO: Tasks complete. Recording data and exiting.

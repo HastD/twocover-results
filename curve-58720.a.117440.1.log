@@ -37,3 +37,11 @@
 2022-01-10 22:42:51,396 INFO: Skipped Chabauty because no base point (delta = ['0', '-1'])
 2022-01-10 22:42:51,596 INFO: Rational points successfully computed.
 2022-01-10 22:42:51,598 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 16:41:28,707 INFO: Loaded curve data from file.
+2022-02-12 16:41:28,708 INFO: Computing elliptic Chabauty map... (delta = ['16', '-14', '-7', '0', '4', '2'], g = [8, -8, -4, 0, 2, 1])
+2022-02-12 16:41:46,267 INFO: Elliptic Chabauty map computed. (delta = ['16', '-14', '-7', '0', '4', '2'], g = [8, -8, -4, 0, 2, 1])
+2022-02-12 16:41:46,270 INFO: Computing elliptic Chabauty map... (delta = ['6', '-9', '-4', '0', '2', '1'], g = [8, -8, -4, 0, 2, 1])
+2022-02-12 16:42:04,479 INFO: Elliptic Chabauty map computed. (delta = ['6', '-9', '-4', '0', '2', '1'], g = [8, -8, -4, 0, 2, 1])
+2022-02-12 16:42:04,482 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [8, -8, -4, 0, 2, 1])
+2022-02-12 16:42:22,149 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [8, -8, -4, 0, 2, 1])
+2022-02-12 16:42:22,152 INFO: Tasks complete. Recording data and exiting.

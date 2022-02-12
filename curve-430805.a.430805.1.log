@@ -37,3 +37,17 @@
 2022-01-14 11:35:46,195 INFO: Running elliptic Chabauty (delta = ['4', '23', '30', '-1', '-12', '1'], g = [4, 24, 32, 0, -12, 1])...
 2022-01-14 11:35:59,737 INFO: Chabauty completed successfully (delta = ['4', '23', '30', '-1', '-12', '1'], g = [4, 24, 32, 0, -12, 1]).
 2022-01-14 11:35:59,888 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:07:43,092 INFO: Loaded curve data from file.
+2022-02-12 17:07:43,092 INFO: Computing elliptic Chabauty map... (delta = ['-1', '-1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:01,248 INFO: Elliptic Chabauty map computed. (delta = ['-1', '-1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:01,252 INFO: Computing elliptic Chabauty map... (delta = ['-4', '-23', '-31', '0', '12', '-1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:19,663 INFO: Elliptic Chabauty map computed. (delta = ['-4', '-23', '-31', '0', '12', '-1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:19,667 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:37,823 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:37,827 INFO: Computing elliptic Chabauty map... (delta = ['2', '23/2', '27/2', '-9/2', '-19/2', '-1/2'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:55,918 INFO: Elliptic Chabauty map computed. (delta = ['2', '23/2', '27/2', '-9/2', '-19/2', '-1/2'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:08:55,922 INFO: Computing elliptic Chabauty map... (delta = ['-2', '-23/2', '-14', '5/2', '7', '-1/2'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:09:14,341 INFO: Elliptic Chabauty map computed. (delta = ['-2', '-23/2', '-14', '5/2', '7', '-1/2'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:09:14,344 INFO: Computing elliptic Chabauty map... (delta = ['4', '23', '30', '-1', '-12', '1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:09:32,937 INFO: Elliptic Chabauty map computed. (delta = ['4', '23', '30', '-1', '-12', '1'], g = [4, 24, 32, 0, -12, 1])
+2022-02-12 17:09:32,941 INFO: Tasks complete. Recording data and exiting.

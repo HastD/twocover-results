@@ -108,3 +108,11 @@ Runtime error in 'Max': Argument 1 is not non-empty
 2022-01-10 22:41:53,494 INFO: Chabauty completed successfully (delta = ['1/2', '-1/2', '-3/2', '1', '1'], g = [4, 0, -16, -4, 16, 9]).
 2022-01-10 22:41:53,698 INFO: Rational points successfully computed.
 2022-01-10 22:41:53,700 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:44:57,886 INFO: Loaded curve data from file.
+2022-02-12 17:44:57,886 INFO: Computing elliptic Chabauty map... (delta = ['-1/2', '0', '1'], g = [4, 0, -16, -4, 16, 9])
+2022-02-12 17:45:11,936 INFO: Elliptic Chabauty map computed. (delta = ['-1/2', '0', '1'], g = [4, 0, -16, -4, 16, 9])
+2022-02-12 17:45:11,939 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 0, -16, -4, 16, 9])
+2022-02-12 17:45:26,383 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 0, -16, -4, 16, 9])
+2022-02-12 17:45:26,386 INFO: Computing elliptic Chabauty map... (delta = ['1/2', '-1/2', '-3/2', '1', '1'], g = [4, 0, -16, -4, 16, 9])
+2022-02-12 17:45:40,923 INFO: Elliptic Chabauty map computed. (delta = ['1/2', '-1/2', '-3/2', '1', '1'], g = [4, 0, -16, -4, 16, 9])
+2022-02-12 17:45:40,925 INFO: Tasks complete. Recording data and exiting.

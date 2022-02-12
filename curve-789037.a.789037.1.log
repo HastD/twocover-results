@@ -38,3 +38,17 @@
 2022-02-02 04:44:07,138 INFO: Chabauty completed successfully (delta = ['8', '10', '-63/2', '-53/2', '1', '2'], g = [4, 5, -16, -14, 0, 1]).
 2022-02-02 04:44:07,143 INFO: Skipped Chabauty because no base point (delta = ['-1/2', '-1'])
 2022-02-02 04:44:07,485 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 16:57:14,982 INFO: Loaded curve data from file.
+2022-02-12 16:57:14,982 INFO: Computing elliptic Chabauty map... (delta = ['-2', '-2', '9', '7', '0', '-1/2'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:57:29,956 INFO: Elliptic Chabauty map computed. (delta = ['-2', '-2', '9', '7', '0', '-1/2'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:57:29,960 INFO: Computing elliptic Chabauty map... (delta = ['4', '4', '-16', '-14', '0', '1'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:57:44,549 INFO: Elliptic Chabauty map computed. (delta = ['4', '4', '-16', '-14', '0', '1'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:57:44,553 INFO: Computing elliptic Chabauty map... (delta = ['-4', '-4', '17', '14', '0', '-1'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:57:58,993 INFO: Elliptic Chabauty map computed. (delta = ['-4', '-4', '17', '14', '0', '-1'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:57:58,996 INFO: Computing elliptic Chabauty map... (delta = ['2', '2', '-19/2', '-8', '0', '1/2'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:58:13,670 INFO: Elliptic Chabauty map computed. (delta = ['2', '2', '-19/2', '-8', '0', '1/2'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:58:13,674 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:58:28,299 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:58:28,304 INFO: Computing elliptic Chabauty map... (delta = ['8', '10', '-63/2', '-53/2', '1', '2'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:58:43,003 INFO: Elliptic Chabauty map computed. (delta = ['8', '10', '-63/2', '-53/2', '1', '2'], g = [4, 5, -16, -14, 0, 1])
+2022-02-12 16:58:43,008 INFO: Tasks complete. Recording data and exiting.

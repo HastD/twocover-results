@@ -35,3 +35,17 @@
 2022-01-14 11:32:55,221 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-4', '1', '9', '8', '4', '-1'], g = [4, 0, -8, -8, -4, 1])
 2022-01-14 11:32:55,222 INFO: Skipped Chabauty because no base point (delta = ['4', '-1', '-9', '-9', '-4', '1'])
 2022-01-14 11:32:55,314 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:12:49,080 INFO: Loaded curve data from file.
+2022-02-12 17:12:49,080 INFO: Computing elliptic Chabauty map... (delta = ['4', '-1', '-8', '-8', '-4', '1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:04,394 INFO: Elliptic Chabauty map computed. (delta = ['4', '-1', '-8', '-8', '-4', '1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:04,397 INFO: Computing elliptic Chabauty map... (delta = ['1', '1', '1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:19,571 INFO: Elliptic Chabauty map computed. (delta = ['1', '1', '1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:19,576 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:34,573 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:34,577 INFO: Computing elliptic Chabauty map... (delta = ['-16', '0', '31', '30', '14', '-5'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:49,789 INFO: Elliptic Chabauty map computed. (delta = ['-16', '0', '31', '30', '14', '-5'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:13:49,793 INFO: Computing elliptic Chabauty map... (delta = ['-4', '1', '10', '10', '5', '-1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:14:05,011 INFO: Elliptic Chabauty map computed. (delta = ['-4', '1', '10', '10', '5', '-1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:14:05,016 INFO: Computing elliptic Chabauty map... (delta = ['-4', '1', '9', '8', '4', '-1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:14:20,505 INFO: Elliptic Chabauty map computed. (delta = ['-4', '1', '9', '8', '4', '-1'], g = [4, 0, -8, -8, -4, 1])
+2022-02-12 17:14:20,510 INFO: Tasks complete. Recording data and exiting.

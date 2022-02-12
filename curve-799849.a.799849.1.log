@@ -36,3 +36,17 @@
 2022-02-02 04:43:42,740 INFO: Chabauty completed successfully (delta = ['4', '-4', '-1', '1', '-6', '-1'], g = [-4, 5, 2, -1, 6, 1]).
 2022-02-02 04:43:42,743 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '4', '3', '-1', '6', '1'], g = [-4, 5, 2, -1, 6, 1])
 2022-02-02 04:43:42,949 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:23:06,494 INFO: Loaded curve data from file.
+2022-02-12 17:23:06,494 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '2', '-1', '6', '1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:23:24,168 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '2', '-1', '6', '1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:23:24,172 INFO: Computing elliptic Chabauty map... (delta = ['-16', '20', '7', '-5', '24', '4'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:23:41,143 INFO: Elliptic Chabauty map computed. (delta = ['-16', '20', '7', '-5', '24', '4'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:23:41,148 INFO: Computing elliptic Chabauty map... (delta = ['-16', '20', '7', '-4', '25', '4'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:23:58,133 INFO: Elliptic Chabauty map computed. (delta = ['-16', '20', '7', '-4', '25', '4'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:23:58,140 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:24:15,610 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:24:15,614 INFO: Computing elliptic Chabauty map... (delta = ['4', '-4', '-1', '1', '-6', '-1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:24:32,946 INFO: Elliptic Chabauty map computed. (delta = ['4', '-4', '-1', '1', '-6', '-1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:24:32,951 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '3', '-1', '6', '1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:24:50,270 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '3', '-1', '6', '1'], g = [-4, 5, 2, -1, 6, 1])
+2022-02-12 17:24:50,276 INFO: Tasks complete. Recording data and exiting.

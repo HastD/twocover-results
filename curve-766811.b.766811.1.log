@@ -15,3 +15,11 @@
 2022-02-02 04:42:32,218 INFO: Reducing MW generators...
 2022-02-02 04:42:33,171 INFO: Finished reducing MW generators.
 2022-02-02 04:42:33,174 INFO: Running elliptic Chabauty (delta = ['900', '224', '-120', '-30', '4', '1'], g = [896, 225, -120, -30, 4, 1])...
+2022-02-12 16:52:43,725 INFO: Loaded curve data from file.
+2022-02-12 16:52:43,725 INFO: Computing elliptic Chabauty map... (delta = ['900', '224', '-120', '-30', '4', '1'], g = [896, 225, -120, -30, 4, 1])
+2022-02-12 16:52:51,377 INFO: Elliptic Chabauty map computed. (delta = ['900', '224', '-120', '-30', '4', '1'], g = [896, 225, -120, -30, 4, 1])
+2022-02-12 16:52:51,380 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [896, 225, -120, -30, 4, 1])
+2022-02-12 16:52:58,906 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [896, 225, -120, -30, 4, 1])
+2022-02-12 16:52:58,908 INFO: Computing elliptic Chabauty map... (delta = ['-35/2', '1/2', '1'], g = [896, 225, -120, -30, 4, 1])
+2022-02-12 16:53:06,550 INFO: Elliptic Chabauty map computed. (delta = ['-35/2', '1/2', '1'], g = [896, 225, -120, -30, 4, 1])
+2022-02-12 16:53:06,553 INFO: Tasks complete. Recording data and exiting.

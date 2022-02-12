@@ -36,3 +36,17 @@
 2022-02-02 04:44:32,475 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['4', '-4', '-5', '-5', '13', '-4'], g = [-4, 5, 4, 4, -12, 4])
 2022-02-02 04:44:32,475 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-1', '0', '1'], g = [-4, 5, 4, 4, -12, 4])
 2022-02-02 04:44:32,628 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:04:30,631 INFO: Loaded curve data from file.
+2022-02-12 17:04:30,631 INFO: Computing elliptic Chabauty map... (delta = ['16', '-20', '-15', '-17', '48', '-16'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:04:46,958 INFO: Elliptic Chabauty map computed. (delta = ['16', '-20', '-15', '-17', '48', '-16'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:04:46,962 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '5', '4', '-12', '4'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:03,078 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '5', '4', '-12', '4'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:03,081 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '4', '4', '-12', '4'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:19,242 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '4', '4', '-12', '4'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:19,245 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:35,412 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:35,416 INFO: Computing elliptic Chabauty map... (delta = ['4', '-4', '-5', '-5', '13', '-4'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:51,766 INFO: Elliptic Chabauty map computed. (delta = ['4', '-4', '-5', '-5', '13', '-4'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:05:51,771 INFO: Computing elliptic Chabauty map... (delta = ['-1', '0', '1'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:06:07,695 INFO: Elliptic Chabauty map computed. (delta = ['-1', '0', '1'], g = [-4, 5, 4, 4, -12, 4])
+2022-02-12 17:06:07,700 INFO: Tasks complete. Recording data and exiting.

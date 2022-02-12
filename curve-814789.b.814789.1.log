@@ -17,3 +17,11 @@
 2022-02-02 04:42:40,628 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['2', '15/2', '0', '-61/2', '29', '-15/2'], g = [-4, -16, 4, 56, -56, 15])
 2022-02-02 04:42:40,628 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '15', '-3', '-56', '56', '-15'], g = [-4, -16, 4, 56, -56, 15])
 2022-02-02 04:42:40,728 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 16:52:46,724 INFO: Loaded curve data from file.
+2022-02-12 16:52:46,725 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-4, -16, 4, 56, -56, 15])
+2022-02-12 16:53:01,488 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-4, -16, 4, 56, -56, 15])
+2022-02-12 16:53:01,490 INFO: Computing elliptic Chabauty map... (delta = ['2', '15/2', '0', '-61/2', '29', '-15/2'], g = [-4, -16, 4, 56, -56, 15])
+2022-02-12 16:53:16,154 INFO: Elliptic Chabauty map computed. (delta = ['2', '15/2', '0', '-61/2', '29', '-15/2'], g = [-4, -16, 4, 56, -56, 15])
+2022-02-12 16:53:16,156 INFO: Computing elliptic Chabauty map... (delta = ['4', '15', '-3', '-56', '56', '-15'], g = [-4, -16, 4, 56, -56, 15])
+2022-02-12 16:53:30,691 INFO: Elliptic Chabauty map computed. (delta = ['4', '15', '-3', '-56', '56', '-15'], g = [-4, -16, 4, 56, -56, 15])
+2022-02-12 16:53:30,694 INFO: Tasks complete. Recording data and exiting.

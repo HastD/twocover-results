@@ -25,3 +25,17 @@
 2022-01-14 09:11:20,510 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '0', '11', '9', '-6', '-9'], g = [4, 1, -10, -9, 6, 9])
 2022-01-14 09:11:20,510 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '0', '-10', '-9', '6', '9'], g = [4, 1, -10, -9, 6, 9])
 2022-01-14 09:11:20,621 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:16:26,447 INFO: Loaded curve data from file.
+2022-02-12 17:16:26,447 INFO: Computing elliptic Chabauty map... (delta = ['-1', '0', '1'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:16:43,578 INFO: Elliptic Chabauty map computed. (delta = ['-1', '0', '1'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:16:43,581 INFO: Computing elliptic Chabauty map... (delta = ['4', '0', '-9', '-9', '6', '9'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:00,106 INFO: Elliptic Chabauty map computed. (delta = ['4', '0', '-9', '-9', '6', '9'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:00,108 INFO: Computing elliptic Chabauty map... (delta = ['1', '-1'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:16,464 INFO: Elliptic Chabauty map computed. (delta = ['1', '-1'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:16,467 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:32,862 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:32,865 INFO: Computing elliptic Chabauty map... (delta = ['-4', '0', '11', '9', '-6', '-9'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:49,232 INFO: Elliptic Chabauty map computed. (delta = ['-4', '0', '11', '9', '-6', '-9'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:17:49,236 INFO: Computing elliptic Chabauty map... (delta = ['4', '0', '-10', '-9', '6', '9'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:18:05,580 INFO: Elliptic Chabauty map computed. (delta = ['4', '0', '-10', '-9', '6', '9'], g = [4, 1, -10, -9, 6, 9])
+2022-02-12 17:18:05,585 INFO: Tasks complete. Recording data and exiting.

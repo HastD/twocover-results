@@ -135,3 +135,25 @@ Argument types given: RngInt
 2022-01-10 22:43:02,687 INFO: Running elliptic Chabauty (delta = ['8', '-188', '74', '-167', '116', '-23'], g = [8, -3, 7, -5, 1])...
 2022-01-10 22:43:33,392 INFO: Chabauty completed successfully (delta = ['8', '-188', '74', '-167', '116', '-23'], g = [8, -3, 7, -5, 1]).
 2022-01-10 22:43:33,708 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:03:14,506 INFO: Loaded curve data from file.
+2022-02-12 17:03:14,506 INFO: Computing elliptic Chabauty map... (delta = ['-8', '4', '-6', '5', '-1'], g = [1, 1])
+2022-02-12 17:03:24,685 INFO: Elliptic Chabauty map computed. (delta = ['-8', '4', '-6', '5', '-1'], g = [1, 1])
+2022-02-12 17:03:24,689 INFO: Computing elliptic Chabauty map... (delta = ['-8', '4', '-6', '5', '-1'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:03:36,338 INFO: Elliptic Chabauty map computed. (delta = ['-8', '4', '-6', '5', '-1'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:03:36,342 INFO: Computing elliptic Chabauty map... (delta = ['8', '-380', '147', '-333', '237', '-47'], g = [1, 1])
+2022-02-12 17:03:46,385 INFO: Elliptic Chabauty map computed. (delta = ['8', '-380', '147', '-333', '237', '-47'], g = [1, 1])
+2022-02-12 17:03:46,388 INFO: Computing elliptic Chabauty map... (delta = ['8', '-380', '147', '-333', '237', '-47'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:03:58,010 INFO: Elliptic Chabauty map computed. (delta = ['8', '-380', '147', '-333', '237', '-47'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:03:58,014 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [1, 1])
+2022-02-12 17:04:08,063 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [1, 1])
+2022-02-12 17:04:08,067 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:04:19,612 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:04:19,616 INFO: Computing elliptic Chabauty map... (delta = ['-1', '16', '-5', '14', '-10', '2'], g = [1, 1])
+2022-02-12 17:04:29,660 INFO: Elliptic Chabauty map computed. (delta = ['-1', '16', '-5', '14', '-10', '2'], g = [1, 1])
+2022-02-12 17:04:29,664 INFO: Computing elliptic Chabauty map... (delta = ['-1', '16', '-5', '14', '-10', '2'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:04:41,321 INFO: Elliptic Chabauty map computed. (delta = ['-1', '16', '-5', '14', '-10', '2'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:04:41,325 INFO: Computing elliptic Chabauty map... (delta = ['8', '-188', '74', '-167', '116', '-23'], g = [1, 1])
+2022-02-12 17:04:51,367 INFO: Elliptic Chabauty map computed. (delta = ['8', '-188', '74', '-167', '116', '-23'], g = [1, 1])
+2022-02-12 17:04:51,371 INFO: Computing elliptic Chabauty map... (delta = ['8', '-188', '74', '-167', '116', '-23'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:05:03,039 INFO: Elliptic Chabauty map computed. (delta = ['8', '-188', '74', '-167', '116', '-23'], g = [8, -3, 7, -5, 1])
+2022-02-12 17:05:03,044 INFO: Tasks complete. Recording data and exiting.

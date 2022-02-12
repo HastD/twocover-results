@@ -38,3 +38,17 @@ System Error: User memory limit has been reached
 2022-01-14 11:32:11,484 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '4', '3', '-5', '5', '-4'], g = [4, -3, -4, 4, -4, 4])
 2022-01-14 11:32:11,484 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-4', '-4', '4', '-4', '4'], g = [4, -3, -4, 4, -4, 4])
 2022-01-14 11:32:11,529 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 16:43:09,581 INFO: Loaded curve data from file.
+2022-02-12 16:43:09,581 INFO: Computing elliptic Chabauty map... (delta = ['-16', '12', '15', '-15', '17', '-17'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:43:22,985 INFO: Elliptic Chabauty map computed. (delta = ['-16', '12', '15', '-15', '17', '-17'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:43:22,987 INFO: Computing elliptic Chabauty map... (delta = ['-1', '0', '1'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:43:36,115 INFO: Elliptic Chabauty map computed. (delta = ['-1', '0', '1'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:43:36,118 INFO: Computing elliptic Chabauty map... (delta = ['4', '-4', '-3', '4', '-4', '4'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:43:49,165 INFO: Elliptic Chabauty map computed. (delta = ['4', '-4', '-3', '4', '-4', '4'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:43:49,168 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:44:02,329 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:44:02,332 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '3', '-5', '5', '-4'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:44:15,488 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '3', '-5', '5', '-4'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:44:15,492 INFO: Computing elliptic Chabauty map... (delta = ['4', '-4', '-4', '4', '-4', '4'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:44:28,579 INFO: Elliptic Chabauty map computed. (delta = ['4', '-4', '-4', '4', '-4', '4'], g = [4, -3, -4, 4, -4, 4])
+2022-02-12 16:44:28,583 INFO: Tasks complete. Recording data and exiting.

@@ -39,3 +39,11 @@ System Error: User memory limit has been reached
 2022-01-14 11:35:42,632 INFO: Chabauty completed successfully (delta = ['1'], g = [-4, 5, 0, 0, 0, 4]).
 2022-01-14 11:35:42,634 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '4', '0', '0', '0', '4'], g = [-4, 5, 0, 0, 0, 4])
 2022-01-14 11:35:42,733 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:28:29,354 INFO: Loaded curve data from file.
+2022-02-12 17:28:29,354 INFO: Computing elliptic Chabauty map... (delta = ['1', '-1', '1'], g = [-4, 5, 0, 0, 0, 4])
+2022-02-12 17:28:33,343 INFO: Elliptic Chabauty map computed. (delta = ['1', '-1', '1'], g = [-4, 5, 0, 0, 0, 4])
+2022-02-12 17:28:33,346 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-4, 5, 0, 0, 0, 4])
+2022-02-12 17:28:36,977 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-4, 5, 0, 0, 0, 4])
+2022-02-12 17:28:36,980 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '0', '0', '0', '4'], g = [-4, 5, 0, 0, 0, 4])
+2022-02-12 17:28:40,100 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '0', '0', '0', '4'], g = [-4, 5, 0, 0, 0, 4])
+2022-02-12 17:28:40,103 INFO: Tasks complete. Recording data and exiting.

@@ -20,3 +20,17 @@
 2022-01-14 09:07:33,091 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['0', '-1', '-2', '0', '1'], g = [-2, -3, 0, -4, -4, 4])
 2022-01-14 09:07:33,091 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '8', '1', '5', '9', '-8'], g = [-2, -3, 0, -4, -4, 4])
 2022-01-14 09:07:33,178 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 16:39:32,493 INFO: Loaded curve data from file.
+2022-02-12 16:39:32,494 INFO: Computing elliptic Chabauty map... (delta = ['0', '1', '1'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:39:46,880 INFO: Elliptic Chabauty map computed. (delta = ['0', '1', '1'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:39:46,884 INFO: Computing elliptic Chabauty map... (delta = ['4', '4', '1', '8', '8', '-8'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:01,312 INFO: Elliptic Chabauty map computed. (delta = ['4', '4', '1', '8', '8', '-8'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:01,315 INFO: Computing elliptic Chabauty map... (delta = ['24', '36', '-2', '47', '49', '-48'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:15,580 INFO: Elliptic Chabauty map computed. (delta = ['24', '36', '-2', '47', '49', '-48'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:15,583 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:29,943 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:29,946 INFO: Computing elliptic Chabauty map... (delta = ['0', '-1', '-2', '0', '1'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:45,115 INFO: Elliptic Chabauty map computed. (delta = ['0', '-1', '-2', '0', '1'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:40:45,118 INFO: Computing elliptic Chabauty map... (delta = ['4', '8', '1', '5', '9', '-8'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:41:00,306 INFO: Elliptic Chabauty map computed. (delta = ['4', '8', '1', '5', '9', '-8'], g = [-2, -3, 0, -4, -4, 4])
+2022-02-12 16:41:00,310 INFO: Tasks complete. Recording data and exiting.

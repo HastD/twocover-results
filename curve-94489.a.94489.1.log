@@ -17,3 +17,13 @@
 2022-01-11 12:57:02,299 INFO: Obstruction found to provably computing rational points. Exiting.
 2022-01-13 17:36:48,202 INFO: Loaded curve data from file.
 2022-01-13 17:36:48,202 INFO: Obstruction already found. Exiting.
+2022-02-12 16:47:07,319 INFO: Loaded curve data from file.
+2022-02-12 16:47:07,319 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:14,340 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:14,343 INFO: Computing elliptic Chabauty map... (delta = ['1', '8', '-2', '-1', '-1', '-1'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:21,090 INFO: Elliptic Chabauty map computed. (delta = ['1', '8', '-2', '-1', '-1', '-1'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:21,093 INFO: Computing elliptic Chabauty map... (delta = ['0', '-10', '3', '1', '1', '1'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:27,604 INFO: Elliptic Chabauty map computed. (delta = ['0', '-10', '3', '1', '1', '1'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:27,607 INFO: Computing elliptic Chabauty map... (delta = ['-4', '-37', '14', '3', '4', '4'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:34,329 INFO: Elliptic Chabauty map computed. (delta = ['-4', '-37', '14', '3', '4', '4'], g = [-1, -9, 3, 1, 1, 1])
+2022-02-12 16:47:34,332 INFO: Tasks complete. Recording data and exiting.

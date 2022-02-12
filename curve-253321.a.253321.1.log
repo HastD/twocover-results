@@ -36,3 +36,17 @@
 2022-01-14 09:11:08,156 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['4', '31/2', '33/2', '3', '1/2', '1/2'], g = [9, 35, 37, 5, -1, 1])
 2022-01-14 09:11:08,156 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-1/2', '-1'], g = [9, 35, 37, 5, -1, 1])
 2022-01-14 09:11:08,332 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:20:14,191 INFO: Loaded curve data from file.
+2022-02-12 17:20:14,192 INFO: Computing elliptic Chabauty map... (delta = ['8', '34', '37', '5', '-1', '1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:24,836 INFO: Elliptic Chabauty map computed. (delta = ['8', '34', '37', '5', '-1', '1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:24,840 INFO: Computing elliptic Chabauty map... (delta = ['5', '19', '39/2', '5/2', '-1/2', '1/2'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:35,391 INFO: Elliptic Chabauty map computed. (delta = ['5', '19', '39/2', '5/2', '-1/2', '1/2'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:35,395 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:45,923 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:45,926 INFO: Computing elliptic Chabauty map... (delta = ['1/2', '3/2', '1/2', '-1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:56,441 INFO: Elliptic Chabauty map computed. (delta = ['1/2', '3/2', '1/2', '-1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:20:56,445 INFO: Computing elliptic Chabauty map... (delta = ['4', '31/2', '33/2', '3', '1/2', '1/2'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:21:06,937 INFO: Elliptic Chabauty map computed. (delta = ['4', '31/2', '33/2', '3', '1/2', '1/2'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:21:06,942 INFO: Computing elliptic Chabauty map... (delta = ['-1/2', '-1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:21:17,389 INFO: Elliptic Chabauty map computed. (delta = ['-1/2', '-1'], g = [9, 35, 37, 5, -1, 1])
+2022-02-12 17:21:17,394 INFO: Tasks complete. Recording data and exiting.

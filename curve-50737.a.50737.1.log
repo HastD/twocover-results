@@ -113,3 +113,11 @@ Runtime error in 'Max': Argument 1 is not non-empty
 2022-01-10 22:50:42,025 INFO: Skipped Chabauty because no base point (delta = ['-2', '-1'])
 2022-01-10 22:50:42,234 INFO: Rational points successfully computed.
 2022-01-10 22:50:42,236 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:12:27,576 INFO: Loaded curve data from file.
+2022-02-12 17:12:27,576 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [9, 7, -11, -3, 3, 1])
+2022-02-12 17:12:37,319 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [9, 7, -11, -3, 3, 1])
+2022-02-12 17:12:37,322 INFO: Computing elliptic Chabauty map... (delta = ['8', '6', '-11', '-3', '3', '1'], g = [9, 7, -11, -3, 3, 1])
+2022-02-12 17:12:46,901 INFO: Elliptic Chabauty map computed. (delta = ['8', '6', '-11', '-3', '3', '1'], g = [9, 7, -11, -3, 3, 1])
+2022-02-12 17:12:46,904 INFO: Computing elliptic Chabauty map... (delta = ['-7', '-4', '12', '3', '-3', '-1'], g = [9, 7, -11, -3, 3, 1])
+2022-02-12 17:12:56,570 INFO: Elliptic Chabauty map computed. (delta = ['-7', '-4', '12', '3', '-3', '-1'], g = [9, 7, -11, -3, 3, 1])
+2022-02-12 17:12:56,574 INFO: Tasks complete. Recording data and exiting.

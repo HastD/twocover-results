@@ -59,3 +59,13 @@ Runtime error in 'IsSquare': Insufficient precision to calculate a correct answe
 2022-01-14 09:10:58,811 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-4', '-7', '-7', '-8', '0', '3'], g = [-4, -8, -8, -8, 0, 3])
 2022-01-14 09:10:58,811 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [-4, -8, -8, -8, 0, 3])
 2022-01-14 09:10:58,813 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:32:31,353 INFO: Loaded curve data from file.
+2022-02-12 17:32:31,353 INFO: Computing elliptic Chabauty map... (delta = ['4', '7', '7', '9', '1', '-3'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:32:42,099 INFO: Elliptic Chabauty map computed. (delta = ['4', '7', '7', '9', '1', '-3'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:32:42,101 INFO: Computing elliptic Chabauty map... (delta = ['-1', '0', '1'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:32:52,581 INFO: Elliptic Chabauty map computed. (delta = ['-1', '0', '1'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:32:52,584 INFO: Computing elliptic Chabauty map... (delta = ['-4', '-7', '-7', '-8', '0', '3'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:33:02,939 INFO: Elliptic Chabauty map computed. (delta = ['-4', '-7', '-7', '-8', '0', '3'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:33:02,942 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:33:13,373 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-4, -8, -8, -8, 0, 3])
+2022-02-12 17:33:13,376 INFO: Tasks complete. Recording data and exiting.

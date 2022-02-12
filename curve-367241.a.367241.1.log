@@ -29,3 +29,17 @@
 2022-01-14 11:32:57,993 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['4', '-4', '-11', '8', '11', '1'], g = [4, -3, -10, 7, 10, 1])
 2022-01-14 11:32:57,993 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['16', '-12', '-39', '29', '39', '3'], g = [4, -3, -10, 7, 10, 1])
 2022-01-14 11:32:58,147 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:15:19,470 INFO: Loaded curve data from file.
+2022-02-12 17:15:19,470 INFO: Computing elliptic Chabauty map... (delta = ['4', '-4', '-10', '7', '10', '1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:15:35,966 INFO: Elliptic Chabauty map computed. (delta = ['4', '-4', '-10', '7', '10', '1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:15:35,969 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '11', '-7', '-10', '-1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:15:52,155 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '11', '-7', '-10', '-1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:15:52,158 INFO: Computing elliptic Chabauty map... (delta = ['-1', '0', '1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:08,178 INFO: Elliptic Chabauty map computed. (delta = ['-1', '0', '1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:08,182 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:24,199 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:24,204 INFO: Computing elliptic Chabauty map... (delta = ['4', '-4', '-11', '8', '11', '1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:40,330 INFO: Elliptic Chabauty map computed. (delta = ['4', '-4', '-11', '8', '11', '1'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:40,364 INFO: Computing elliptic Chabauty map... (delta = ['16', '-12', '-39', '29', '39', '3'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:56,402 INFO: Elliptic Chabauty map computed. (delta = ['16', '-12', '-39', '29', '39', '3'], g = [4, -3, -10, 7, 10, 1])
+2022-02-12 17:16:56,407 INFO: Tasks complete. Recording data and exiting.

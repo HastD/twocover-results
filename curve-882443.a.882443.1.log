@@ -36,3 +36,17 @@
 2022-02-02 04:43:21,335 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-4', '-15', '-11', '-16', '-8', '-1'], g = [4, 16, 12, 16, 8, 1])
 2022-02-02 04:43:21,335 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['8', '32', '49/2', '67/2', '17', '2'], g = [4, 16, 12, 16, 8, 1])
 2022-02-02 04:43:21,488 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 16:50:53,957 INFO: Loaded curve data from file.
+2022-02-12 16:50:53,958 INFO: Computing elliptic Chabauty map... (delta = ['-16', '-64', '-49', '-65', '-32', '-4'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:09,918 INFO: Elliptic Chabauty map computed. (delta = ['-16', '-64', '-49', '-65', '-32', '-4'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:09,921 INFO: Computing elliptic Chabauty map... (delta = ['-2', '-15/2', '-5', '-8', '-4', '-1/2'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:25,811 INFO: Elliptic Chabauty map computed. (delta = ['-2', '-15/2', '-5', '-8', '-4', '-1/2'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:25,814 INFO: Computing elliptic Chabauty map... (delta = ['4', '15', '12', '16', '8', '1'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:41,558 INFO: Elliptic Chabauty map computed. (delta = ['4', '15', '12', '16', '8', '1'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:41,561 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:57,332 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:51:57,335 INFO: Computing elliptic Chabauty map... (delta = ['-4', '-15', '-11', '-16', '-8', '-1'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:52:13,141 INFO: Elliptic Chabauty map computed. (delta = ['-4', '-15', '-11', '-16', '-8', '-1'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:52:13,144 INFO: Computing elliptic Chabauty map... (delta = ['8', '32', '49/2', '67/2', '17', '2'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:52:29,273 INFO: Elliptic Chabauty map computed. (delta = ['8', '32', '49/2', '67/2', '17', '2'], g = [4, 16, 12, 16, 8, 1])
+2022-02-12 16:52:29,278 INFO: Tasks complete. Recording data and exiting.

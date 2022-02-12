@@ -24,3 +24,19 @@
 2022-01-12 09:36:13,649 INFO: Obstruction found to provably computing rational points. Exiting.
 2022-01-14 09:10:58,726 INFO: Loaded curve data from file.
 2022-01-14 09:10:58,726 INFO: Obstruction already found. Exiting.
+2022-02-12 17:40:18,566 INFO: Loaded curve data from file.
+2022-02-12 17:40:18,566 INFO: Computing elliptic Chabauty map... (delta = ['1/2', '-3/2', '1'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:40:36,078 INFO: Elliptic Chabauty map computed. (delta = ['1/2', '-3/2', '1'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:40:36,083 INFO: Computing elliptic Chabauty map... (delta = ['8', '-16', '33/2', '8', '-43/2', '7'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:40:53,388 INFO: Elliptic Chabauty map computed. (delta = ['8', '-16', '33/2', '8', '-43/2', '7'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:40:53,396 INFO: Computing elliptic Chabauty map... (delta = ['4', '-9', '8', '5', '-12', '4'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:41:10,616 INFO: Elliptic Chabauty map computed. (delta = ['4', '-9', '8', '5', '-12', '4'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:41:10,621 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:41:28,012 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:41:28,016 INFO: Computing elliptic Chabauty map... (delta = ['2', '-9/2', '6', '0', '-5', '2'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:41:45,032 INFO: Elliptic Chabauty map computed. (delta = ['2', '-9/2', '6', '0', '-5', '2'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:41:45,037 INFO: Computing elliptic Chabauty map... (delta = ['4', '-9', '9', '5', '-12', '4'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:42:02,493 INFO: Elliptic Chabauty map computed. (delta = ['4', '-9', '9', '5', '-12', '4'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:42:02,498 INFO: Computing elliptic Chabauty map... (delta = ['16', '-32', '33', '19', '-48', '16'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:42:19,835 INFO: Elliptic Chabauty map computed. (delta = ['16', '-32', '33', '19', '-48', '16'], g = [4, -8, 8, 5, -12, 4])
+2022-02-12 17:42:19,841 INFO: Tasks complete. Recording data and exiting.

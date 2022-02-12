@@ -33,3 +33,9 @@ System Error: User memory limit has been reached
 2022-01-14 11:35:25,434 INFO: Skipped Chabauty because no base point (delta = ['-1/2', '5', '1'])
 2022-01-14 11:35:25,434 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1', '8', '1'], g = [4, 68, 296, 132, 20, 1])
 2022-01-14 11:35:25,606 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 16:54:50,432 INFO: Loaded curve data from file.
+2022-02-12 16:54:50,432 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 68, 296, 132, 20, 1])
+2022-02-12 16:55:13,486 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 68, 296, 132, 20, 1])
+2022-02-12 16:55:13,488 INFO: Computing elliptic Chabauty map... (delta = ['1', '8', '1'], g = [4, 68, 296, 132, 20, 1])
+2022-02-12 16:55:36,473 INFO: Elliptic Chabauty map computed. (delta = ['1', '8', '1'], g = [4, 68, 296, 132, 20, 1])
+2022-02-12 16:55:36,475 INFO: Tasks complete. Recording data and exiting.

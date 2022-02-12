@@ -20,3 +20,17 @@
 2022-01-14 09:10:23,039 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['-1/2', '1/2', '1'], g = [-4, 5, 10, 11, 2, 1])
 2022-01-14 09:10:23,040 INFO: Skipped Chabauty because no base point (delta = ['-1', '-1'])
 2022-01-14 09:10:23,121 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:46:26,077 INFO: Loaded curve data from file.
+2022-02-12 17:46:26,078 INFO: Computing elliptic Chabauty map... (delta = ['2', '-2', '-11/2', '-13/2', '-1', '-1/2'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:46:39,661 INFO: Elliptic Chabauty map computed. (delta = ['2', '-2', '-11/2', '-13/2', '-1', '-1/2'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:46:39,663 INFO: Computing elliptic Chabauty map... (delta = ['4', '-4', '-9', '-11', '-2', '-1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:46:53,044 INFO: Elliptic Chabauty map computed. (delta = ['4', '-4', '-9', '-11', '-2', '-1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:46:53,046 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:06,313 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:06,316 INFO: Computing elliptic Chabauty map... (delta = ['-2', '2', '6', '11/2', '1', '1/2'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:19,566 INFO: Elliptic Chabauty map computed. (delta = ['-2', '2', '6', '11/2', '1', '1/2'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:19,570 INFO: Computing elliptic Chabauty map... (delta = ['-4', '4', '10', '11', '2', '1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:32,639 INFO: Elliptic Chabauty map computed. (delta = ['-4', '4', '10', '11', '2', '1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:32,643 INFO: Computing elliptic Chabauty map... (delta = ['-1/2', '1/2', '1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:45,825 INFO: Elliptic Chabauty map computed. (delta = ['-1/2', '1/2', '1'], g = [-4, 5, 10, 11, 2, 1])
+2022-02-12 17:47:45,828 INFO: Tasks complete. Recording data and exiting.

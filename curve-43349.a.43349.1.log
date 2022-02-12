@@ -86,3 +86,11 @@ Argument types given: FldRe, RngIntElt
 2022-01-10 22:39:11,382 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '-1/2', '1'], g = [4, -8, 16, -12, 8, 1])
 2022-01-10 22:39:11,382 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1'], g = [4, -8, 16, -12, 8, 1])
 2022-01-10 22:39:11,420 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:50:33,731 INFO: Loaded curve data from file.
+2022-02-12 17:50:33,732 INFO: Computing elliptic Chabauty map... (delta = ['1/2', '-1', '2', '-3/2', '1'], g = [4, -8, 16, -12, 8, 1])
+2022-02-12 17:50:47,687 INFO: Elliptic Chabauty map computed. (delta = ['1/2', '-1', '2', '-3/2', '1'], g = [4, -8, 16, -12, 8, 1])
+2022-02-12 17:50:47,689 INFO: Computing elliptic Chabauty map... (delta = ['1/2', '-1/2', '1'], g = [4, -8, 16, -12, 8, 1])
+2022-02-12 17:51:01,411 INFO: Elliptic Chabauty map computed. (delta = ['1/2', '-1/2', '1'], g = [4, -8, 16, -12, 8, 1])
+2022-02-12 17:51:01,414 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, -8, 16, -12, 8, 1])
+2022-02-12 17:51:15,316 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, -8, 16, -12, 8, 1])
+2022-02-12 17:51:15,318 INFO: Tasks complete. Recording data and exiting.

@@ -106,3 +106,11 @@ Runtime error in '!': Point does not lie in scheme
 2022-01-10 22:40:06,778 INFO: Chabauty completed successfully (delta = ['1/4', '-5/4', '2', '-1'], g = [4, 12, -20, 0, 4, 1]).
 2022-01-10 22:40:07,017 INFO: Rational points successfully computed.
 2022-01-10 22:40:07,019 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:31:41,460 INFO: Loaded curve data from file.
+2022-02-12 17:31:41,461 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 12, -20, 0, 4, 1])
+2022-02-12 17:31:54,104 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 12, -20, 0, 4, 1])
+2022-02-12 17:31:54,107 INFO: Computing elliptic Chabauty map... (delta = ['1/2', '-1'], g = [4, 12, -20, 0, 4, 1])
+2022-02-12 17:32:06,820 INFO: Elliptic Chabauty map computed. (delta = ['1/2', '-1'], g = [4, 12, -20, 0, 4, 1])
+2022-02-12 17:32:06,822 INFO: Computing elliptic Chabauty map... (delta = ['1/4', '-5/4', '2', '-1'], g = [4, 12, -20, 0, 4, 1])
+2022-02-12 17:32:19,494 INFO: Elliptic Chabauty map computed. (delta = ['1/4', '-5/4', '2', '-1'], g = [4, 12, -20, 0, 4, 1])
+2022-02-12 17:32:19,497 INFO: Tasks complete. Recording data and exiting.

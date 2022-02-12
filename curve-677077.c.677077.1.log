@@ -32,3 +32,13 @@ System Error: User memory limit has been reached
 2022-01-14 15:52:32,097 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['1/2', '-1'], g = [4, 4, 0, 4, 8, 1])
 2022-01-14 15:52:32,097 INFO: Skipped Chabauty because MW generators haven't been computed. (delta = ['2', '3/2', '1', '2', '4', '1/2'], g = [4, 4, 0, 4, 8, 1])
 2022-01-14 15:52:32,099 INFO: Tasks complete. Recording data and exiting.
+2022-02-12 17:09:47,895 INFO: Loaded curve data from file.
+2022-02-12 17:09:47,895 INFO: Computing elliptic Chabauty map... (delta = ['4', '3', '0', '4', '8', '1'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:09:59,856 INFO: Elliptic Chabauty map computed. (delta = ['4', '3', '0', '4', '8', '1'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:09:59,859 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:10:11,551 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:10:11,553 INFO: Computing elliptic Chabauty map... (delta = ['1/2', '-1'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:10:23,385 INFO: Elliptic Chabauty map computed. (delta = ['1/2', '-1'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:10:23,387 INFO: Computing elliptic Chabauty map... (delta = ['2', '3/2', '1', '2', '4', '1/2'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:10:35,171 INFO: Elliptic Chabauty map computed. (delta = ['2', '3/2', '1', '2', '4', '1/2'], g = [4, 4, 0, 4, 8, 1])
+2022-02-12 17:10:35,173 INFO: Tasks complete. Recording data and exiting.
