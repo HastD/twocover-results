@@ -8,3 +8,23 @@
 2022-01-14 11:32:38,261 INFO: Tasks complete. Recording data and exiting.
 2022-02-12 17:44:57,475 INFO: Loaded curve data from file.
 2022-02-12 17:44:57,475 INFO: Tasks complete. Recording data and exiting.
+2022-02-18 00:43:50,065 INFO: Loaded curve data from file.
+2022-02-18 00:43:50,066 INFO: Searching for rational points on each twist...
+2022-02-18 00:43:51,123 INFO: Finished searching for rational points on each twist.
+2022-02-18 00:43:51,123 INFO: Testing local solvability of twists...
+2022-02-18 00:43:51,907 INFO: Finished local solvability testing.
+2022-02-18 00:43:51,907 INFO: Computing elliptic curve a-invariants...
+2022-02-18 00:44:06,211 INFO: Finished computation of a-invariants.
+2022-02-18 00:44:06,212 INFO: Computing elliptic Chabauty map... (delta = ['-1', '-1', '1', '1', '0', '-1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:44:13,152 INFO: Elliptic Chabauty map computed. (delta = ['-1', '-1', '1', '1', '0', '-1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:44:13,153 INFO: Computing elliptic Chabauty map... (delta = ['1', '1', '0', '-1', '0', '1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:44:19,786 INFO: Elliptic Chabauty map computed. (delta = ['1', '1', '0', '-1', '0', '1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:44:19,786 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:44:26,233 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:44:26,234 INFO: Skipped MW computation because no base point (delta = ['-1', '-1'])
+2022-02-18 00:44:26,234 INFO: Computing MW group (delta = ['-1', '-1', '1', '1', '0', '-1'], g = [1, 2, 0, -1, 0, 1])...
+2022-02-18 00:44:56,679 INFO: Finished MW computation (delta = ['-1', '-1', '1', '1', '0', '-1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:44:56,680 INFO: Computing MW group (delta = ['1', '1', '0', '-1', '0', '1'], g = [1, 2, 0, -1, 0, 1])...
+2022-02-18 00:47:55,050 INFO: Finished MW computation (delta = ['1', '1', '0', '-1', '0', '1'], g = [1, 2, 0, -1, 0, 1])
+2022-02-18 00:47:55,051 INFO: Unable to use elliptic Chabauty on twist (delta = ['1', '1', '0', '-1', '0', '1'])
+2022-02-18 00:47:55,051 INFO: Obstruction found to provably computing rational points. Exiting.

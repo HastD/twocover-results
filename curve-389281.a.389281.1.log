@@ -8,3 +8,33 @@
 2022-01-14 11:32:37,703 INFO: Tasks complete. Recording data and exiting.
 2022-02-12 17:03:04,446 INFO: Loaded curve data from file.
 2022-02-12 17:03:04,446 INFO: Tasks complete. Recording data and exiting.
+2022-02-18 00:31:19,885 INFO: Loaded curve data from file.
+2022-02-18 00:31:19,886 INFO: Searching for rational points on each twist...
+2022-02-18 00:31:21,270 INFO: Finished searching for rational points on each twist.
+2022-02-18 00:31:21,270 INFO: Testing local solvability of twists...
+2022-02-18 00:31:21,272 INFO: Finished local solvability testing.
+2022-02-18 00:31:21,272 INFO: Computing elliptic curve a-invariants...
+2022-02-18 00:31:26,159 INFO: Finished computation of a-invariants.
+2022-02-18 00:31:26,159 INFO: Computing elliptic Chabauty map... (delta = ['36', '3', '-26', '-21', '-4', '-4'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:30,636 INFO: Elliptic Chabauty map computed. (delta = ['36', '3', '-26', '-21', '-4', '-4'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:30,636 INFO: Computing elliptic Chabauty map... (delta = ['9', '0', '-6', '-5', '-1', '-1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:35,219 INFO: Elliptic Chabauty map computed. (delta = ['9', '0', '-6', '-5', '-1', '-1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:35,219 INFO: Computing elliptic Chabauty map... (delta = ['1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:39,591 INFO: Elliptic Chabauty map computed. (delta = ['1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:39,592 INFO: Computing elliptic Chabauty map... (delta = ['-8', '-2', '7', '5', '1', '1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:44,066 INFO: Elliptic Chabauty map computed. (delta = ['-8', '-2', '7', '5', '1', '1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:31:44,067 INFO: Computing MW group (delta = ['36', '3', '-26', '-21', '-4', '-4'], g = [-9, -1, 7, 5, 1, 1])...
+2022-02-18 00:32:53,001 INFO: Finished MW computation (delta = ['36', '3', '-26', '-21', '-4', '-4'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:32:53,002 INFO: Computing MW group (delta = ['9', '0', '-6', '-5', '-1', '-1'], g = [-9, -1, 7, 5, 1, 1])...
+2022-02-18 00:34:37,207 INFO: Finished MW computation (delta = ['9', '0', '-6', '-5', '-1', '-1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:34:37,209 INFO: Computing MW group (delta = ['1'], g = [-9, -1, 7, 5, 1, 1])...
+2022-02-18 00:41:41,075 INFO: Finished MW computation (delta = ['1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:41:41,076 INFO: Computing MW group (delta = ['-8', '-2', '7', '5', '1', '1'], g = [-9, -1, 7, 5, 1, 1])...
+2022-02-18 00:42:30,060 INFO: Finished MW computation (delta = ['-8', '-2', '7', '5', '1', '1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:42:30,061 INFO: Reducing MW generators...
+2022-02-18 00:42:30,660 INFO: Finished reducing MW generators.
+2022-02-18 00:42:30,660 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['36', '3', '-26', '-21', '-4', '-4'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:42:30,660 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['9', '0', '-6', '-5', '-1', '-1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:42:30,660 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:42:30,660 INFO: Skipped Chabauty because MW group hasn't been provably computed. (delta = ['-8', '-2', '7', '5', '1', '1'], g = [-9, -1, 7, 5, 1, 1])
+2022-02-18 00:42:30,662 INFO: Tasks complete. Recording data and exiting.
