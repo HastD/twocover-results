@@ -1,0 +1,2401 @@
+Magma V2.26-10    Mon Feb 21 2022 17:27:28 on scc-pd6  [Seed = 944655272]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "/projectnb/arithgeo/drhast/twocover-results/examples/curve-6443.a\
+.6443.1-class-groups.m"
+Number Field with defining polynomial x^15 - 3*x^14 + 15*x^13 - 60*x^12 + 
+    267*x^11 - 1337*x^10 + 2375*x^9 - 1676*x^8 + 2625*x^7 - 4167*x^6 - 2687*x^5 
+    + 10176*x^4 - 4556*x^3 - 2616*x^2 + 1238*x + 406 over the Rational Field
+Obtaining class group for
+x^15 - 3*x^14 + 15*x^13 - 60*x^12 + 267*x^11 - 1337*x^10 + 2375*x^9 - 1676*x^8 +
+    2625*x^7 - 4167*x^6 - 2687*x^5 + 10176*x^4 - 4556*x^3 - 2616*x^2 + 1238*x + 
+    406
+Belabas bound : trying t = 0.100000000000000005551115123126
+Belabas bound = 371
+GRH bound = 371
+Starting core class group computation with bound 371
+Expected number of random elements per relation: 6
+    Degree = 15
+    Discriminant = 293014246204698378134523904 (27 digits)
+    Sqrt(|disc|) = 17117658899648 (44 bits)
+    Getting automorphisms
+    Automorphisms time: 0.230
+    # torsion units = 2
+    Increasing LLL real precision from 555 to 997
+    # of automorphisms: 1
+    Norms of the order basis:
+    -1 1 -8 -1 -12167 9800 406 -2437 -9800 76874 -928550 -153125 33614 305000 
+    1635550 
+    FACTOR BASE up to norm 371 at least
+     2 4 243 243 243 5 25 7 7 7 49 49 49 49 49 49 13 169 17 289 17 17 289 289 19
+    19 19 361 361 361 361 361 361 23 29 29 29 31 31 31 37 47 61 89 97 103 103 
+    103 107 109 109 109 139 139 139 151 151 151 157 163 163 163 167 173 173 173 
+    191 191 191 193 211 223 227 229 251 251 251 277 293 293 293 311 313 313 313 
+    337
+    FB time: 0.049
+    Computing bases and inverses of primes in FB
+    Computing bases and inverses time: 0.088[r]
+    Factor base creation time: 0.140
+    Factor base up to norm 371 contains 86 primes over 36 rational primes
+    There are 5 trivial relations
+    2 3 7 17 19 
+    Max norm bits: 29
+    Product of distinct (powers of) primes over Z has 224 bits
+    Using batch smoothness testing
+        batch size 2^0 = 1
+        e = 5
+    473 VECTORS
+
+    INITIALIZATION PHASE DONE -- total time: 0.600
+
+    TARGET (PHASE 1A) 337 (#85)
+    Rank 5 (5 x 86)
+    1 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 6 (6 x 86)
+    2 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 4]
+    Rank 7 (7 x 86)
+    3 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 3]
+    Rank 8 (8 x 86)
+    4 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 2]
+    Rank 9 (9 x 86)
+    5 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 2]
+    Rank 9 (9 x 86)
+    6 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 2]
+    Rank 10 (10 x 86)
+    7 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 10 (10 x 86)
+    8 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 11 (11 x 86)
+    9 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 12 (12 x 86)
+    10 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 13 (13 x 86)
+    11 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 2, 2]
+    Rank 13 (13 x 86)
+    12 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 14 (14 x 86)
+    13 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 15 (15 x 86)
+    14 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 16 (16 x 86)
+    15 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 17 (17 x 86)
+    16 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 18 (18 x 86)
+    17 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 19 (19 x 86)
+    18 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 20 (20 x 86)
+    19 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 20 (20 x 86)
+    20 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 2, 2]
+    Rank 21 (21 x 86)
+    21 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 22 (22 x 86)
+    22 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 23 (23 x 86)
+    23 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 24 (24 x 86)
+    24 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 25 (25 x 86)
+    25 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 26 (26 x 86)
+    26 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 27 (27 x 86)
+    27 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 27 (27 x 86)
+    28 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 2, 2]
+    Rank 28 (28 x 86)
+    29 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 29 (29 x 86)
+    30 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 30 (30 x 86)
+    31 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 2, 2]
+    Rank 31 (31 x 86)
+    32 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 31 (31 x 86)
+    33 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 32 (32 x 86)
+    34 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 2, 2]
+    Rank 33 (33 x 86)
+    35 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 34 (34 x 86)
+    36 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 34 (34 x 86)
+    37 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 35 (35 x 86)
+    38 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 2, 2]
+    Rank 36 (36 x 86)
+    39 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 2, 2]
+    Rank 37 (37 x 86)
+    40 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 2, 2]
+    Rank 38 (38 x 86)
+    41 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 38 (38 x 86)
+    42 hashed values
+    Found new relation       [#tries: 9, exp: 6, av: 2, 3]
+    Rank 39 (39 x 86)
+    43 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 3]
+    Rank 40 (40 x 86)
+    44 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 41 (41 x 86)
+    45 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 42 (42 x 86)
+    46 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 2, 2]
+    Rank 43 (43 x 86)
+    47 hashed values
+    Found new relation       [#tries: 10, exp: 6, av: 3, 3]
+    Rank 44 (44 x 86)
+    48 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 3]
+    Rank 45 (45 x 86)
+    49 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 3]
+    Rank 46 (46 x 86)
+    50 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 3]
+    Rank 47 (47 x 86)
+    51 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 48 (48 x 86)
+    52 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 2]
+    Rank 48 (49 x 86)
+    53 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 3]
+    Rank 49 (50 x 86)
+    54 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 2]
+    Rank 50 (51 x 86)
+    55 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 51 (52 x 86)
+    56 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 2, 3]
+    Rank 52 (53 x 86)
+    57 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 3]
+    Rank 53 (54 x 86)
+    58 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 2]
+    Rank 53 (55 x 86)
+    59 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 3]
+    Rank 53 (56 x 86)
+    60 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 2, 3]
+    Rank 53 (57 x 86)
+    61 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 3]
+    Rank 54 (58 x 86)
+    62 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 3]
+    Rank 55 (59 x 86)
+    63 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 3]
+    Rank 55 (60 x 86)
+    64 hashed values
+    Found new relation       [#tries: 11, exp: 6, av: 2, 3]
+    Rank 55 (61 x 86)
+    65 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 2, 3]
+    Rank 56 (62 x 86)
+    66 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 2, 3]
+    Rank 56 (63 x 86)
+    67 hashed values
+    Found new relation       [#tries: 11, exp: 6, av: 3, 3]
+    Rank 56 (64 x 86)
+    68 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 3]
+    Rank 56 (65 x 86)
+    69 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 3]
+    Rank 56 (65 x 86)
+    70 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 3, 3]
+    Rank 56 (65 x 86)
+    71 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 3, 3]
+    Rank 57 (66 x 86)
+    72 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 3]
+    Rank 57 (67 x 86)
+    73 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 3, 3]
+    Rank 57 (67 x 86)
+    74 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 3]
+    Rank 58 (68 x 86)
+    75 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 3]
+    Rank 58 (68 x 86)
+    76 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 3]
+    Rank 58 (68 x 86)
+    77 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 3]
+    Rank 59 (69 x 86)
+    78 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 3, 3]
+    Rank 59 (70 x 86)
+    79 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 3, 3]
+    Rank 59 (70 x 86)
+    80 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 3, 4]
+    Rank 60 (71 x 86)
+    81 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 4]
+    Rank 60 (72 x 86)
+    82 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 3, 4]
+    Rank 60 (72 x 86)
+    83 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 4]
+    Rank 60 (72 x 86)
+    84 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 60 (72 x 86)
+    85 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 60 (72 x 86)
+    86 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 4]
+    Rank 61 (73 x 86)
+    87 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 61 (73 x 86)
+    88 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 3, 4]
+    Rank 61 (73 x 86)
+    89 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 4]
+    Rank 61 (73 x 86)
+    90 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 3, 4]
+    Rank 62 (74 x 86)
+    91 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 3, 4]
+    Rank 63 (75 x 86)
+    92 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 3, 4]
+    Rank 63 (76 x 86)
+    93 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 3, 4]
+    Rank 63 (77 x 86)
+    94 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    95 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    96 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    97 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    98 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    99 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    100 hashed values
+    Found new relation       [#tries: 18, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    101 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    102 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 3, 4]
+    Rank 64 (78 x 86)
+    103 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 5]
+    Rank 64 (78 x 86)
+    104 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 4, 5]
+    Rank 64 (78 x 86)
+    105 hashed values
+    Found new relation       [#tries: 11, exp: 6, av: 4, 5]
+    Rank 64 (78 x 86)
+    106 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 5]
+    Rank 64 (78 x 86)
+    107 hashed values
+    Found new relation       [#tries: 8, exp: 6, av: 4, 5]
+    Rank 64 (78 x 86)
+    108 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 5]
+    Rank 64 (78 x 86)
+    109 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 5]
+    Rank 64 (78 x 86)
+    110 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 4, 5]
+    Rank 65 (79 x 86)
+    111 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 4, 5]
+    Rank 65 (80 x 86)
+    112 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 5]
+    Rank 65 (80 x 86)
+    113 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 4, 5]
+    Rank 65 (80 x 86)
+    114 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 4, 5]
+    Rank 65 (80 x 86)
+    115 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 5]
+    Rank 66 (81 x 86)
+    116 hashed values
+    Found new relation       [#tries: 9, exp: 6, av: 4, 5]
+    Rank 67 (82 x 86)
+    117 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 5]
+    Rank 67 (83 x 86)
+    118 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 4, 5]
+    Rank 67 (83 x 86)
+    119 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 5]
+    Rank 68 (84 x 86)
+    120 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 4, 5]
+    Rank 68 (85 x 86)
+    121 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 5]
+    Rank 68 (85 x 86)
+    122 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 4, 5]
+    Rank 68 (85 x 86)
+    123 hashed values
+    Found new relation       [#tries: 8, exp: 6, av: 4, 6]
+    Rank 69 (86 x 86)
+    124 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 4, 5]
+    Rank 69 (87 x 86)
+    125 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 5]
+    Rank 69 (87 x 86)
+    126 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    127 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    128 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    129 hashed values
+    Found new relation       [#tries: 8, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    130 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    131 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    132 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    133 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 4, 6]
+    Rank 69 (87 x 86)
+    134 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 6]
+    Rank 70 (88 x 86)
+    135 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 4, 6]
+    Rank 70 (88 x 86)
+    136 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 4, 6]
+    Rank 70 (88 x 86)
+    137 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 4, 6]
+    Rank 70 (88 x 86)
+    138 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 6]
+    Rank 70 (88 x 86)
+    139 hashed values
+    Found new relation       [#tries: 21, exp: 6, av: 5, 6]
+    Rank 71 (89 x 86)
+    140 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 5, 6]
+    Rank 71 (90 x 86)
+    141 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 6]
+    Rank 71 (90 x 86)
+    TARGET (PHASE 1A) 313 (#84)
+    142 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 5, 6]
+    Rank 72 (91 x 86)
+    143 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    144 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    145 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    146 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    147 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    148 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    149 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    150 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    151 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    152 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    153 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 6]
+    Rank 72 (92 x 86)
+    154 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    155 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    156 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    157 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    158 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    159 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    160 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    161 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    162 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    163 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    164 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    165 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    166 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    167 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    168 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    169 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    170 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    171 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    172 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    173 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    174 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    175 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    176 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    177 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    178 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    179 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    180 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    181 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 5, 7]
+    Rank 72 (92 x 86)
+    182 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 7]
+    Rank 72 (92 x 86)
+    183 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 7]
+    Rank 72 (92 x 86)
+    184 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 7]
+    Rank 72 (92 x 86)
+    185 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 6, 8]
+    Rank 72 (92 x 86)
+    186 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 6, 8]
+    Rank 73 (93 x 86)
+    187 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 7]
+    Rank 73 (93 x 86)
+    188 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 7]
+    Rank 73 (93 x 86)
+    189 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 6, 8]
+    Rank 73 (93 x 86)
+    190 hashed values
+    Found new relation       [#tries: 8, exp: 6, av: 6, 8]
+    Rank 73 (93 x 86)
+    191 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 73 (93 x 86)
+    192 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 6, 8]
+    Rank 73 (93 x 86)
+    193 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 6, 8]
+    Rank 73 (93 x 86)
+    194 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 74 (94 x 86)
+    195 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 75 (95 x 86)
+    196 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 8]
+    Rank 75 (96 x 86)
+    197 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 6, 8]
+    Rank 75 (97 x 86)
+    198 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 6, 8]
+    Rank 76 (98 x 86)
+    199 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 76 (98 x 86)
+    200 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 76 (98 x 86)
+    201 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 6, 8]
+    Rank 76 (98 x 86)
+    202 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 76 (98 x 86)
+    203 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 76 (98 x 86)
+    204 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 6, 8]
+    Rank 77 (99 x 86)
+    205 hashed values
+    Found new relation       [#tries: 18, exp: 6, av: 6, 8]
+    Rank 78 (100 x 86)
+    206 hashed values
+    Found new relation       [#tries: 9, exp: 6, av: 6, 8]
+    Rank 79 (101 x 86)
+    207 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 8]
+    Rank 79 (102 x 86)
+    208 hashed values
+    Found new relation       [#tries: 12, exp: 6, av: 6, 8]
+    Rank 79 (103 x 86)
+    209 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 79 (103 x 86)
+    210 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 8]
+    Rank 79 (103 x 86)
+    211 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 8]
+    Rank 79 (103 x 86)
+    212 hashed values
+    Found new relation       [#tries: 13, exp: 6, av: 6, 8]
+    Rank 79 (103 x 86)
+    213 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 6, 8]
+    Rank 79 (103 x 86)
+    214 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 6, 9]
+    Rank 79 (103 x 86)
+    215 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 9]
+    Rank 79 (103 x 86)
+    216 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 9]
+    Rank 79 (103 x 86)
+    217 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 9]
+    Rank 80 (104 x 86)
+    218 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 6, 8]
+    Rank 80 (105 x 86)
+    Norm distribution of candidates:
+    5                   4        4        0
+    7                   3        3        0
+    8                   5        5        0
+    9                   2        1        0
+    10                  5        5        0
+    11                  9        8        0
+    12                 10       10        0
+    13                 12       10        0
+    14                 18       13        0
+    15                 22       14        0
+    16                 30       18        0
+    17                 37       21        0
+    18                 39       18        0
+    19                 40       19        0
+    20                 44       14        0
+    21                 54       19        0
+    22                 66       22        0
+    23                 43        6        0
+    24                 51        6        0
+    25                 68        5        0
+    26                 33        4        0
+    27                 41        2        0
+    28                 18        1        0
+    29                 19        1        0
+    219 hashed values
+    Found new relation       [#tries: 9, exp: 6, av: 6, 9]
+    Rank 80 (105 x 86)
+    220 hashed values
+    Found new relation       [#tries: 8, exp: 6, av: 6, 9]
+    Rank 80 (105 x 86)
+    221 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 6, 9]
+    Rank 81 (106 x 86)
+    222 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 6, 9]
+    Rank 81 (107 x 86)
+    223 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 6, 9]
+    Rank 81 (107 x 86)
+    224 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 9]
+    Rank 82 (108 x 86)
+    225 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 6, 9]
+    Rank 82 (108 x 86)
+    226 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 6, 9]
+    Rank 82 (108 x 86)
+    227 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 6, 9]
+    Rank 82 (108 x 86)
+    228 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 6, 9]
+    Rank 82 (108 x 86)
+    229 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 6, 9]
+    Rank 82 (108 x 86)
+    230 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 7, 9]
+    Rank 82 (108 x 86)
+    231 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 9]
+    Rank 82 (108 x 86)
+    232 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 7, 9]
+    Rank 82 (108 x 86)
+    233 hashed values
+    Found new relation       [#tries: 12, exp: 6, av: 7, 9]
+    Rank 82 (108 x 86)
+    234 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 9]
+    Rank 83 (109 x 86)
+    235 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 7, 9]
+    Rank 83 (110 x 86)
+    236 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 7, 9]
+    Rank 84 (111 x 86)
+    237 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 7, 9]
+    Rank 84 (112 x 86)
+    238 hashed values
+    Found new relation       [#tries: 12, exp: 6, av: 7, 9]
+    Rank 84 (112 x 86)
+    239 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 7, 9]
+    Rank 84 (112 x 86)
+    240 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 9]
+    Rank 84 (112 x 86)
+    241 hashed values
+    Found new relation       [#tries: 17, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    242 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    243 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    244 hashed values
+    Found new relation       [#tries: 23, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    245 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    246 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    247 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    248 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    249 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    250 hashed values
+    Found new relation       [#tries: 9, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    251 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    252 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    253 hashed values
+    Found new relation       [#tries: 10, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    254 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    255 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    256 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    257 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    258 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 7, 10]
+    Rank 84 (112 x 86)
+    259 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 8, 11]
+    Rank 84 (112 x 86)
+    260 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 8, 11]
+    Rank 84 (112 x 86)
+    261 hashed values
+    Found new relation       [#tries: 8, exp: 6, av: 8, 11]
+    Rank 84 (112 x 86)
+    262 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 8, 11]
+    Rank 84 (112 x 86)
+    263 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 84 (112 x 86)
+    264 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 8, 11]
+    Rank 84 (112 x 86)
+    265 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 8, 11]
+    Rank 84 (112 x 86)
+    TARGET (PHASE 1A) 293 (#78)
+    266 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    267 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    268 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    269 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    270 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    271 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    272 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    273 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    274 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    275 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    276 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    277 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    278 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    279 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    280 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    281 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    282 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    283 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    284 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    285 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    286 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    287 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    288 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    289 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    290 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    291 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    292 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    293 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    294 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    295 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    296 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    297 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    298 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    299 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    300 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    301 hashed values
+    Found new relation       [#tries: 16, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    302 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 8, 11]
+    Rank 85 (113 x 86)
+    303 hashed values
+    Found new relation       [#tries: 6, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    304 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    305 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    306 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    307 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    308 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    309 hashed values
+    Found new relation       [#tries: 3, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    310 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 8, 12]
+    Rank 85 (113 x 86)
+    311 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    312 hashed values
+    Found new relation       [#tries: 8, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    313 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    314 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    315 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    316 hashed values
+    Found new relation       [#tries: 4, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    317 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    318 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    319 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    320 hashed values
+    Found new relation       [#tries: 5, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    321 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    322 hashed values
+    Found new relation       [#tries: 7, exp: 6, av: 9, 12]
+    Rank 85 (113 x 86)
+    323 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 9, 12]
+    Rank 86 (114 x 86)
+
+    FULL RANK RELATION MATRIX -- search time: 0.099
+
+    Norm distribution of candidates:
+    4                   7        7        0
+    5                   5        5        0
+    7                   5        5        0
+    8                   5        5        0
+    9                   3        1        0
+    10                  8        8        0
+    11                 16       15        0
+    12                 13       12        0
+    13                 24       21        0
+    14                 27       21        0
+    15                 35       26        0
+    16                 42       24        0
+    17                 52       31        0
+    18                 50       22        0
+    19                 56       22        0
+    20                 72       22        0
+    21                 86       27        0
+    22                 97       27        0
+    23                 74       10        0
+    24                 78       12        0
+    25                 85        6        0
+    26                 48        6        0
+    27                 68        3        0
+    28                 30        5        0
+    29                 34        1        0
+
+    END OF PHASE 1 -- search time: 0.700
+
+    Norm distribution of candidates:
+    4                   7        7        0
+    5                   5        5        0
+    7                   5        5        0
+    8                   5        5        0
+    9                   3        1        0
+    10                  8        8        0
+    11                 16       15        0
+    12                 13       12        0
+    13                 24       21        0
+    14                 27       21        0
+    15                 35       26        0
+    16                 42       24        0
+    17                 52       31        0
+    18                 50       22        0
+    19                 56       22        0
+    20                 72       22        0
+    21                 86       27        0
+    22                 97       27        0
+    23                 74       10        0
+    24                 78       12        0
+    25                 85        6        0
+    26                 48        6        0
+    27                 68        3        0
+    28                 30        5        0
+    29                 34        1        0
+    Using 304 bits for rounded LLL
+    225 VECTORS
+    324 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    325 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    Increasing randomization (lower than expected success rate)
+    Random ideals: k in [3 .. 7], k = 3
+    326 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    327 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    Increasing randomization (lower than expected success rate)
+    Random ideals: k in [4 .. 8], k = 6
+    328 hashed values
+    Found new relation       [#tries: 2, exp: 6, av: 1, 12]
+    329 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    330 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    331 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    332 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    Elementary divisors time: 0.000
+    Group structure: [ 2 2 ]
+    Relation matrix has nontrivial column gcds: [66 (p = 191) : 2]
+    333 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    334 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    335 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    336 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    337 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    338 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    339 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    340 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    341 hashed values
+    Found new relation       [#tries: 1, exp: 6, av: 1, 12]
+    Elementary divisors time: 0.000
+    Group structure: [ 2 ]
+    LLL kernel of relation matrix (132 x 86)
+        Modular kernel of randomized rows (111 by 86)
+        Modular kernel time: 0.000
+        Kernel over Z (111 x 86)
+        Kernel over Z time: 0.000
+        LLL of kernel (30 by 111)
+        LLL time: 0.000
+    LLL kernel has dimension 30, time: 0.000
+    Unit group: adding 30 units
+    Unit group now has rank 8 (8)      adding units time: 0.740
+    Total class group computation time: 1.520
+    Admin time: 0.110
+Finished core class group computation, time: 1.640
+Class group proof phase
+    Class group proof: need to check primes from 371 to 217788931
+    15-th root of lower norm bound is 1.
+    square root of upper norm bound is 14757.
+    Approximately 12008561 prime numbers to check.
+
+    WARNING
+    Class group unconditional proof is expensive.
+    Hint: to obtain class group proven under GRH, input
+    > SetClassGroupBounds("GRH");
+    before starting the current calculation.
+
+    Checking 10000-th prime number (104729)
+    Checking 20000-th prime number (224737)
+    Checking 30000-th prime number (350377)
+    Checking 40000-th prime number (479909)
+    Checking 50000-th prime number (611953)
+    Checking 60000-th prime number (746773)
+    Checking 70000-th prime number (882377)
+    Checking 80000-th prime number (1020379)
+    Checking 90000-th prime number (1159523)
+    Checking 100000-th prime number (1299709)
+    Checking 110000-th prime number (1441049)
+    Checking 120000-th prime number (1583539)
+    Checking 130000-th prime number (1726943)
+    Checking 140000-th prime number (1870667)
+    Checking 150000-th prime number (2015177)
+    Checking 160000-th prime number (2160553)
+    Checking 170000-th prime number (2307229)
+    Checking 180000-th prime number (2454587)
+    Checking 190000-th prime number (2601857)
+    Checking 200000-th prime number (2750159)
+    Checking 210000-th prime number (2898527)
+    Checking 220000-th prime number (3047767)
+    Checking 230000-th prime number (3196933)
+    Checking 240000-th prime number (3346601)
+    Checking 250000-th prime number (3497861)
+    Checking 260000-th prime number (3648923)
+    Checking 270000-th prime number (3800201)
+    Checking 280000-th prime number (3951161)
+    Checking 290000-th prime number (4103629)
+    Checking 300000-th prime number (4256233)
+    Checking 310000-th prime number (4410317)
+    Checking 320000-th prime number (4562693)
+    Checking 330000-th prime number (4716053)
+    Checking 340000-th prime number (4869863)
+    Checking 350000-th prime number (5023307)
+    Checking 360000-th prime number (5178049)
+    Checking 370000-th prime number (5332519)
+    Checking 380000-th prime number (5487701)
+    Checking 390000-th prime number (5644031)
+    Checking 400000-th prime number (5800079)
+    Checking 410000-th prime number (5955031)
+    Checking 420000-th prime number (6111613)
+    Checking 430000-th prime number (6268289)
+    Checking 440000-th prime number (6424937)
+    Checking 450000-th prime number (6581963)
+    Checking 460000-th prime number (6738889)
+    Checking 470000-th prime number (6895393)
+    Checking 480000-th prime number (7052113)
+    Checking 490000-th prime number (7210759)
+    Checking 500000-th prime number (7368787)
+    Checking 510000-th prime number (7528121)
+    Checking 520000-th prime number (7685801)
+    Checking 530000-th prime number (7844731)
+    Checking 540000-th prime number (8003537)
+    Checking 550000-th prime number (8163047)
+    Checking 560000-th prime number (8322241)
+    Checking 570000-th prime number (8482259)
+    Checking 580000-th prime number (8640679)
+    Checking 590000-th prime number (8799919)
+    Checking 600000-th prime number (8960453)
+    Checking 610000-th prime number (9121439)
+    Checking 620000-th prime number (9281011)
+    Checking 630000-th prime number (9442229)
+    Checking 640000-th prime number (9602443)
+    Checking 650000-th prime number (9763393)
+    Checking 660000-th prime number (9925439)
+    Checking 670000-th prime number (10086767)
+    Checking 680000-th prime number (10248899)
+    Checking 690000-th prime number (10410139)
+    Checking 700000-th prime number (10570841)
+    Checking 710000-th prime number (10732003)
+    Checking 720000-th prime number (10894817)
+    Checking 730000-th prime number (11056729)
+    Checking 740000-th prime number (11218439)
+    Checking 750000-th prime number (11381621)
+    Checking 760000-th prime number (11543549)
+    Checking 770000-th prime number (11705891)
+    Checking 780000-th prime number (11869021)
+    Checking 790000-th prime number (12031867)
+    Checking 800000-th prime number (12195257)
+    Checking 810000-th prime number (12358069)
+    Checking 820000-th prime number (12521009)
+    Checking 830000-th prime number (12684713)
+    Checking 840000-th prime number (12847433)
+    Checking 850000-th prime number (13012261)
+    Checking 860000-th prime number (13177433)
+    Checking 870000-th prime number (13341187)
+    Checking 880000-th prime number (13506011)
+    Checking 890000-th prime number (13669741)
+    Checking 900000-th prime number (13834103)
+    Checking 910000-th prime number (13998679)
+    Checking 920000-th prime number (14163143)
+    Checking 930000-th prime number (14328269)
+    Checking 940000-th prime number (14492237)
+    Checking 950000-th prime number (14657917)
+    Checking 960000-th prime number (14822231)
+    Checking 970000-th prime number (14988613)
+    Checking 980000-th prime number (15153847)
+    Checking 990000-th prime number (15318907)
+    Checking 1000000-th prime number (15485863)
+    Checking 1010000-th prime number (15650303)
+    Checking 1020000-th prime number (15816469)
+    Checking 1030000-th prime number (15981557)
+    Checking 1040000-th prime number (16147561)
+    Checking 1050000-th prime number (16313527)
+    Checking 1060000-th prime number (16480501)
+    Checking 1070000-th prime number (16646677)
+    Checking 1080000-th prime number (16812361)
+    Checking 1090000-th prime number (16977973)
+    Checking 1100000-th prime number (17144489)
+    Checking 1110000-th prime number (17311727)
+    Checking 1120000-th prime number (17477423)
+    Checking 1130000-th prime number (17643037)
+    Checking 1140000-th prime number (17810803)
+    Checking 1150000-th prime number (17977291)
+    Checking 1160000-th prime number (18145249)
+    Checking 1170000-th prime number (18312037)
+    Checking 1180000-th prime number (18480347)
+    Checking 1190000-th prime number (18647243)
+    Checking 1200000-th prime number (18815231)
+    Checking 1210000-th prime number (18982883)
+    Checking 1220000-th prime number (19150577)
+    Checking 1230000-th prime number (19318703)
+    Checking 1240000-th prime number (19485533)
+    Checking 1250000-th prime number (19654991)
+    Checking 1260000-th prime number (19822093)
+    Checking 1270000-th prime number (19989791)
+    Checking 1280000-th prime number (20158049)
+    Checking 1290000-th prime number (20326759)
+    Checking 1300000-th prime number (20495843)
+    Checking 1310000-th prime number (20664361)
+    Checking 1320000-th prime number (20832433)
+    Checking 1330000-th prime number (21000853)
+    Checking 1340000-th prime number (21169831)
+    Checking 1350000-th prime number (21338609)
+    Checking 1360000-th prime number (21506941)
+    Checking 1370000-th prime number (21675881)
+    Checking 1380000-th prime number (21844297)
+    Checking 1390000-th prime number (22012453)
+    Checking 1400000-th prime number (22182343)
+    Checking 1410000-th prime number (22353031)
+    Checking 1420000-th prime number (22522919)
+    Checking 1430000-th prime number (22691443)
+    Checking 1440000-th prime number (22860683)
+    Checking 1450000-th prime number (23029399)
+    Checking 1460000-th prime number (23199721)
+    Checking 1470000-th prime number (23368379)
+    Checking 1480000-th prime number (23538737)
+    Checking 1490000-th prime number (23708479)
+    Checking 1500000-th prime number (23879519)
+    Checking 1510000-th prime number (24048797)
+    Checking 1520000-th prime number (24218651)
+    Checking 1530000-th prime number (24387893)
+    Checking 1540000-th prime number (24557887)
+    Checking 1550000-th prime number (24727249)
+    Checking 1560000-th prime number (24898427)
+    Checking 1570000-th prime number (25069267)
+    Checking 1580000-th prime number (25241299)
+    Checking 1590000-th prime number (25411777)
+    Checking 1600000-th prime number (25582153)
+    Checking 1610000-th prime number (25752917)
+    Checking 1620000-th prime number (25923059)
+    Checking 1630000-th prime number (26093519)
+    Checking 1640000-th prime number (26265469)
+    Checking 1650000-th prime number (26434907)
+    Checking 1660000-th prime number (26605609)
+    Checking 1670000-th prime number (26777507)
+    Checking 1680000-th prime number (26948063)
+    Checking 1690000-th prime number (27118249)
+    Checking 1700000-th prime number (27290279)
+    Checking 1710000-th prime number (27461653)
+    Checking 1720000-th prime number (27632113)
+    Checking 1730000-th prime number (27803969)
+    Checking 1740000-th prime number (27974867)
+    Checking 1750000-th prime number (28146689)
+    Checking 1760000-th prime number (28317637)
+    Checking 1770000-th prime number (28490171)
+    Checking 1780000-th prime number (28660867)
+    Checking 1790000-th prime number (28833901)
+    Checking 1800000-th prime number (29005541)
+    Checking 1810000-th prime number (29178257)
+    Checking 1820000-th prime number (29349643)
+    Checking 1830000-th prime number (29522497)
+    Checking 1840000-th prime number (29693977)
+    Checking 1850000-th prime number (29866219)
+    Checking 1860000-th prime number (30036287)
+    Checking 1870000-th prime number (30207979)
+    Checking 1880000-th prime number (30379903)
+    Checking 1890000-th prime number (30552593)
+    Checking 1900000-th prime number (30723761)
+    Checking 1910000-th prime number (30895807)
+    Checking 1920000-th prime number (31070219)
+    Checking 1930000-th prime number (31243013)
+    Checking 1940000-th prime number (31415641)
+    Checking 1950000-th prime number (31589027)
+    Checking 1960000-th prime number (31762387)
+    Checking 1970000-th prime number (31934521)
+    Checking 1980000-th prime number (32107171)
+    Checking 1990000-th prime number (32280191)
+    Checking 2000000-th prime number (32452843)
+    Checking 2010000-th prime number (32625209)
+    Checking 2020000-th prime number (32798153)
+    Checking 2030000-th prime number (32970967)
+    Checking 2040000-th prime number (33145117)
+    Checking 2050000-th prime number (33317371)
+    Checking 2060000-th prime number (33489689)
+    Checking 2070000-th prime number (33663871)
+    Checking 2080000-th prime number (33836479)
+    Checking 2090000-th prime number (34010831)
+    Checking 2100000-th prime number (34186049)
+    Checking 2110000-th prime number (34361009)
+    Checking 2120000-th prime number (34534007)
+    Checking 2130000-th prime number (34709251)
+    Checking 2140000-th prime number (34882457)
+    Checking 2150000-th prime number (35056607)
+    Checking 2160000-th prime number (35230241)
+    Checking 2170000-th prime number (35403397)
+    Checking 2180000-th prime number (35577769)
+    Checking 2190000-th prime number (35751311)
+    Checking 2200000-th prime number (35926307)
+    Checking 2210000-th prime number (36099559)
+    Checking 2220000-th prime number (36273761)
+    Checking 2230000-th prime number (36447503)
+    Checking 2240000-th prime number (36621419)
+    Checking 2250000-th prime number (36796379)
+    Checking 2260000-th prime number (36971861)
+    Checking 2270000-th prime number (37143913)
+    Checking 2280000-th prime number (37319687)
+    Checking 2290000-th prime number (37493747)
+    Checking 2300000-th prime number (37667659)
+    Checking 2310000-th prime number (37842263)
+    Checking 2320000-th prime number (38017867)
+    Checking 2330000-th prime number (38190907)
+    Checking 2340000-th prime number (38365139)
+    Checking 2350000-th prime number (38539471)
+    Checking 2360000-th prime number (38714369)
+    Checking 2370000-th prime number (38887747)
+    Checking 2380000-th prime number (39063091)
+    Checking 2390000-th prime number (39237481)
+    Checking 2400000-th prime number (39410867)
+    Checking 2410000-th prime number (39585587)
+    Checking 2420000-th prime number (39759641)
+    Checking 2430000-th prime number (39935213)
+    Checking 2440000-th prime number (40111087)
+    Checking 2450000-th prime number (40285789)
+    Checking 2460000-th prime number (40460741)
+    Checking 2470000-th prime number (40637147)
+    Checking 2480000-th prime number (40810697)
+    Checking 2490000-th prime number (40986793)
+    Checking 2500000-th prime number (41161739)
+    Checking 2510000-th prime number (41337427)
+    Checking 2520000-th prime number (41513261)
+    Checking 2530000-th prime number (41690101)
+    Checking 2540000-th prime number (41864377)
+    Checking 2550000-th prime number (42042061)
+    Checking 2560000-th prime number (42216827)
+    Checking 2570000-th prime number (42391303)
+    Checking 2580000-th prime number (42567113)
+    Checking 2590000-th prime number (42743089)
+    Checking 2600000-th prime number (42920191)
+    Checking 2610000-th prime number (43095979)
+    Checking 2620000-th prime number (43272461)
+    Checking 2630000-th prime number (43447373)
+    Checking 2640000-th prime number (43623149)
+    Checking 2650000-th prime number (43800299)
+    Checking 2660000-th prime number (43975717)
+    Checking 2670000-th prime number (44152781)
+    Checking 2680000-th prime number (44328307)
+    Checking 2690000-th prime number (44504843)
+    Checking 2700000-th prime number (44680319)
+    Checking 2710000-th prime number (44856223)
+    Checking 2720000-th prime number (45032437)
+    Checking 2730000-th prime number (45208589)
+    Checking 2740000-th prime number (45382451)
+    Checking 2750000-th prime number (45558553)
+    Checking 2760000-th prime number (45734873)
+    Checking 2770000-th prime number (45910519)
+    Checking 2780000-th prime number (46086977)
+    Checking 2790000-th prime number (46264321)
+    Checking 2800000-th prime number (46441207)
+    Checking 2810000-th prime number (46617629)
+    Checking 2820000-th prime number (46793869)
+    Checking 2830000-th prime number (46970699)
+    Checking 2840000-th prime number (47147459)
+    Checking 2850000-th prime number (47323781)
+    Checking 2860000-th prime number (47500631)
+    Checking 2870000-th prime number (47678909)
+    Checking 2880000-th prime number (47855287)
+    Checking 2890000-th prime number (48032629)
+    Checking 2900000-th prime number (48210713)
+    Checking 2910000-th prime number (48387587)
+    Checking 2920000-th prime number (48565117)
+    Checking 2930000-th prime number (48742583)
+    Checking 2940000-th prime number (48919771)
+    Checking 2950000-th prime number (49096849)
+    Checking 2960000-th prime number (49273369)
+    Checking 2970000-th prime number (49449973)
+    Checking 2980000-th prime number (49625413)
+    Checking 2990000-th prime number (49803113)
+    Checking 3000000-th prime number (49979687)
+    Checking 3010000-th prime number (50157469)
+    Checking 3020000-th prime number (50334653)
+    Checking 3030000-th prime number (50512543)
+    Checking 3040000-th prime number (50689711)
+    Checking 3050000-th prime number (50865901)
+    Checking 3060000-th prime number (51045011)
+    Checking 3070000-th prime number (51223189)
+    Checking 3080000-th prime number (51399079)
+    Checking 3090000-th prime number (51576911)
+    Checking 3100000-th prime number (51754979)
+    Checking 3110000-th prime number (51931669)
+    Checking 3120000-th prime number (52109297)
+    Checking 3130000-th prime number (52288217)
+    Checking 3140000-th prime number (52465823)
+    Checking 3150000-th prime number (52642813)
+    Checking 3160000-th prime number (52821053)
+    Checking 3170000-th prime number (52998997)
+    Checking 3180000-th prime number (53176147)
+    Checking 3190000-th prime number (53353733)
+    Checking 3200000-th prime number (53533511)
+    Checking 3210000-th prime number (53712287)
+    Checking 3220000-th prime number (53890303)
+    Checking 3230000-th prime number (54067997)
+    Checking 3240000-th prime number (54247099)
+    Checking 3250000-th prime number (54426161)
+    Checking 3260000-th prime number (54603763)
+    Checking 3270000-th prime number (54781847)
+    Checking 3280000-th prime number (54960821)
+    Checking 3290000-th prime number (55138051)
+    Checking 3300000-th prime number (55316903)
+    Checking 3310000-th prime number (55495103)
+    Checking 3320000-th prime number (55673921)
+    Checking 3330000-th prime number (55850953)
+    Checking 3340000-th prime number (56029619)
+    Checking 3350000-th prime number (56206459)
+    Checking 3360000-th prime number (56385781)
+    Checking 3370000-th prime number (56565121)
+    Checking 3380000-th prime number (56741677)
+    Checking 3390000-th prime number (56920313)
+    Checking 3400000-th prime number (57099299)
+    Checking 3410000-th prime number (57277679)
+    Checking 3420000-th prime number (57455569)
+    Checking 3430000-th prime number (57634697)
+    Checking 3440000-th prime number (57814247)
+    Checking 3450000-th prime number (57994003)
+    Checking 3460000-th prime number (58172341)
+    Checking 3470000-th prime number (58351411)
+    Checking 3480000-th prime number (58529869)
+    Checking 3490000-th prime number (58708801)
+    Checking 3500000-th prime number (58885999)
+    Checking 3510000-th prime number (59065777)
+    Checking 3520000-th prime number (59245871)
+    Checking 3530000-th prime number (59425397)
+    Checking 3540000-th prime number (59604253)
+    Checking 3550000-th prime number (59783117)
+    Checking 3560000-th prime number (59962193)
+    Checking 3570000-th prime number (60142067)
+    Checking 3580000-th prime number (60320353)
+    Checking 3590000-th prime number (60499081)
+    Checking 3600000-th prime number (60678089)
+    Checking 3610000-th prime number (60855709)
+    Checking 3620000-th prime number (61034903)
+    Checking 3630000-th prime number (61216163)
+    Checking 3640000-th prime number (61396507)
+    Checking 3650000-th prime number (61576259)
+    Checking 3660000-th prime number (61755787)
+    Checking 3670000-th prime number (61935439)
+    Checking 3680000-th prime number (62113993)
+    Checking 3690000-th prime number (62293981)
+    Checking 3700000-th prime number (62473031)
+    Checking 3710000-th prime number (62654173)
+    Checking 3720000-th prime number (62832617)
+    Checking 3730000-th prime number (63012197)
+    Checking 3740000-th prime number (63192419)
+    Checking 3750000-th prime number (63372143)
+    Checking 3760000-th prime number (63550631)
+    Checking 3770000-th prime number (63730747)
+    Checking 3780000-th prime number (63908567)
+    Checking 3790000-th prime number (64088461)
+    Checking 3800000-th prime number (64268779)
+    Checking 3810000-th prime number (64447727)
+    Checking 3820000-th prime number (64629377)
+    Checking 3830000-th prime number (64810483)
+    Checking 3840000-th prime number (64990087)
+    Checking 3850000-th prime number (65170099)
+    Checking 3860000-th prime number (65349961)
+    Checking 3870000-th prime number (65529251)
+    Checking 3880000-th prime number (65710093)
+    Checking 3890000-th prime number (65890477)
+    Checking 3900000-th prime number (66068881)
+    Checking 3910000-th prime number (66248297)
+    Checking 3920000-th prime number (66427649)
+    Checking 3930000-th prime number (66607439)
+    Checking 3940000-th prime number (66787447)
+    Checking 3950000-th prime number (66968579)
+    Checking 3960000-th prime number (67149517)
+    Checking 3970000-th prime number (67327783)
+    Checking 3980000-th prime number (67507481)
+    Checking 3990000-th prime number (67687901)
+    Checking 4000000-th prime number (67867967)
+    Checking 4010000-th prime number (68048107)
+    Checking 4020000-th prime number (68228761)
+    Checking 4030000-th prime number (68409739)
+    Checking 4040000-th prime number (68590157)
+    Checking 4050000-th prime number (68770957)
+    Checking 4060000-th prime number (68952379)
+    Checking 4070000-th prime number (69132307)
+    Checking 4080000-th prime number (69314281)
+    Checking 4090000-th prime number (69492953)
+    Checking 4100000-th prime number (69672821)
+    Checking 4110000-th prime number (69852799)
+    Checking 4120000-th prime number (70035269)
+    Checking 4130000-th prime number (70216483)
+    Checking 4140000-th prime number (70396223)
+    Checking 4150000-th prime number (70575433)
+    Checking 4160000-th prime number (70756813)
+    Checking 4170000-th prime number (70938893)
+    Checking 4180000-th prime number (71120039)
+    Checking 4190000-th prime number (71300507)
+    Checking 4200000-th prime number (71480051)
+    Checking 4210000-th prime number (71660441)
+    Checking 4220000-th prime number (71843141)
+    Checking 4230000-th prime number (72024467)
+    Checking 4240000-th prime number (72203039)
+    Checking 4250000-th prime number (72383183)
+    Checking 4260000-th prime number (72563737)
+    Checking 4270000-th prime number (72745951)
+    Checking 4280000-th prime number (72926759)
+    Checking 4290000-th prime number (73107263)
+    Checking 4300000-th prime number (73289701)
+    Checking 4310000-th prime number (73471247)
+    Checking 4320000-th prime number (73651651)
+    Checking 4330000-th prime number (73832201)
+    Checking 4340000-th prime number (74013593)
+    Checking 4350000-th prime number (74196623)
+    Checking 4360000-th prime number (74377691)
+    Checking 4370000-th prime number (74559769)
+    Checking 4380000-th prime number (74740741)
+    Checking 4390000-th prime number (74921767)
+    Checking 4400000-th prime number (75103493)
+    Checking 4410000-th prime number (75283963)
+    Checking 4420000-th prime number (75464023)
+    Checking 4430000-th prime number (75646033)
+    Checking 4440000-th prime number (75827221)
+    Checking 4450000-th prime number (76006993)
+    Checking 4460000-th prime number (76188877)
+    Checking 4470000-th prime number (76371539)
+    Checking 4480000-th prime number (76553579)
+    Checking 4490000-th prime number (76736867)
+    Checking 4500000-th prime number (76918253)
+    Checking 4510000-th prime number (77099119)
+    Checking 4520000-th prime number (77280431)
+    Checking 4530000-th prime number (77463121)
+    Checking 4540000-th prime number (77644807)
+    Checking 4550000-th prime number (77826919)
+    Checking 4560000-th prime number (78008141)
+    Checking 4570000-th prime number (78189217)
+    Checking 4580000-th prime number (78372713)
+    Checking 4590000-th prime number (78554929)
+    Checking 4600000-th prime number (78736451)
+    Checking 4610000-th prime number (78918629)
+    Checking 4620000-th prime number (79100321)
+    Checking 4630000-th prime number (79282783)
+    Checking 4640000-th prime number (79464389)
+    Checking 4650000-th prime number (79645801)
+    Checking 4660000-th prime number (79828901)
+    Checking 4670000-th prime number (80011901)
+    Checking 4680000-th prime number (80194189)
+    Checking 4690000-th prime number (80375531)
+    Checking 4700000-th prime number (80556703)
+    Checking 4710000-th prime number (80739319)
+    Checking 4720000-th prime number (80919893)
+    Checking 4730000-th prime number (81099919)
+    Checking 4740000-th prime number (81281591)
+    Checking 4750000-th prime number (81463271)
+    Checking 4760000-th prime number (81646247)
+    Checking 4770000-th prime number (81829159)
+    Checking 4780000-th prime number (82010281)
+    Checking 4790000-th prime number (82192147)
+    Checking 4800000-th prime number (82376219)
+    Checking 4810000-th prime number (82558691)
+    Checking 4820000-th prime number (82740149)
+    Checking 4830000-th prime number (82921429)
+    Checking 4840000-th prime number (83104223)
+    Checking 4850000-th prime number (83287993)
+    Checking 4860000-th prime number (83470747)
+    Checking 4870000-th prime number (83654023)
+    Checking 4880000-th prime number (83835217)
+    Checking 4890000-th prime number (84016061)
+    Checking 4900000-th prime number (84200279)
+    Checking 4910000-th prime number (84382811)
+    Checking 4920000-th prime number (84565289)
+    Checking 4930000-th prime number (84748627)
+    Checking 4940000-th prime number (84932411)
+    Checking 4950000-th prime number (85115477)
+    Checking 4960000-th prime number (85298659)
+    Checking 4970000-th prime number (85479397)
+    Checking 4980000-th prime number (85662001)
+    Checking 4990000-th prime number (85845167)
+    Checking 5000000-th prime number (86028121)
+    Checking 5010000-th prime number (86210609)
+    Checking 5020000-th prime number (86393719)
+    Checking 5030000-th prime number (86575661)
+    Checking 5040000-th prime number (86759009)
+    Checking 5050000-th prime number (86941487)
+    Checking 5060000-th prime number (87124879)
+    Checking 5070000-th prime number (87307133)
+    Checking 5080000-th prime number (87491587)
+    Checking 5090000-th prime number (87674009)
+    Checking 5100000-th prime number (87857527)
+    Checking 5110000-th prime number (88039297)
+    Checking 5120000-th prime number (88221797)
+    Checking 5130000-th prime number (88403993)
+    Checking 5140000-th prime number (88589323)
+    Checking 5150000-th prime number (88771831)
+    Checking 5160000-th prime number (88952837)
+    Checking 5170000-th prime number (89136779)
+    Checking 5180000-th prime number (89319007)
+    Checking 5190000-th prime number (89503093)
+    Checking 5200000-th prime number (89687683)
+    Checking 5210000-th prime number (89871989)
+    Checking 5220000-th prime number (90055529)
+    Checking 5230000-th prime number (90237611)
+    Checking 5240000-th prime number (90419633)
+    Checking 5250000-th prime number (90603113)
+    Checking 5260000-th prime number (90786463)
+    Checking 5270000-th prime number (90968743)
+    Checking 5280000-th prime number (91153037)
+    Checking 5290000-th prime number (91334827)
+    Checking 5300000-th prime number (91519063)
+    Checking 5310000-th prime number (91701469)
+    Checking 5320000-th prime number (91886161)
+    Checking 5330000-th prime number (92069293)
+    Checking 5340000-th prime number (92252737)
+    Checking 5350000-th prime number (92436787)
+    Checking 5360000-th prime number (92620249)
+    Checking 5370000-th prime number (92803147)
+    Checking 5380000-th prime number (92986951)
+    Checking 5390000-th prime number (93171787)
+    Checking 5400000-th prime number (93354673)
+    Checking 5410000-th prime number (93538153)
+    Checking 5420000-th prime number (93723103)
+    Checking 5430000-th prime number (93905743)
+    Checking 5440000-th prime number (94088311)
+    Checking 5450000-th prime number (94272757)
+    Checking 5460000-th prime number (94456987)
+    Checking 5470000-th prime number (94640081)
+    Checking 5480000-th prime number (94823191)
+    Checking 5490000-th prime number (95004631)
+    Checking 5500000-th prime number (95189089)
+    Checking 5510000-th prime number (95373319)
+    Checking 5520000-th prime number (95554957)
+    Checking 5530000-th prime number (95740759)
+    Checking 5540000-th prime number (95923337)
+    Checking 5550000-th prime number (96107399)
+    Checking 5560000-th prime number (96292193)
+    Checking 5570000-th prime number (96476273)
+    Checking 5580000-th prime number (96659053)
+    Checking 5590000-th prime number (96842773)
+    Checking 5600000-th prime number (97026233)
+    Checking 5610000-th prime number (97212469)
+    Checking 5620000-th prime number (97395719)
+    Checking 5630000-th prime number (97577189)
+    Checking 5640000-th prime number (97761553)
+    Checking 5650000-th prime number (97944383)
+    Checking 5660000-th prime number (98130377)
+    Checking 5670000-th prime number (98314369)
+    Checking 5680000-th prime number (98498399)
+    Checking 5690000-th prime number (98681533)
+    Checking 5700000-th prime number (98866927)
+    Checking 5710000-th prime number (99051691)
+    Checking 5720000-th prime number (99236807)
+    Checking 5730000-th prime number (99421969)
+    Checking 5740000-th prime number (99605141)
+    Checking 5750000-th prime number (99789631)
+    Checking 5760000-th prime number (99973217)
+    Checking 5770000-th prime number (100157399)
+    Checking 5780000-th prime number (100341119)
+    Checking 5790000-th prime number (100526039)
+    Checking 5800000-th prime number (100711433)
+    Checking 5810000-th prime number (100896727)
+    Checking 5820000-th prime number (101079019)
+    Checking 5830000-th prime number (101262947)
+    Checking 5840000-th prime number (101447587)
+    Checking 5850000-th prime number (101631949)
+    Checking 5860000-th prime number (101816761)
+    Checking 5870000-th prime number (102000401)
+    Checking 5880000-th prime number (102183859)
+    Checking 5890000-th prime number (102366881)
+    Checking 5900000-th prime number (102551567)
+    Checking 5910000-th prime number (102735847)
+    Checking 5920000-th prime number (102920243)
+    Checking 5930000-th prime number (103104737)
+    Checking 5940000-th prime number (103290611)
+    Checking 5950000-th prime number (103473871)
+    Checking 5960000-th prime number (103660537)
+    Checking 5970000-th prime number (103845031)
+    Checking 5980000-th prime number (104027999)
+    Checking 5990000-th prime number (104211391)
+    Checking 6000000-th prime number (104395301)
+    Checking 6010000-th prime number (104580079)
+    Checking 6020000-th prime number (104765467)
+    Checking 6030000-th prime number (104950291)
+    Checking 6040000-th prime number (105134417)
+    Checking 6050000-th prime number (105319667)
+    Checking 6060000-th prime number (105504583)
+    Checking 6070000-th prime number (105690281)
+    Checking 6080000-th prime number (105874319)
+    Checking 6090000-th prime number (106059769)
+    Checking 6100000-th prime number (106244933)
+    Checking 6110000-th prime number (106429907)
+    Checking 6120000-th prime number (106613789)
+    Checking 6130000-th prime number (106800047)
+    Checking 6140000-th prime number (106984609)
+    Checking 6150000-th prime number (107168773)
+    Checking 6160000-th prime number (107352437)
+    Checking 6170000-th prime number (107537753)
+    Checking 6180000-th prime number (107721377)
+    Checking 6190000-th prime number (107906759)
+    Checking 6200000-th prime number (108092981)
+    Checking 6210000-th prime number (108276907)
+    Checking 6220000-th prime number (108460201)
+    Checking 6230000-th prime number (108644279)
+    Checking 6240000-th prime number (108829051)
+    Checking 6250000-th prime number (109015537)
+    Checking 6260000-th prime number (109200127)
+    Checking 6270000-th prime number (109385623)
+    Checking 6280000-th prime number (109569353)
+    Checking 6290000-th prime number (109754893)
+    Checking 6300000-th prime number (109938667)
+    Checking 6310000-th prime number (110122429)
+    Checking 6320000-th prime number (110309813)
+    Checking 6330000-th prime number (110495741)
+    Checking 6340000-th prime number (110681503)
+    Checking 6350000-th prime number (110867297)
+    Checking 6360000-th prime number (111051307)
+    Checking 6370000-th prime number (111236747)
+    Checking 6380000-th prime number (111422867)
+    Checking 6390000-th prime number (111609977)
+    Checking 6400000-th prime number (111794857)
+    Checking 6410000-th prime number (111980501)
+    Checking 6420000-th prime number (112164329)
+    Checking 6430000-th prime number (112348459)
+    Checking 6440000-th prime number (112536233)
+    Checking 6450000-th prime number (112720691)
+    Checking 6460000-th prime number (112905607)
+    Checking 6470000-th prime number (113091263)
+    Checking 6480000-th prime number (113276017)
+    Checking 6490000-th prime number (113462443)
+    Checking 6500000-th prime number (113648393)
+    Checking 6510000-th prime number (113834531)
+    Checking 6520000-th prime number (114021209)
+    Checking 6530000-th prime number (114206749)
+    Checking 6540000-th prime number (114391469)
+    Checking 6550000-th prime number (114579827)
+    Checking 6560000-th prime number (114764831)
+    Checking 6570000-th prime number (114950543)
+    Checking 6580000-th prime number (115136221)
+    Checking 6590000-th prime number (115321441)
+    Checking 6600000-th prime number (115507867)
+    Checking 6610000-th prime number (115693723)
+    Checking 6620000-th prime number (115879873)
+    Checking 6630000-th prime number (116063177)
+    Checking 6640000-th prime number (116248603)
+    Checking 6650000-th prime number (116433643)
+    Checking 6660000-th prime number (116619509)
+    Checking 6670000-th prime number (116806343)
+    Checking 6680000-th prime number (116991947)
+    Checking 6690000-th prime number (117177839)
+    Checking 6700000-th prime number (117363991)
+    Checking 6710000-th prime number (117550267)
+    Checking 6720000-th prime number (117736139)
+    Checking 6730000-th prime number (117921191)
+    Checking 6740000-th prime number (118106977)
+    Checking 6750000-th prime number (118292599)
+    Checking 6760000-th prime number (118478447)
+    Checking 6770000-th prime number (118665367)
+    Checking 6780000-th prime number (118851781)
+    Checking 6790000-th prime number (119038883)
+    Checking 6800000-th prime number (119227007)
+    Checking 6810000-th prime number (119412011)
+    Checking 6820000-th prime number (119597983)
+    Checking 6830000-th prime number (119784559)
+    Checking 6840000-th prime number (119969497)
+    Checking 6850000-th prime number (120154571)
+    Checking 6860000-th prime number (120340933)
+    Checking 6870000-th prime number (120528061)
+    Checking 6880000-th prime number (120714247)
+    Checking 6890000-th prime number (120902179)
+    Checking 6900000-th prime number (121086457)
+    Checking 6910000-th prime number (121272653)
+    Checking 6920000-th prime number (121458917)
+    Checking 6930000-th prime number (121645913)
+    Checking 6940000-th prime number (121832719)
+    Checking 6950000-th prime number (122017249)
+    Checking 6960000-th prime number (122204171)
+    Checking 6970000-th prime number (122391263)
+    Checking 6980000-th prime number (122579573)
+    Checking 6990000-th prime number (122764307)
+    Checking 7000000-th prime number (122949823)
+    Checking 7010000-th prime number (123136367)
+    Checking 7020000-th prime number (123322127)
+    Checking 7030000-th prime number (123508543)
+    Checking 7040000-th prime number (123694457)
+    Checking 7050000-th prime number (123879683)
+    Checking 7060000-th prime number (124066171)
+    Checking 7070000-th prime number (124252097)
+    Checking 7080000-th prime number (124437721)
+    Checking 7090000-th prime number (124624813)
+    Checking 7100000-th prime number (124811173)
+    Checking 7110000-th prime number (124997519)
+    Checking 7120000-th prime number (125184229)
+    Checking 7130000-th prime number (125369977)
+    Checking 7140000-th prime number (125557357)
+    Checking 7150000-th prime number (125743979)
+    Checking 7160000-th prime number (125928997)
+    Checking 7170000-th prime number (126114949)
+    Checking 7180000-th prime number (126301393)
+    Checking 7190000-th prime number (126487477)
+    Checking 7200000-th prime number (126673973)
+    Checking 7210000-th prime number (126860969)
+    Checking 7220000-th prime number (127047049)
+    Checking 7230000-th prime number (127233893)
+    Checking 7240000-th prime number (127421453)
+    Checking 7250000-th prime number (127608343)
+    Checking 7260000-th prime number (127795039)
+    Checking 7270000-th prime number (127981297)
+    Checking 7280000-th prime number (128167129)
+    Checking 7290000-th prime number (128355277)
+    Checking 7300000-th prime number (128541799)
+    Checking 7310000-th prime number (128726963)
+    Checking 7320000-th prime number (128912369)
+    Checking 7330000-th prime number (129099899)
+    Checking 7340000-th prime number (129286259)
+    Checking 7350000-th prime number (129471607)
+    Checking 7360000-th prime number (129658481)
+    Checking 7370000-th prime number (129845279)
+    Checking 7380000-th prime number (130034129)
+    Checking 7390000-th prime number (130221737)
+    Checking 7400000-th prime number (130408841)
+    Checking 7410000-th prime number (130596437)
+    Checking 7420000-th prime number (130782101)
+    Checking 7430000-th prime number (130968683)
+    Checking 7440000-th prime number (131154263)
+    Checking 7450000-th prime number (131342021)
+    Checking 7460000-th prime number (131528557)
+    Checking 7470000-th prime number (131714423)
+    Checking 7480000-th prime number (131902843)
+    Checking 7490000-th prime number (132090913)
+    Checking 7500000-th prime number (132276691)
+    Checking 7510000-th prime number (132464621)
+    Checking 7520000-th prime number (132652393)
+    Checking 7530000-th prime number (132839321)
+    Checking 7540000-th prime number (133026143)
+    Checking 7550000-th prime number (133212811)
+    Checking 7560000-th prime number (133400789)
+    Checking 7570000-th prime number (133588361)
+    Checking 7580000-th prime number (133776389)
+    Checking 7590000-th prime number (133964317)
+    Checking 7600000-th prime number (134150999)
+    Checking 7610000-th prime number (134337293)
+    Checking 7620000-th prime number (134524001)
+    Checking 7630000-th prime number (134712323)
+    Checking 7640000-th prime number (134898031)
+    Checking 7650000-th prime number (135084239)
+    Checking 7660000-th prime number (135272149)
+    Checking 7670000-th prime number (135459169)
+    Checking 7680000-th prime number (135648047)
+    Checking 7690000-th prime number (135836021)
+    Checking 7700000-th prime number (136023761)
+    Checking 7710000-th prime number (136211611)
+    Checking 7720000-th prime number (136398467)
+    Checking 7730000-th prime number (136583869)
+    Checking 7740000-th prime number (136769863)
+    Checking 7750000-th prime number (136958221)
+    Checking 7760000-th prime number (137145893)
+    Checking 7770000-th prime number (137334563)
+    Checking 7780000-th prime number (137519731)
+    Checking 7790000-th prime number (137707901)
+    Checking 7800000-th prime number (137896249)
+    Checking 7810000-th prime number (138084841)
+    Checking 7820000-th prime number (138274249)
+    Checking 7830000-th prime number (138460013)
+    Checking 7840000-th prime number (138648551)
+    Checking 7850000-th prime number (138836123)
+    Checking 7860000-th prime number (139022017)
+    Checking 7870000-th prime number (139211143)
+    Checking 7880000-th prime number (139398047)
+    Checking 7890000-th prime number (139585177)
+    Checking 7900000-th prime number (139772287)
+    Checking 7910000-th prime number (139958549)
+    Checking 7920000-th prime number (140146663)
+    Checking 7930000-th prime number (140334289)
+    Checking 7940000-th prime number (140522773)
+    Checking 7950000-th prime number (140709941)
+    Checking 7960000-th prime number (140900671)
+    Checking 7970000-th prime number (141088513)
+    Checking 7980000-th prime number (141276353)
+    Checking 7990000-th prime number (141463039)
+    Checking 8000000-th prime number (141650939)
+    Checking 8010000-th prime number (141839407)
+    Checking 8020000-th prime number (142025071)
+    Checking 8030000-th prime number (142211753)
+    Checking 8040000-th prime number (142398143)
+    Checking 8050000-th prime number (142587019)
+    Checking 8060000-th prime number (142774459)
+    Checking 8070000-th prime number (142961603)
+    Checking 8080000-th prime number (143148659)
+    Checking 8090000-th prime number (143336077)
+    Checking 8100000-th prime number (143522927)
+    Checking 8110000-th prime number (143711339)
+    Checking 8120000-th prime number (143898211)
+    Checking 8130000-th prime number (144086777)
+    Checking 8140000-th prime number (144273377)
+    Checking 8150000-th prime number (144459697)
+    Checking 8160000-th prime number (144648619)
+    Checking 8170000-th prime number (144837529)
+    Checking 8180000-th prime number (145025801)
+    Checking 8190000-th prime number (145216033)
+    Checking 8200000-th prime number (145403459)
+    Checking 8210000-th prime number (145591921)
+    Checking 8220000-th prime number (145779157)
+    Checking 8230000-th prime number (145967123)
+    Checking 8240000-th prime number (146153741)
+    Checking 8250000-th prime number (146341381)
+    Checking 8260000-th prime number (146529913)
+    Checking 8270000-th prime number (146717573)
+    Checking 8280000-th prime number (146905783)
+    Checking 8290000-th prime number (147091517)
+    Checking 8300000-th prime number (147281009)
+    Checking 8310000-th prime number (147469891)
+    Checking 8320000-th prime number (147656599)
+    Checking 8330000-th prime number (147846107)
+    Checking 8340000-th prime number (148033547)
+    Checking 8350000-th prime number (148221737)
+    Checking 8360000-th prime number (148409747)
+    Checking 8370000-th prime number (148598113)
+    Checking 8380000-th prime number (148785817)
+    Checking 8390000-th prime number (148974373)
+    Checking 8400000-th prime number (149163283)
+    Checking 8410000-th prime number (149351177)
+    Checking 8420000-th prime number (149540663)
+    Checking 8430000-th prime number (149727803)
+    Checking 8440000-th prime number (149916719)
+    Checking 8450000-th prime number (150104989)
+    Checking 8460000-th prime number (150293809)
+    Checking 8470000-th prime number (150482251)
+    Checking 8480000-th prime number (150671107)
+    Checking 8490000-th prime number (150858997)
+    Checking 8500000-th prime number (151048969)
+    Checking 8510000-th prime number (151236581)
+    Checking 8520000-th prime number (151426369)
+    Checking 8530000-th prime number (151614293)
+    Checking 8540000-th prime number (151803383)
+    Checking 8550000-th prime number (151991471)
+    Checking 8560000-th prime number (152181581)
+    Checking 8570000-th prime number (152370689)
+    Checking 8580000-th prime number (152559613)
+    Checking 8590000-th prime number (152746409)
+    Checking 8600000-th prime number (152935933)
+    Checking 8610000-th prime number (153122509)
+    Checking 8620000-th prime number (153311329)
+    Checking 8630000-th prime number (153500513)
+    Checking 8640000-th prime number (153688727)
+    Checking 8650000-th prime number (153876011)
+    Checking 8660000-th prime number (154065599)
+    Checking 8670000-th prime number (154254251)
+    Checking 8680000-th prime number (154442903)
+    Checking 8690000-th prime number (154630583)
+    Checking 8700000-th prime number (154819699)
+    Checking 8710000-th prime number (155008663)
+    Checking 8720000-th prime number (155196901)
+    Checking 8730000-th prime number (155386247)
+    Checking 8740000-th prime number (155574253)
+    Checking 8750000-th prime number (155763373)
+    Checking 8760000-th prime number (155949877)
+    Checking 8770000-th prime number (156137981)
+    Checking 8780000-th prime number (156326603)
+    Checking 8790000-th prime number (156515323)
+    Checking 8800000-th prime number (156704111)
+    Checking 8810000-th prime number (156892727)
+    Checking 8820000-th prime number (157081919)
+    Checking 8830000-th prime number (157270699)
+    Checking 8840000-th prime number (157459649)
+    Checking 8850000-th prime number (157648193)
+    Checking 8860000-th prime number (157837363)
+    Checking 8870000-th prime number (158026279)
+    Checking 8880000-th prime number (158214961)
+    Checking 8890000-th prime number (158403809)
+    Checking 8900000-th prime number (158594203)
+    Checking 8910000-th prime number (158784601)
+    Checking 8920000-th prime number (158972833)
+    Checking 8930000-th prime number (159160633)
+    Checking 8940000-th prime number (159349669)
+    Checking 8950000-th prime number (159538627)
+    Checking 8960000-th prime number (159728521)
+    Checking 8970000-th prime number (159916153)
+    Checking 8980000-th prime number (160104383)
+    Checking 8990000-th prime number (160293013)
+    Checking 9000000-th prime number (160481183)
+    Checking 9010000-th prime number (160670711)
+    Checking 9020000-th prime number (160858147)
+    Checking 9030000-th prime number (161046689)
+    Checking 9040000-th prime number (161236087)
+    Checking 9050000-th prime number (161427493)
+    Checking 9060000-th prime number (161616209)
+    Checking 9070000-th prime number (161805937)
+    Checking 9080000-th prime number (161995759)
+    Checking 9090000-th prime number (162184571)
+    Checking 9100000-th prime number (162373313)
+    Checking 9110000-th prime number (162562969)
+    Checking 9120000-th prime number (162752137)
+    Checking 9130000-th prime number (162940139)
+    Checking 9140000-th prime number (163129699)
+    Checking 9150000-th prime number (163318213)
+    Checking 9160000-th prime number (163506407)
+    Checking 9170000-th prime number (163694227)
+    Checking 9180000-th prime number (163882687)
+    Checking 9190000-th prime number (164072369)
+    Checking 9200000-th prime number (164263003)
+    Checking 9210000-th prime number (164452289)
+    Checking 9220000-th prime number (164640277)
+    Checking 9230000-th prime number (164830151)
+    Checking 9240000-th prime number (165019523)
+    Checking 9250000-th prime number (165209753)
+    Checking 9260000-th prime number (165399799)
+    Checking 9270000-th prime number (165589423)
+    Checking 9280000-th prime number (165779431)
+    Checking 9290000-th prime number (165968969)
+    Checking 9300000-th prime number (166158637)
+    Checking 9310000-th prime number (166346417)
+    Checking 9320000-th prime number (166534253)
+    Checking 9330000-th prime number (166724209)
+    Checking 9340000-th prime number (166914491)
+    Checking 9350000-th prime number (167103019)
+    Checking 9360000-th prime number (167291569)
+    Checking 9370000-th prime number (167481311)
+    Checking 9380000-th prime number (167670091)
+    Checking 9390000-th prime number (167859919)
+    Checking 9400000-th prime number (168048733)
+    Checking 9410000-th prime number (168238513)
+    Checking 9420000-th prime number (168428003)
+    Checking 9430000-th prime number (168617387)
+    Checking 9440000-th prime number (168806117)
+    Checking 9450000-th prime number (168995987)
+    Checking 9460000-th prime number (169184261)
+    Checking 9470000-th prime number (169372909)
+    Checking 9480000-th prime number (169561387)
+    Checking 9490000-th prime number (169751737)
+    Checking 9500000-th prime number (169941221)
+    Checking 9510000-th prime number (170130091)
+    Checking 9520000-th prime number (170318917)
+    Checking 9530000-th prime number (170509243)
+    Checking 9540000-th prime number (170699479)
+    Checking 9550000-th prime number (170889067)
+    Checking 9560000-th prime number (171077971)
+    Checking 9570000-th prime number (171265807)
+    Checking 9580000-th prime number (171455351)
+    Checking 9590000-th prime number (171645919)
+    Checking 9600000-th prime number (171834293)
+    Checking 9610000-th prime number (172024681)
+    Checking 9620000-th prime number (172214213)
+    Checking 9630000-th prime number (172403051)
+    Checking 9640000-th prime number (172593101)
+    Checking 9650000-th prime number (172783463)
+    Checking 9660000-th prime number (172974037)
+    Checking 9670000-th prime number (173162603)
+    Checking 9680000-th prime number (173352239)
+    Checking 9690000-th prime number (173540579)
+    Checking 9700000-th prime number (173729849)
+    Checking 9710000-th prime number (173920651)
+    Checking 9720000-th prime number (174109723)
+    Checking 9730000-th prime number (174299771)
+    Checking 9740000-th prime number (174490691)
+    Checking 9750000-th prime number (174681977)
+    Checking 9760000-th prime number (174871679)
+    Checking 9770000-th prime number (175061057)
+    Checking 9780000-th prime number (175250401)
+    Checking 9790000-th prime number (175438253)
+    Checking 9800000-th prime number (175628471)
+    Checking 9810000-th prime number (175819421)
+    Checking 9820000-th prime number (176008139)
+    Checking 9830000-th prime number (176198213)
+    Checking 9840000-th prime number (176388253)
+    Checking 9850000-th prime number (176578009)
+    Checking 9860000-th prime number (176768327)
+    Checking 9870000-th prime number (176957219)
+    Checking 9880000-th prime number (177145723)
+    Checking 9890000-th prime number (177336377)
+    Checking 9900000-th prime number (177525767)
+    Checking 9910000-th prime number (177716449)
+    Checking 9920000-th prime number (177905489)
+    Checking 9930000-th prime number (178094387)
+    Checking 9940000-th prime number (178283639)
+    Checking 9950000-th prime number (178475771)
+    Checking 9960000-th prime number (178665763)
+    Checking 9970000-th prime number (178855349)
+    Checking 9980000-th prime number (179045369)
+    Checking 9990000-th prime number (179235107)
+    Checking 10000000-th prime number (179424673)
+    Checking 10010000-th prime number (179613971)
+    Checking 10020000-th prime number (179802979)
+    Checking 10030000-th prime number (179992363)
+    Checking 10040000-th prime number (180183013)
+    Checking 10050000-th prime number (180373477)
+    Checking 10060000-th prime number (180564499)
+    Checking 10070000-th prime number (180755821)
+    Checking 10080000-th prime number (180946841)
+    Checking 10090000-th prime number (181137067)
+    Checking 10100000-th prime number (181327577)
+    Checking 10110000-th prime number (181518703)
+    Checking 10120000-th prime number (181709399)
+    Checking 10130000-th prime number (181899517)
+    Checking 10140000-th prime number (182090119)
+    Checking 10150000-th prime number (182281097)
+    Checking 10160000-th prime number (182472347)
+    Checking 10170000-th prime number (182662427)
+    Checking 10180000-th prime number (182854843)
+    Checking 10190000-th prime number (183045587)
+    Checking 10200000-th prime number (183236563)
+    Checking 10210000-th prime number (183426179)
+    Checking 10220000-th prime number (183615191)
+    Checking 10230000-th prime number (183804869)
+    Checking 10240000-th prime number (183995281)
+    Checking 10250000-th prime number (184185851)
+    Checking 10260000-th prime number (184375229)
+    Checking 10270000-th prime number (184563527)
+    Checking 10280000-th prime number (184753189)
+    Checking 10290000-th prime number (184942469)
+    Checking 10300000-th prime number (185133821)
+    Checking 10310000-th prime number (185323081)
+    Checking 10320000-th prime number (185513717)
+    Checking 10330000-th prime number (185704643)
+    Checking 10340000-th prime number (185894749)
+    Checking 10350000-th prime number (186085477)
+    Checking 10360000-th prime number (186274997)
+    Checking 10370000-th prime number (186466477)
+    Checking 10380000-th prime number (186655951)
+    Checking 10390000-th prime number (186846637)
+    Checking 10400000-th prime number (187038013)
+    Checking 10410000-th prime number (187227457)
+    Checking 10420000-th prime number (187416311)
+    Checking 10430000-th prime number (187608427)
+    Checking 10440000-th prime number (187799197)
+    Checking 10450000-th prime number (187989121)
+    Checking 10460000-th prime number (188179009)
+    Checking 10470000-th prime number (188371213)
+    Checking 10480000-th prime number (188563339)
+    Checking 10490000-th prime number (188753759)
+    Checking 10500000-th prime number (188943803)
+    Checking 10510000-th prime number (189133111)
+    Checking 10520000-th prime number (189323311)
+    Checking 10530000-th prime number (189513967)
+    Checking 10540000-th prime number (189706459)
+    Checking 10550000-th prime number (189896227)
+    Checking 10560000-th prime number (190086263)
+    Checking 10570000-th prime number (190276673)
+    Checking 10580000-th prime number (190468307)
+    Checking 10590000-th prime number (190659181)
+    Checking 10600000-th prime number (190850567)
+    Checking 10610000-th prime number (191042081)
+    Checking 10620000-th prime number (191232773)
+    Checking 10630000-th prime number (191424329)
+    Checking 10640000-th prime number (191616781)
+    Checking 10650000-th prime number (191808277)
+    Checking 10660000-th prime number (191999453)
+    Checking 10670000-th prime number (192190309)
+    Checking 10680000-th prime number (192380047)
+    Checking 10690000-th prime number (192571747)
+    Checking 10700000-th prime number (192761039)
+    Checking 10710000-th prime number (192951523)
+    Checking 10720000-th prime number (193142119)
+    Checking 10730000-th prime number (193334201)
+    Checking 10740000-th prime number (193524029)
+    Checking 10750000-th prime number (193713427)
+    Checking 10760000-th prime number (193903799)
+    Checking 10770000-th prime number (194094149)
+    Checking 10780000-th prime number (194285737)
+    Checking 10790000-th prime number (194475041)
+    Checking 10800000-th prime number (194667071)
+    Checking 10810000-th prime number (194856931)
+    Checking 10820000-th prime number (195046087)
+    Checking 10830000-th prime number (195237067)
+    Checking 10840000-th prime number (195429743)
+    Checking 10850000-th prime number (195620617)
+    Checking 10860000-th prime number (195811829)
+    Checking 10870000-th prime number (196001989)
+    Checking 10880000-th prime number (196193891)
+    Checking 10890000-th prime number (196387181)
+    Checking 10900000-th prime number (196576753)
+    Checking 10910000-th prime number (196769423)
+    Checking 10920000-th prime number (196959407)
+    Checking 10930000-th prime number (197151481)
+    Checking 10940000-th prime number (197341211)
+    Checking 10950000-th prime number (197534119)
+    Checking 10960000-th prime number (197727151)
+    Checking 10970000-th prime number (197918431)
+    Checking 10980000-th prime number (198110233)
+    Checking 10990000-th prime number (198301751)
+    Checking 11000000-th prime number (198491317)
+    Checking 11010000-th prime number (198681313)
+    Checking 11020000-th prime number (198873859)
+    Checking 11030000-th prime number (199065613)
+    Checking 11040000-th prime number (199256801)
+    Checking 11050000-th prime number (199445639)
+    Checking 11060000-th prime number (199636951)
+    Checking 11070000-th prime number (199829647)
+    Checking 11080000-th prime number (200020141)
+    Checking 11090000-th prime number (200209489)
+    Checking 11100000-th prime number (200401979)
+    Checking 11110000-th prime number (200591387)
+    Checking 11120000-th prime number (200783707)
+    Checking 11130000-th prime number (200975767)
+    Checking 11140000-th prime number (201166159)
+    Checking 11150000-th prime number (201357551)
+    Checking 11160000-th prime number (201549571)
+    Checking 11170000-th prime number (201740041)
+    Checking 11180000-th prime number (201930763)
+    Checking 11190000-th prime number (202122467)
+    Checking 11200000-th prime number (202313623)
+    Checking 11210000-th prime number (202505441)
+    Checking 11220000-th prime number (202697191)
+    Checking 11230000-th prime number (202888363)
+    Checking 11240000-th prime number (203079859)
+    Checking 11250000-th prime number (203270923)
+    Checking 11260000-th prime number (203461333)
+    Checking 11270000-th prime number (203655107)
+    Checking 11280000-th prime number (203845193)
+    Checking 11290000-th prime number (204035383)
+    Checking 11300000-th prime number (204227449)
+    Checking 11310000-th prime number (204419323)
+    Checking 11320000-th prime number (204609577)
+    Checking 11330000-th prime number (204800723)
+    Checking 11340000-th prime number (204991483)
+    Checking 11350000-th prime number (205183541)
+    Checking 11360000-th prime number (205374551)
+    Checking 11370000-th prime number (205565999)
+    Checking 11380000-th prime number (205757927)
+    Checking 11390000-th prime number (205949599)
+    Checking 11400000-th prime number (206141381)
+    Checking 11410000-th prime number (206332207)
+    Checking 11420000-th prime number (206524327)
+    Checking 11430000-th prime number (206715997)
+    Checking 11440000-th prime number (206906093)
+    Checking 11450000-th prime number (207097607)
+    Checking 11460000-th prime number (207288703)
+    Checking 11470000-th prime number (207479473)
+    Checking 11480000-th prime number (207670717)
+    Checking 11490000-th prime number (207861869)
+    Checking 11500000-th prime number (208055039)
+    Checking 11510000-th prime number (208245379)
+    Checking 11520000-th prime number (208439239)
+    Checking 11530000-th prime number (208631173)
+    Checking 11540000-th prime number (208821511)
+    Checking 11550000-th prime number (209013823)
+    Checking 11560000-th prime number (209205649)
+    Checking 11570000-th prime number (209397379)
+    Checking 11580000-th prime number (209587949)
+    Checking 11590000-th prime number (209777489)
+    Checking 11600000-th prime number (209968637)
+    Checking 11610000-th prime number (210160889)
+    Checking 11620000-th prime number (210352621)
+    Checking 11630000-th prime number (210545977)
+    Checking 11640000-th prime number (210738247)
+    Checking 11650000-th prime number (210929879)
+    Checking 11660000-th prime number (211122277)
+    Checking 11670000-th prime number (211313129)
+    Checking 11680000-th prime number (211503161)
+    Checking 11690000-th prime number (211694993)
+    Checking 11700000-th prime number (211887451)
+    Checking 11710000-th prime number (212079167)
+    Checking 11720000-th prime number (212271937)
+    Checking 11730000-th prime number (212463821)
+    Checking 11740000-th prime number (212654867)
+    Checking 11750000-th prime number (212848193)
+    Checking 11760000-th prime number (213038069)
+    Checking 11770000-th prime number (213229993)
+    Checking 11780000-th prime number (213422323)
+    Checking 11790000-th prime number (213614567)
+    Checking 11800000-th prime number (213808381)
+    Checking 11810000-th prime number (213999559)
+    Checking 11820000-th prime number (214191521)
+    Checking 11830000-th prime number (214384267)
+    Checking 11840000-th prime number (214576213)
+    Checking 11850000-th prime number (214766137)
+    Checking 11860000-th prime number (214956409)
+    Checking 11870000-th prime number (215147077)
+    Checking 11880000-th prime number (215338237)
+    Checking 11890000-th prime number (215531177)
+    Checking 11900000-th prime number (215723329)
+    Checking 11910000-th prime number (215916101)
+    Checking 11920000-th prime number (216106543)
+    Checking 11930000-th prime number (216298483)
+    Checking 11940000-th prime number (216490667)
+    Checking 11950000-th prime number (216684071)
+    Checking 11960000-th prime number (216876917)
+    Checking 11970000-th prime number (217069273)
+    Checking 11980000-th prime number (217260451)
+    Checking 11990000-th prime number (217450949)
+    Checking 12000000-th prime number (217645177)
+Class group proof time: 24175.350
+Abelian Group isomorphic to Z/2
+Defined on 1 generator
+Relations:
+    2*C.1 = 0
+Verified class number of Number Field with defining polynomial x^15 - 3*x^14 + 
+15*x^13 - 60*x^12 + 267*x^11 - 1337*x^10 + 2375*x^9 - 1676*x^8 + 2625*x^7 - 
+4167*x^6 - 2687*x^5 + 10176*x^4 - 4556*x^3 - 2616*x^2 + 1238*x + 406 over the 
+Rational Field is 2.
+
+
+Total time: 24177.150 seconds, Total memory usage: 32.09MB
